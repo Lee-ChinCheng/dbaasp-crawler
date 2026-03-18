@@ -1,0 +1,25 @@
+Target Species,Activity Measure,Activity,Unit,pH,Ionic Strength mM,Salt Type,Medium,CFU,Note
+Target Group :,"Gram+, Gram-, Fungus",,,,,,,,
+Target Object :,Lipid Bilayer,,,,,,,,
+Note :,,,,,,,,,
+DBAASPS_8,C16,KVvvKWVvKvVK,AMD,12,,,,,
+Normalized Hydrophobicity,Net Charge,Isoelectric Point,Penetration Depth,Tilt Angle,Disordered Conformation Propensity,Linear Moment,Propensity to in vitro Aggregation,Angle Subtended by the Hydrophobic Residues,Amphiphilicity Index
+Normalized Hydrophobicity,Net Charge,Isoelectric Point,Penetration Depth,Tilt Angle,Disordered Conformation Propensity,Linear Moment,Propensity to in vitro Aggregation,Angle Subtended by the Hydrophobic Residues,Amphiphilicity Index
+-1.07,5.00,14.00,10,87,0.24,0.26,0.00,190.00,1.80
+Representative structure,View,Download,,,,,,,
+Molecular Dynamics Trajectory,View,Download(DCD) Download(PSF),,,,,,,
+Self-consistency,View,Download,,,,,,,
+Secondary structure,View,Download,,,,,,,
+Prosite,Prosite Results Viewer,,,,,,,,
+InterPro,InterPro Search,,,,,,,,
+Staphylococcus aureus ATCC 6538P,MIC,>100,µM,,,,LBB,1E6,
+Bacillus subtilis ATCC 6051,MIC,>100,µM,,,,LBB,1E6,
+Pseudomonas aeruginosa ATCC 27853,MIC,>100,µM,,,,LBB,1E6,
+Acinetobacter baumannii ATCC 19606,MIC,>100,µM,,,,LBB,1E6,
+Escherichia coli ATCC 25922,MIC,>100,µM,,,,LBB,1E6,
+Candida albicans ATCC 10231,MIC,3.125,µM,,,,RPMI-1640,2E3,
+Cryptococcus neoformans ATCC MYA-422,MIC,3.125,µM,,,,RPMI-1640,2E3,
+Aspergillus fumigatus ATCC 26430,MIC,>100,µM,,,,RPMI-1640,2E3,
+Aspergillus flavus ATCC 9643,MIC,>100,µM,,,,RPMI-1640,2E3,
+Aspergillus niger ATCC 9642,MIC,>100,µM,,,,RPMI-1640,2E3,
+1,"Shai Y, Avrahami D J Biol Chem, 2004, 279, 12277-12285 A new group of antifungal and antibacterial lipopeptides derived from non-membrane active peptides conjugated to palmitic acid",Pubmed,,,,,,,

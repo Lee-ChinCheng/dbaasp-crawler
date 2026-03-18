@@ -1,0 +1,85 @@
+2. Naive (Brute Force)
+Idea:
+
+Check every possible position in the text.
+
+Complexity:
+
+Worst case: O(n × m)
+(n = text length, m = pattern length)
+
+When useful:
+
+Very small inputs
+
+Teaching / understanding
+
+3. Knuth–Morris–Pratt (KMP)
+Idea:
+
+Avoid re-checking characters by using a prefix table (LPS array)
+
+Complexity:
+
+Preprocessing: O(m)
+
+Search: O(n)
+
+Total: O(n + m)
+
+When useful:
+
+Deterministic linear time
+
+Good for repeated searches
+
+4. Boyer–Moore (and variants)
+Idea:
+
+Skip ahead in the text using mismatch heuristics
+
+Complexity:
+
+Average: sublinear (very fast)
+
+Worst: O(n × m), but rare
+
+Why it’s powerful:
+
+Often fastest in practice for natural language text
+
+Used in many real implementations
+
+5. Rabin–Karp (Hashing)
+Idea:
+
+Compare hash values of substrings instead of characters
+
+Complexity:
+
+Average: O(n + m)
+
+Worst (hash collisions): O(n × m)
+
+When useful:
+
+Searching multiple patterns
+
+Rolling hash makes it efficient
+
+6. Aho–Corasick (for multiple patterns)
+Idea:
+
+Build a trie + failure links to match many patterns simultaneously
+
+Complexity:
+
+Build: O(total pattern length)
+
+Search: O(n)
+
+When useful:
+
+Checking many short strings at once
+
+e.g., keyword filtering, bioinformatics

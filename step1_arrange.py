@@ -1,11 +1,11 @@
 import streamlit as st
 import os, csv
 
-# streamlit run /home/cclee/DBAASP/5_fungus/ui.py
+# streamlit run step1_arrange.py
 
 
 
-inp_f='/home/cclee/DBAASP/mono10-50aa'
+inp_f='/mono10-50aa'
 op_folder='output_csv/'
 #--------------------------------------
 

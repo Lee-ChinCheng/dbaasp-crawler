@@ -33,12 +33,12 @@ streamlit run step1_arrange.py
 
 Initial UI:
 <p align="center">
-  <img src="./other/UI_initial.png" alt="UI_initial" width="600" height="700"/>
+  <img src="./other/UI_initial.png" alt="UI_initial" width="650" height="780"/>
 </p>
 
-UI with parameters:
+Input parameters and run:
 <p align="center">
-  <img src="./other/UI_run.png" alt="UI_run" width="600" height="700"/>
+  <img src="./other/UI_run.png" alt="UI_run" width="650" height="780"/>
 </p>
 
 

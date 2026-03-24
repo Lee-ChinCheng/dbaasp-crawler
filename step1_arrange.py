@@ -1,27 +1,31 @@
 import streamlit as st
 import os, csv
+from aliasLLM import ask_ollama
 
-# streamlit run step1_arrange.py
+# command: streamlit run step1_arrange.py
 
 
-
-inp_f='/mono10-50aa'
-op_folder='output_csv/'
+inp_folder = '/mono10-50aa'
+#inp_folder = '/home/cclee/DBAASP/mono10-50aa' #testing
+op_folder = 'output_csv/'
 #--------------------------------------
+
+
+
 
 
 # -----------------------------
 # Core filtering function
 # -----------------------------
-def csvfilter(inp_f, kw_list):
+def csvfilter(inp_folder, kw_list):
     all_results=[]
     dbid_d, seq_d , sid = {},{}, 0
     gram_add = gram_minus = gram_both =0
     try:
-        fli = [f for f in os.listdir(inp_f) if f.endswith('.csv')] #print(len(fli)) #18460
+        fli = [f for f in os.listdir(inp_folder) if f.endswith('.csv')] #print(len(fli)) #18460
         for csvf in fli :
             dbid=csvf.split('.')[0]   
-            with open(inp_f+'/'+csvf, newline="") as f:
+            with open(inp_folder+'/'+csvf, newline="") as f:
                 switch=0
                 reader = csv.reader(f)
                 for row in reader:
@@ -69,22 +73,43 @@ def csvfilter(inp_f, kw_list):
 # -----------------------------
 st.title("DBAASP data arranger")
 
-# File uploader
-#uploaded_file = st.file_uploader("Upload your CSV file", type=["csv"])
 
-# Output filename input
-output_filename = st.text_input("Output file name (e.g. result)", "result")
+
+
+output_filename = st.text_input("< step 1 >  Output file name (e.g. result)", "result")
+
+alias_input = st.text_input("< step 2 (optional) >  Search alias names for biological term (e.g. Candida albicans)\n help you define the target keywords", "")
+
+
+# Initialize session state so alias_search & filter_result stay independent
+if "alias_result" not in st.session_state:
+    st.session_state.alias_result = None
+
+
+# Button 1: 
+if st.button("Alias_Searching"):
+    if not alias_input:
+        st.error("Please enter a biological term.")
+    else:
+        st.session_state.alias_result = ask_ollama(alias_input)
+
+# Display space 1
+st.subheader("Alias Result")
+if st.session_state.alias_result is not None:
+    st.write(st.session_state.alias_result)
+else:
+    st.write("No alias result yet.")
+
 
 # Keywords input (comma separated)
-keywords_input = st.text_input("Enter keywords (comma separated) ex: fumigatus,fumigata,fumigatum", 
-                               "Cryptococcus,neoforman")
-
+keywords_input = st.text_input("< step 3 >  Enter keywords (comma separated) ex: fumigatus,fumigata,fumigatum,ATCC,KCTC", 
+                               "")
 # Convert to list
-kw_list = [kw.strip() for kw in keywords_input.split(",") if kw.strip()]
-kw_list = tuple(kw_list)
+kw_list = tuple(kw.strip().lower() for kw in keywords_input.split(",") if kw)
+
 
 # Run button
-if st.button("Run Filtering"):
+if st.button("Data Filtering"):
     
     if not output_filename:
         st.error("Please enter output_filename.")
@@ -93,12 +118,10 @@ if st.button("Run Filtering"):
     else:
 
         # Run filter     
-        opli = csvfilter(inp_f, kw_list)
+        opli = csvfilter(inp_folder, kw_list)
         all_result_list = opli[0]
         seq_am = opli[1]
         data_am = len(all_result_list)
-
-        
 
         if isinstance(data_am, int):
 
@@ -107,13 +130,13 @@ if st.button("Run Filtering"):
                 'Unit', 'pH', 'Ionic Strength mM', 'Salt Type',
                 'Medium', 'CFU', 'Note','Gram'
             ]
+
             with open(f'{op_folder}/{output_filename}.csv', "w", newline="", encoding="utf-8") as f:
                 writer = csv.writer(f)
                 writer.writerow(header)
                 writer.writerows(all_result_list)
 
-            st.success(f"Filtering complete!\n get {data_am} data, {seq_am} unique sequence.")
-
+            st.success(f"Filtering and saveing complete!\n get {data_am} data, {seq_am} unique sequence.")
 
         else:
             st.error("Error")

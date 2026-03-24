@@ -29,4 +29,18 @@ tar -xf monomer10-50.tar.xz
 streamlit run step1_arrange.py
 ```
 
+6. input required parameters in user interface
+
+Initial UI:
+<p align="center">
+  <img src="./other/UI_initial.png" alt="UI_initial" width="600" height="700"/>
+</p>
+
+UI with parameters:
+<p align="center">
+  <img src="./other/UI_run.png" alt="UI_run" width="600" height="700"/>
+</p>
+
+
+
 ---

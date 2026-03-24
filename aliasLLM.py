@@ -1,0 +1,85 @@
+import requests
+# conda activate base
+
+# Ollama configuration
+OLLAMA_URL = "http://localhost:11434/api/generate"
+OLLAMA_MODEL = "llama3.1:8b"  
+
+
+def call_ollama(prompt):
+    payload = {
+        "model": OLLAMA_MODEL,
+        "prompt": prompt,
+        "stream": False
+    }
+
+    response = requests.post(OLLAMA_URL, json=payload)
+
+    if response.status_code == 200:
+        return response.json().get("response").strip()
+    else:
+        return f"Error: {response.status_code}"
+
+
+def is_biology_term(term):
+    """
+    First use a simple heuristic:
+    - Many biological names follow binomial nomenclature (Genus species)
+    - Capitalized first word + lowercase second word
+    Then fallback to LLM if uncertain.
+    """
+
+    words = term.strip().split()
+
+    # Heuristic check
+    if len(words) == 2 and words[0][0].isupper() and words[1].islower():
+        return True
+
+    # Fallback to LLM classification
+    prompt = f"""
+    Determine if the following term is a biological term (e.g., organism, gene, protein, species).
+    Answer only "yes" or "no".
+
+    Term: {term}
+    """
+
+    result = call_ollama(prompt).lower()
+
+    return "yes" in result
+
+
+def ask_ollama(term):
+    """
+    AI agent:
+    - Check if input is biology term
+    - If yes → return alias names as a list
+    - If no → return message
+    """
+
+    if not is_biology_term(term):
+        return "It's not a biology term."
+
+    prompt = f"""
+    What are the alias names of {term}?
+
+    Requirements:
+    - Return alias separated by comma
+    - Each alias should be a string
+    - No explanation
+    - No more than 6 alias
+
+    Example:
+    Candida albicans Berkhout, C. albicans, Monilia albicans
+    """
+
+    response = call_ollama(prompt)
+
+    return response
+
+
+if __name__ == '__main__':
+    user_input = input("Enter a biology term: ")
+    result = ask_ollama(user_input)
+    print(result)
+    #Staphylococcus
+    #Staphylococcus aureus, S. epidermidis, Micrococcus pyogenes, Peptococcus aureus, Str. aureus, Bacillus pyogenes, Pyonecr. aureum, Corynebacterium pyogenes, C. zymogenes, Disciformis

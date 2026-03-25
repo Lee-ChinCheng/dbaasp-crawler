@@ -1,7 +1,7 @@
 import requests
 # conda activate base
 
-# Ollama configuration
+# for our ghidorah server
 OLLAMA_URL = "http://localhost:11434/api/generate"
 OLLAMA_MODEL = "llama3.1:8b"  
 
@@ -23,7 +23,7 @@ def call_ollama(prompt):
 
 def is_biology_term(term):
     """
-    First use a simple heuristic:
+    a simple heuristic:
     - Many biological names follow binomial nomenclature (Genus species)
     - Capitalized first word + lowercase second word
     Then fallback to LLM if uncertain.
@@ -37,7 +37,18 @@ def is_biology_term(term):
 
     # Fallback to LLM classification
     prompt = f"""
-    Determine if the following term is a biological term (e.g., organism, gene, protein, species).
+    You are a classifier for a biology database chatbot.
+
+    Task:
+    Determine whether the user's message should be handled by a biology-domain chatbot.
+
+    Important:
+    - You are NOT a medical expert assistant here.
+    - You do NOT answer questions.
+    - You only classify scope.
+
+
+    Determine if the following term is a biological term (e.g., organism, gene, protein, species, laboratory cell lines).
     Answer only "yes" or "no".
 
     Term: {term}

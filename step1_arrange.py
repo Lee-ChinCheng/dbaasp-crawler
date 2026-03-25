@@ -5,8 +5,8 @@ from aliasLLM import ask_ollama
 # command: streamlit run step1_arrange.py
 
 
-inp_folder = '/mono10-50aa'
-#inp_folder = '/home/cclee/DBAASP/mono10-50aa' #testing
+#inp_folder = '/mono10-50aa'
+inp_folder = '/home/cclee/DBAASP/mono10-50aa' #testing
 op_folder = './output_csv'
 #--------------------------------------
 
@@ -114,7 +114,7 @@ if st.button("Data Filtering"):
     if not output_filename:
         st.error("Please enter output_filename.")
     elif not kw_list:
-        st.error("Please enter at least one keyword.")
+        st.error("Please enter at least one keyword of Target Species.")
     else:
 
         # Run filter     
@@ -122,6 +122,7 @@ if st.button("Data Filtering"):
         all_result_list = opli[0]
         seq_am = opli[1]
         data_am = len(all_result_list)
+        data_am=data_am-1
 
         if isinstance(data_am, int):
 

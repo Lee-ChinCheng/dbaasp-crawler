@@ -1,6 +1,11 @@
-# dbaasp-crawler
-fetching and arranging peptide samples from DBAASP database
+## dbaasp-crawler
 
+fetching and arranging peptide samples from DBAASP database
+<p align="center">
+  <img src="./other/main_con.png" alt="main_con" width="800" height="700"/>
+</p>
+
+---
 
 
 ### Step by step download this repo

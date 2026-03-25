@@ -647,7 +647,7 @@ Seq_ID,Seq,DB_ID,Target Species,Activity Measure,Activity,Unit,pH,Ionic Strength
 431,LRRLRRLLRRL,DBAASPR_15112,Cryptococcus neoformans var. grubii H99,MIC90,1,µM,,,,YEPD,1E4,,"Gram+, Gram-, Cancer, Fungus, Mammalian Cell"
 432,KYEITTIHNLFRKLTHRLFRRNFGYTLR,DBAASPR_15115,Cryptococcus neoformans var. grubii H99,MIC,25,µM,,,,YEPD,1E5,,"Gram+, Gram-, Fungus, Mammalian Cell"
 432,KYEITTIHNLFRKLTHRLFRRNFGYTLR,DBAASPR_15115,Cryptococcus neoformans var. grubii H99,MIC,50,µM,,150,NaCl,YEPD,1E5,,"Gram+, Gram-, Fungus, Mammalian Cell"
-432,KYEITTIHNLFRKLTHRLFRRNFGYTLR,DBAASPR_15115,Cryptococcus neoformans var. grubii H99,8811,MIC,µM,25,1,5,1.2,0.26,3,"Gram+, Gram-, Fungus, Mammalian Cell"
+432,KYEITTIHNLFRKLTHRLFRRNFGYTLR,DBAASPR_15115,Cryptococcus neoformans var. grubii H99,MIC,µM,25,1,5,1.2,0.26,3,,"Gram+, Gram-, Fungus, Mammalian Cell"
 433,KYEITTIHNLARKLTHRLARRNAGATLR,DBAASPR_15116,Cryptococcus neoformans var. grubii H99,MIC,50,µM,,,,YEPD,1E5,,"Gram-, Fungus"
 433,KYEITTIHNLARKLTHRLARRNAGATLR,DBAASPR_15116,Cryptococcus neoformans var. grubii H99,MIC,>50,µM,,150,NaCl,YEPD,1E5,,"Gram-, Fungus"
 434,LCLRNWDQGHRP,DBAASPR_15517,Cryptococcus neoformans 6995,EC50,0.364,µM,,,,SDA,,,"Virus, Fungus, Mammalian Cell"

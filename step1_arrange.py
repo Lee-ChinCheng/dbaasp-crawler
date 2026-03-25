@@ -7,7 +7,7 @@ from aliasLLM import ask_ollama
 
 inp_folder = '/mono10-50aa'
 #inp_folder = '/home/cclee/DBAASP/mono10-50aa' #testing
-op_folder = 'output_csv'
+op_folder = './output_csv'
 #--------------------------------------
 
 

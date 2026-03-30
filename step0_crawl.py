@@ -1,4 +1,3 @@
-
 import time, random
 import pandas as pd
 from selenium import webdriver
@@ -7,6 +6,13 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from bs4 import BeautifulSoup
+
+
+# -----------------------
+# Setting
+# -----------------------
+target_source = 'dbaasp_dw/Monomer_10-50aa.csv'
+output_folder = 'mono10-50aa'
 
 
 def get_dbaasp_data(dbaasp_id):
@@ -80,12 +86,7 @@ def get_dbaasp_data(dbaasp_id):
             
             if not data_cells:
                 continue
-            #print(len(data_cells))
-            #print(data_cells)
-                
-            #first_cell_text = data_cells[0].get_text(strip=True)
-            # Loose match check to avoid partial matches if necessary, 
-            # but user query is specific. 
+
             
             extracted_data = {}
             for i, col in enumerate(cols):
@@ -97,7 +98,7 @@ def get_dbaasp_data(dbaasp_id):
             data_rows.append(extracted_data)
 
     df = pd.DataFrame(data_rows)
-    df.to_csv(f"/home/cclee/DBAASP/crawl2/op/{sid}.csv", sep=",", index=False)
+    df.to_csv(f"{output_folder}/{sid}.csv", sep=",", index=False)
     print(f'save {sid}.csv')
 
 
@@ -107,21 +108,16 @@ def get_dbaasp_data(dbaasp_id):
 
 
 if __name__ == "__main__":
-    #parser = argparse.ArgumentParser(description='Scrape DBAASP Peptide Data')
-    #parser.add_argument('--id', type=str, required=True, help='DBAASP ID (e.g., DBAASPR_3)')
-    #args = parser.parse_args()
-    # python DBAASP/crawl2/selen.py --id DBAASPR_3
 
-    idli=[]
-    #idli = ['DBAASPR_8','DBAASPR_11','DBAASPR_12']
-    with open('DBAASP/Monomer_10-50aa.csv', 'r') as f:
+    idli=[] #ex ['DBAASPR_8','DBAASPR_11','DBAASPR_12']
+    
+    with open(target_source, 'r') as f:
         for l in f:
             l=l.strip().split(',')
             sid = l[0].lstrip('"').rstrip('"')
             if sid[0]=='I': continue
             idli.append('DBAASPR_'+sid)
     print(len(idli)) #18460
-    #print(idli[:5])
 
 
     for sid in idli:
@@ -129,11 +125,6 @@ if __name__ == "__main__":
         get_dbaasp_data(sid)     
         time.sleep(random.uniform(0.4, 1.0))
         
-        #if df is not None and not df.empty:
-        #    print(df.to_string())
-        #else:
-        #    print("No data found for the specified target species.")
-
 
 
 

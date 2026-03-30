@@ -4080,7 +4080,6 @@ Seq_ID,Seq,DB_ID,Target Species,Activity Measure,Activity,Unit,pH,Ionic Strength
 2717,GRGEfINLKKLAKLXKKIL,DBAASPR_12800,Candida albicans,MIC,8.0±0.0,µg/ml,,,,YEPD,2.5E3,,"Gram+, Gram-, Fungus, Mammalian Cell"
 2718,rVKTLCLQKNTXLWI,DBAASPR_12801,Candida albicans,MIC,32,µg/ml,,,,YEPD,2.5E3,,"Gram+, Gram-, Fungus, Mammalian Cell"
 2718,rVKTLCLQKNTXLWI,DBAASPR_12801,Candida albicans,39.23±2.62% inhibition,32,µg/ml,,,,YEPD,2.5E3,,"Gram+, Gram-, Fungus, Mammalian Cell"
-2719,LKLMGIVKKVLGAL,DBAASPR_12804,Candida albicans,-,NA,,,,,MHB,1E5,Not active up to 68 µM; C. albicans UMP,"Gram+, Gram-, Parasite, Fungus, Mammalian Cell"
 2720,HLNKRVQAELIGWLDWLK,DBAASPR_12805,Candida albicans NBRC 1385,IC50,168±12,µM,,,,YMM,2E5,,"Gram-, Fungus"
 2721,HLNKRVQRELIGWLDWLA,DBAASPR_12806,Candida albicans NBRC 1385,IC50,126±5,µM,,,,YMM,2E5,,"Gram-, Fungus"
 2722,HLNKRVQRELIRWLDWLK,DBAASPR_12807,Candida albicans NBRC 1385,IC50,61±8,µM,,,,YMM,2E5,,"Gram-, Fungus, Mammalian Cell"

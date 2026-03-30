@@ -4,11 +4,13 @@ from aliasLLM import ask_ollama
 
 # command: streamlit run step1_arrange.py
 
-
+# -----------------------
+# Setting
+# -----------------------
 #inp_folder = '/mono10-50aa'
 inp_folder = '/home/cclee/DBAASP/mono10-50aa' #testing
 op_folder = './output_csv'
-#--------------------------------------
+
 
 
 

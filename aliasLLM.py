@@ -94,3 +94,8 @@ if __name__ == '__main__':
     print(result)
     #Staphylococcus
     #Staphylococcus aureus, S. epidermidis, Micrococcus pyogenes, Peptococcus aureus, Str. aureus, Bacillus pyogenes, Pyonecr. aureum, Corynebacterium pyogenes, C. zymogenes, Disciformis
+
+
+
+
+

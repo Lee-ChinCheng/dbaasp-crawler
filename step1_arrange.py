@@ -8,7 +8,7 @@ from aliasLLM import ask_ollama
 # Setting
 # -----------------------
 inp_folder = './mono10-50aa'
-#inp_folder = '/home/cclee/DBAASP/mono10-50aa' #testing
+#inp_folder = '/home/cclee/DBAASP/mono10-50aa' #loacl testing
 op_folder = './output_csv'
 
 
@@ -145,8 +145,7 @@ if st.button("Data Filtering"):
     else:
 
         # Run filter     
-        opli = csvfilter(inp_folder, kw_list)
-        
+        opli = csvfilter(inp_folder, kw_list)  
         all_result_list = opli[0]
         data_am = len(all_result_list)
         data_am-=1

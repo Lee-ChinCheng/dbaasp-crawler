@@ -10,7 +10,7 @@ fetching and arranging peptide samples from DBAASP database
 
 ### Step by step download this repo
 
-1. prepare environment with recommended python 3.11.7, streamlit 1.51.0, selenium 4.38.0, requests 2.32.5
+1. prepare environment with recommended python 3.11.7, streamlit 1.51.0, selenium 4.38.0, requests 2.32.5<br>
 
 
 2. recommend download by wget:
@@ -37,18 +37,24 @@ tar -xf monomer10-50.tar.xz
 streamlit run step1_arrange.py
 ```
 
-7. input required parameters in user interface
+7. input saving file name in user interface ( default is "result" )
 
 Initial UI:
 <p align="center">
-  <img src="./other/UI_initial.png" alt="UI_initial" width="650" height="780"/>
+  <img src="./other/ui_initial.png" alt="ui_initial" width="680" height="646"/>
 </p>
 
-Input parameters and run:
+Optional: search biology alias by LLM ( aliasLLM.py ):
 <p align="center">
-  <img src="./other/UI_run.png" alt="UI_run" width="650" height="780"/>
+  <img src="./other/ui_alias.png" alt="ui_alias" width="680" height="494"/>
 </p>
 
+8. Enter keywords corresponding to target cell types. Any peptide assay whose "Target Species" field contains at least one of these keywords will be retrieved.
 
+<p align="center">
+  <img src="./other/ui_filter.png" alt="ui_filter" width="680" height="770"/>
+</p>
+
+9. check search result in directory /output_csv
 
 ---

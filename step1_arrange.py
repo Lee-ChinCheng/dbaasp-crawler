@@ -77,10 +77,19 @@ st.title("DBAASP data arranger")
 
 
 
+st.markdown(
+    '<span style="color:orange; font-size:22px; font-weight:bold;">< step 1 ></span> '
+    '<span style="font-size:18px;">Output file name</span>',
+    unsafe_allow_html=True
+)
+output_filename = st.text_input("(e.g. result)", "result")
 
-output_filename = st.text_input("< step 1 >  Output file name (e.g. result)", "result")
-
-alias_input = st.text_input("< step 2 (optional) >  Search alias names for biological term (e.g. Candida albicans)\n help you define the target keywords", "")
+st.markdown(
+    '<span style="color:orange; font-size:22px; font-weight:bold;">< step 2 (optional)></span> '
+    '<span style="font-size:18px;">Search alias names for biological term</span>',
+    unsafe_allow_html=True
+)
+alias_input = st.text_input("(e.g. Candida albicans) this step help you define the target keywords", "")
 
 
 # Initialize session state so alias_search & filter_result stay independent
@@ -103,8 +112,12 @@ else:
     st.write("No alias result yet.")
 
 
-# Keywords input (comma separated)
-keywords_input = st.text_input("< step 3 >  Enter keywords (comma separated) ex: fumigatus,fumigata,fumigatum,ATCC,KCTC", 
+st.markdown(
+    '<span style="color:orange; font-size:22px; font-weight:bold;">< step 3 ></span> '
+    '<span style="font-size:18px;">Enter keywords (comma separated)</span>',
+    unsafe_allow_html=True
+)
+keywords_input = st.text_input("(e.g. fumigatus,fumigata,fumigatum or ATCC,KCTC)", 
                                "")
 # Convert to list
 kw_list = tuple(kw.strip().lower() for kw in keywords_input.split(",") if kw)

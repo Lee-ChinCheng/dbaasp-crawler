@@ -1,0 +1,3 @@
+Seq_ID,Seq,DB_ID,Target Species,Activity Measure,Activity,Unit,pH,Ionic Strength mM,Salt Type,Medium,CFU,Note,Gram
+1,FLKHIKSFWRGAKAIFRGARQGWREHR,DBAASPR_18781,Fathead minnow muscle cells (FHM),25.57%  Killing,200,µg/ml,,1,,,,,"Gram+, Gram-, Mammalian Cell"
+2,FIFHVIKGLFHAGKMIHGLVTRRRH,DBAASPR_18782,Fathead minnow muscle cells (FHM),67.28% Killing,200,µg/ml,,1,,,,,"Gram+, Gram-, Mammalian Cell"

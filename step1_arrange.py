@@ -64,7 +64,7 @@ def csvfilter(inp_folder, kw_list):
                             if ('Gram+' in gram) and ('Gram-' in gram): gram_both+=1
                             all_results.append(row)
         #print(len(all_results), len(dbid_d), len(seq_d), gram_add , gram_minus , gram_both)
-        return ( all_results, len(seq_d) )
+        return ( all_results, seq_d )
 
     except Exception as e:
         return str(e)
@@ -125,6 +125,18 @@ kw_list = tuple(kw.strip().lower() for kw in keywords_input.split(",") if kw)
 
 # Run button
 if st.button("Data Filtering"):
+    # Check if directory exists
+    if not os.path.exists(inp_folder):
+        st.error(f"Directory not found: {inp_folder}")
+        st.stop()
+    
+    # Optional: check if it's actually a directory
+    if not os.path.isdir(inp_folder):
+        st.error(f"Path exists but is not a directory: {inp_folder}")
+        st.stop()
+    
+    # If everything is OK
+    st.success("Datasource ./mono10-50aa exists. Proceeding with data filtering...")
     
     if not output_filename:
         st.error("Please enter output_filename.")
@@ -134,10 +146,11 @@ if st.button("Data Filtering"):
 
         # Run filter     
         opli = csvfilter(inp_folder, kw_list)
+        
         all_result_list = opli[0]
-        seq_am = opli[1]
         data_am = len(all_result_list)
-        data_am=data_am-1
+        data_am-=1
+        seq_am = len(opli[1])
 
         if isinstance(data_am, int):
 

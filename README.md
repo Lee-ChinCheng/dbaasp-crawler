@@ -1,6 +1,8 @@
 ## dbaasp-crawler
+---
+### Main Goal
+Streamline access to peptide data from the DBAASP database by addressing its UI limitations in filtering key biological attributes (target cell types, concentration, gram types) to enhance team efficiency.
 
-fetching and arranging peptide samples from DBAASP database
 <p align="center">
   <img src="./other/main_con.png" alt="main_con" width="800" height="700"/>
 </p>
@@ -10,7 +12,7 @@ fetching and arranging peptide samples from DBAASP database
 
 ### Step by step download this repo
 
-1. prepare environment with recommended python 3.11.7, streamlit 1.51.0, selenium 4.38.0, requests 2.32.5<br>
+1. prepare environment with recommended python 3.11.7, streamlit 1.51.0, selenium 4.38.0, requests 2.32.5, and LLM API key (default is llama3.1:8b in ghidorah server)<br>
 
 
 2. recommend download by wget:

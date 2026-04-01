@@ -1,4 +1,4 @@
-## dbaasp-crawler
+### Internal Team Tool: dbaasp-crawler
 ---
 ### Main Goal
 Streamline access to peptide data from the DBAASP database by addressing its UI limitations in filtering key biological attributes (target cell types, concentration, gram types) to enhance team efficiency.
@@ -60,3 +60,14 @@ Optional: search biology alias by LLM ( aliasLLM.py ):
 9. check search result in directory /output_csv
 
 ---
+
+### algorithm
+Use substring search (pattern matching) to identify target cell types based on keyword queries.
+
+```bash
+text = "Fathead minnow muscle cells (FHM)"
+kw1 = "cell"
+kw2 = "muscles"
+print(kw1 in text) #True
+print(kw2 in text) #False
+```

@@ -49,9 +49,10 @@ def csvfilter(inp_folder, kw_list):
                     if (switch==1) and (row_cunt >= bs_row+3):
 
                        
-                        # if row[0]=='': #display False in UI, weird. replace by if text=='':
+                        # if row[0]=='': #display False in UI is weird. replace by if text=='':
                         text = row[0].lower()
                         if text=='':
+                            switch==0 #double confirm
                             break
 
                         found = any(kw in text for kw in kw_list)            

@@ -1,0 +1,101 @@
+Target Species,Activity Measure,Activity,Unit,pH,Ionic Strength mM,Salt Type,Medium,CFU,Note
+Target Group :,"Gram-, Parasite, Fungus, Mammalian Cell",,,,,,,,
+Target Object :,Lipid Bilayer,,,,,,,,
+Note :,"At combination of the peptide and amphotericin B, at their subinhibitory concentrations, hemolysis activity was negligible.",,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+Animalia,Eumetazoa,Dinoponera quadriceps,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+DBAASPR_16493,,FWGTLAKWALKAIPAAMGMKQNK,,23,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+UniProt,P0DSK0,Precursor,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+CC[C@H](C)[C@H](NC(=O)[C@H](C)NC(=O)[C@H](CCCCN)NC(=O)[C@H](CC(C)C)NC(=O)[C@H](C)NC(=O)[C@H](Cc1c[nH]c2ccccc12)NC(=O)[C@H](CCCCN)NC(=O)[C@H](C)NC(=O)[C@H](CC(C)C)NC(=O)[C@@H](NC(=O)CNC(=O)[C@H](Cc1c[nH]c2ccccc12)NC(=O)[C@@H](N)Cc1ccccc1)[C@@H](C)O)C(=O)N1CCC[C@H]1C(=O)N[C@@H](C)C(=O)N[C@@H](C)C(=O)N[C@@H](CCSC)C(=O)NCC(=O)N[C@@H](CCSC)C(=O)N[C@@H](CCCCN)C(=O)N[C@@H](CCC(N)=O)C(=O)N[C@@H](CC(N)=O)C(=O)N[C@@H](CCCCN)C(=O)O,168274550,View,,,,,,,
+Normalized Hydrophobicity,Net Charge,Isoelectric Point,Penetration Depth,Tilt Angle,Disordered Conformation Propensity,Linear Moment,Propensity to in vitro Aggregation,Angle Subtended by the Hydrophobic Residues,Amphiphilicity Index
+Normalized Hydrophobicity,Net Charge,Isoelectric Point,Penetration Depth,Tilt Angle,Disordered Conformation Propensity,Linear Moment,Propensity to in vitro Aggregation,Angle Subtended by the Hydrophobic Residues,Amphiphilicity Index
+-0.01,4.00,11.15,15,68,0.07,0.31,0.00,80.00,1.30
+Representative structure,View,Download,,,,,,,
+Molecular Dynamics Trajectory,View,Download(DCD) Download(PSF),,,,,,,
+Self-consistency,View,Download,,,,,,,
+Secondary structure,View,Download,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+Prosite,Prosite Results Viewer,,,,,,,,
+InterPro,InterPro Search,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+Candida albicans ATCC 90029,MIC,10,µM,,,,SDB,1E4,
+Candida albicans ATCC 90029,MFC,10,µM,,,,SDA,1E4,
+Candida albicans ATCC 90028,MIC,2.5,µM,,,,SDB,1E4,
+Candida albicans ATCC 90028,MFC,5.0,µM,,,,SDA,1E4,
+Candida albicans ATCC 90028,MIC,20,µM,,.,,SDB,1E4,With 400-800 µg/ml soluble ergosterol
+Candida tropicalis ATCC 13803,MIC,2.5,µM,,,,SDB,1E4,
+Candida tropicalis ATCC 13803,MFC,5.0,µM,,,,SDA,1E4,
+Candida tropicalis ATCC 13803,MIC,20,µM,,.,,SDB,1E4,With 400-800 µg/ml soluble ergosterol
+Candida tropicalis ATCC 750,MIC,10,µM,,,,SDB,1E4,
+Candida tropicalis ATCC 750,MFC,20,µM,,,,SDA,1E4,
+Candida parapsilosis ATCC 90018,MIC,10,µM,,,,SDB,1E4,
+Candida parapsilosis ATCC 90018,MFC,10,µM,,,,SDA,1E4,
+Candida parapsilosis ATCC 40038,MIC,5.0,µM,,,,SDB,1E4,
+Candida parapsilosis ATCC 40038,MFC,10,µM,,,,SDA,1E4,
+Candida parapsilosis ATCC 40038,MIC,20,µM,,.,,SDB,1E4,With 400-800 µg/ml soluble ergosterol
+Candida krusei ATCC 40095,MIC,2.5,µM,,,,SDB,1E4,
+Candida krusei ATCC 40095,MFC,5.0,µM,,,,SDA,1E4,
+Candida krusei ATCC 40095,MIC,20,µM,,.,,SDB,1E4,With 800 µg/ml soluble ergosterol
+Candida krusei ATCC 40147,MIC,5.0,µM,,,,SDB,1E4,
+Candida krusei ATCC 40147,MFC,5.0,µM,,,,SDA,1E4,
+Candida albicans CA1,MIC,10,µM,,,,SDB,1E4,Amphotericin B- and ﬂuconazole-resistant clinical isolate
+Candida albicans CA1,MFC,20,µM,,,,SDA,1E4,Amphotericin B- and ﬂuconazole-resistant clinical isolate
+Trypanosoma cruzi Y,IC50,4.7±1,µM,,,,,,Against epimastigotes
+Trypanosoma cruzi Y,IC50,0.32±0.03,µM,,,,,,Against trypomastigotes
+Escherichia coli EC16,,NA,,,,,BHIB,1E6,"Not active up to 20 µM; MDR clinical isolates EC16, EC18,EC23"
+Acinetobacter baumannii AB1,,NA,,,,,BHIB,1E6,Not active up to 20 µM; MDR clinical isolate
+Klebsiella pneumoniae KP1,,NA,,,,,BHIB,1E6,Not active up to 20 µM; MDR clinical isolate
+Pseudomonas aeruginosa PA14,,NA,,,,,,1E6,"Not active up to 20 µM; MDR clinical isolates PA14, PA19"
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+Human erythrocytes,4.2% Hemolysis,2.5,µM,,1,,,,
+Human erythrocytes,26.2% Hemolysis,10,µM,,1,,,,
+Human erythrocytes,57.9% Hemolysis,20,µM,,1,,,,
+Monkey kidney epithelial cells LLC-MK2,50% Cell death,25.7±2,µM,,2,,,,
+,,,,,,,,,
+,,,,,,,,,
+Candida albicans ATCC 90028,Amphotericin B,MIC,µM,2.5,,0.462,,0.3125,1
+Candida albicans ATCC 90028,Miconazole,MIC,µM,2.5,,,,0.5625,1
+Candida albicans ATCC 90028,Ciclopirox,MIC,µM,2.5,,,,0.375,1
+Candida albicans ATCC 90028,Nystatin,MIC,µM,2.5,,,,0.1875,1
+Candida tropicalis ATCC 13803,Amphotericin B,MIC,µM,2.5,,,,0.3125,1
+Candida tropicalis ATCC 13803,Miconazole,MIC,µM,2.5,,,,0.5625,1
+Candida tropicalis ATCC 13803,Ciclopirox,MIC,µM,2.5,,,,0.5625,1
+Candida tropicalis ATCC 13803,Nystatin,MIC,µM,2.5,,,,0.1875,1
+Candida krusei ATCC 40095,Amphotericin B,MIC,µM,2.5,,,,0.3125,1
+Candida krusei ATCC 40095,Miconazole,MIC,µM,2.5,,,,0.5625,1
+Candida krusei ATCC 40095,Ciclopirox,MIC,µM,2.5,,,,0.3125,1
+Candida krusei ATCC 40095,Fluconazole,MIC,µM,2.5,,,,0.5625,1
+Candida krusei ATCC 40095,Nystatin,MIC,µM,2.5,,,,0.1875,1
+Candida parapsilosis ATCC 40038,Amphotericin B,MIC,µM,5.0,,,,0.3125,1
+Candida parapsilosis ATCC 40038,Miconazole,MIC,µM,5.0,,,,0.3125,1
+Candida parapsilosis ATCC 40038,Ciclopirox,MIC,µM,5.0,,,,0.3125,1
+Candida parapsilosis ATCC 40038,Fluconazole,MIC,µM,5.0,,,,0.5625,1
+Candida parapsilosis ATCC 40038,Nystatin,MIC,µM,5.0,,,,0.1875,1
+Candida albicans CA1,Amphotericin B,MIC,µM,10,,0.924,,0.5,1
+Candida albicans CA1,Miconazole,MIC,µM,10,,,,0.5625,1
+Candida albicans CA1,Ciclopirox,MIC,µM,10,,,,0.5625,1
+Candida albicans CA1,Fluconazole,MIC,µM,10,,,,0.5625,1
+Candida albicans CA1,Nystatin,MIC,µM,10,,,,0.5625,1
+,,,,,,,,,
+,,,,,,,,,
+1,"Dodou Lima HV, de Paula Cavalcante CS, Rádis-Baptista G Antibiotics (Basel), 2020, 9, 354 Antifungal In Vitro Activity of Pilosulin- and Ponericin-Like Peptides from the Giant Ant Dinoponera quadriceps and Synergistic Effects with Antimycotic Drugs.",Pubmed,,,,,,,
+2,"Lima DB, Mello CP, Bandeira ICJ, Pessoa Bezerra de Menezes RRP, Sampaio TL, Falcao CB, Morlighem JRL, Rádis-Baptista G, Martins AMC Biol Chem, 2018, 399, 187-196 The dinoponeratoxin peptides from the giant ant Dinoponera quadriceps display in vitro antitrypanosomal activity.",Pubmed,,,,,,,
+3,"Dodou Lima HV, Sidrim de Paula Cavalcante C, Rádis-Baptista G Toxicon, 2020, 187, 19-28 Antimicrobial activity of synthetic Dq-3162, a 28-residue ponericin G-like dinoponeratoxin from the giant ant Dinoponera quadriceps venom, against carbapenem-resistant bacteria.",Pubmed,,,,,,,
+,,,,,,,,,
+,,,,,,,,,

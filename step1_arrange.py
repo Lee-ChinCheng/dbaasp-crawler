@@ -8,7 +8,7 @@ from aliasLLM import ask_ollama
 # Setting
 # -----------------------
 inp_folder = './mono10-50aa'
-#inp_folder = '/home/cclee/DBAASP/mono10-50aa' #loacl testing
+#inp_folder = '/home/cclee/DBAASP/mono10-50aa_new' #loacl testing
 op_folder = './output_csv'
 
 
@@ -23,33 +23,51 @@ def csvfilter(inp_folder, kw_list):
     all_results=[]
     dbid_d, seq_d , sid = {},{}, 0
     gram_add = gram_minus = gram_both =0
+    d_filter=('','NA','na','-',None) #dosage information
     try:
         fli = [f for f in os.listdir(inp_folder) if f.endswith('.csv')] #print(len(fli)) #18460
+        #fli = ('DBAASPR_2229.csv', 'DBAASPR_2261.csv', 'DBAASPR_22431.csv', 'DBAASPR_19645.csv', 'DBAASPR_13887.csv')
+
         for csvf in fli :
             dbid=csvf.split('.')[0]   
             with open(inp_folder+'/'+csvf, newline="") as f:
-                switch=0
+                switch=row_cunt=0
                 reader = csv.reader(f)
                 for row in reader:
+                    row_cunt+=1
+
                     if row[0].startswith("Target Group"):        
                         gram = row[1]
                     if row[0].startswith("DBAAS"):
                         #DBAASPS_12001,"3,5 Bis-(Me)Tol",lkkklkclckllkkll,,16,,,,,
                         seq = row[2]
                     if row[0] == 'InterPro':
-                        switch=1
-                    if switch==1:
+                        switch = 1
+                        bs_row = row_cunt
+                        
+
+                    if (switch==1) and (row_cunt >= bs_row+3):
+
+                       
+                        # if row[0]=='': #display False in UI, weird. replace by if text=='':
                         text = row[0].lower()
+                        if text=='':
+                            break
+
                         found = any(kw in text for kw in kw_list)            
                         if found: #if key word in text:
+                            if row[1] in d_filter or row[2] in d_filter or row[3] in d_filter:
+                                continue
+                        
                             row.insert(0, dbid)
                             row.insert(0, seq)
                             row.append(gram)
                             
                             #['DBAASPR_8', 'KVvvKWVvKvVK', 'Acinetobacter baumannii ATCC 19606', 'MIC', '>100', 'µM', '', '', '', 'LBB', '1E6', '','Gram+, Gram-']
                             if len(row) != 13:
-                                print('len(row) != 13', row)
-                                
+                                #print('len(row) != 13', row)
+                                continue
+                                                  
                             if dbid not in dbid_d: 
                                 dbid_d[dbid]=None
                             if seq not in seq_d: 
@@ -63,6 +81,10 @@ def csvfilter(inp_folder, kw_list):
                             if 'Gram-' in gram: gram_minus+=1
                             if ('Gram+' in gram) and ('Gram-' in gram): gram_both+=1
                             all_results.append(row)
+
+                        
+
+
         #print(len(all_results), len(dbid_d), len(seq_d), gram_add , gram_minus , gram_both)
         return ( all_results, seq_d )
 

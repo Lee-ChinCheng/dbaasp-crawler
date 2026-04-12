@@ -45,7 +45,6 @@ Seq_ID,Seq,DB_ID,Target Species,Activity Measure,Activity,Unit,pH,Ionic Strength
 31,KKVVFKVKFKK,DBAASPR_1274,Aspergillus fumigatus 96-820,MFC,>32,µg/ml,,,,SDA,,,Fungus
 32,kkvvfkvkfkk,DBAASPR_1276,Aspergillus fumigatus 96-820,MIC,>32,µg/ml,,,,RPMI-1640,5E3,,Fungus
 32,kkvvfkvkfkk,DBAASPR_1276,Aspergillus fumigatus 96-820,MFC,>32,µg/ml,,,,SDA,,,Fungus
-33,ACNFQSCWATCQAQHSIYFRRAFCDRSQCKCVFVRG,DBAASPR_1340,Aspergillus fumigatus,-,NA,,,,,PDB,,Not active at 100 µM,"Gram+, Gram-, Fungus"
 34,RGLRRLGRKIAHGVKKYGPTVLRIIRIA,DBAASPR_1485,Aspergillus fumigatus,MIC,5.0±0.0,µg/ml,,,,MHB,1E5,,"Gram+, Gram-, Cancer, Fungus, Mammalian Cell"
 34,RGLRRLGRKIAHGVKKYGPTVLRIIRIA,DBAASPR_1485,Aspergillus fumigatus,MBC,11.7±4.4,µg/ml,,,,MHB,1E5,,"Gram+, Gram-, Cancer, Fungus, Mammalian Cell"
 35,RGLRRLGRKIAHGVKKYG,DBAASPR_1486,Aspergillus fumigatus,MIC,>40.0,µg/ml,,,,MHB,1E5,,"Gram+, Gram-, Fungus, Mammalian Cell"
@@ -95,9 +94,7 @@ Seq_ID,Seq,DB_ID,Target Species,Activity Measure,Activity,Unit,pH,Ionic Strength
 59,GYHGGHGGHGGGYNGGGGHGGHGGGYNGGGHHGGGGHG,DBAASPR_2010,Aspergillus fumigatus ATCC 9197,IC50,>100,µg/ml,,,,SDB,1E4,,"Gram+, Gram-, Fungus"
 60,GGHGGHGGHGGHGGHGGH,DBAASPR_2011,Aspergillus fumigatus ATCC 9197,IC50,>100,µg/ml,,,,SDB,1E4,,"Gram+, Gram-, Fungus"
 61,ISRLAGLLRKGGEKIGEKLKKIGQKIKNFFQKLVPQPE,DBAASPR_2028,Aspergillus fumigatus KCTC 4165,MIC,12.5,µM,,,,YMM,2E3,,"Gram+, Gram-, Cancer, Fungus, Mammalian Cell"
-62,DTHFPICIFCCGCCHRSKCGMCCKT,DBAASPR_2042,Aspergillus fumigatus,-,NA,,,,,TSB,,Not active at 40 µM,"Gram+, Gram-, Cancer, Fungus"
 63,ICIFCCGCCHRSKCGMCCKT,DBAASPR_2043,Aspergillus fumigatus,MFC,40,µM,,,,TSB,,,"Gram+, Gram-, Cancer, Fungus"
-63,ICIFCCGCCHRSKCGMCCKT,DBAASPR_2043,Aspergillus fumigatus,-,NA,,,150,NaCl,TSB,,,"Gram+, Gram-, Cancer, Fungus"
 64,DKLIGSCVWGAVNYTSNCRAECKRRGYKGGHCGSFANVNCWCET,DBAASPR_2076,Aspergillus fumigatus GASP 4707,MIC50,6.25,µg/ml,,,,YPG,,,Fungus
 65,DKLIGSCVWGAVNYTSNCNAECKRRGYKGGHCGSFANVNCWCQT,DBAASPR_2077,Aspergillus fumigatus GASP 4707,MIC50,3.125,µg/ml,,,,YPG,,,Fungus
 66,DKLIGSCVWGAVNYTSNCNAECKRRGYKGGHCGSFANVNCWCER,DBAASPR_2078,Aspergillus fumigatus GASP 4707,MIC50,25,µg/ml,,,,YPG,,,Fungus
@@ -113,19 +110,13 @@ Seq_ID,Seq,DB_ID,Target Species,Activity Measure,Activity,Unit,pH,Ionic Strength
 76,DKLIGSCVWGAVNYTSNCRAECKRRGYKGGHCGSFLNVNCWCET,DBAASPR_2088,Aspergillus fumigatus GASP 4707,MIC50,12.5,µg/ml,,,,YPG,,,Fungus
 77,DKLIGSCVWGAVNYTSNCNAECKRRGYKGGHCGSFANVNCWCET,DBAASPR_2089,Aspergillus fumigatus GASP 4707,MIC50,12.5,µg/ml,,,,YPG,,,Fungus
 78,RILSILRHQNLLKE,DBAASPR_2107,Aspergillus fumigatus,MIC,50,µM,,,,MHB,,,Fungus
-79,TLRGDERILSILRHQNLLKE,DBAASPR_2108,Aspergillus fumigatus,-,NA,,,,,MHB,,Not active at 100 µM,Fungus
-80,TLRGDERILSILRHQNLLKELQDLALQGAK,DBAASPR_2109,Aspergillus fumigatus,-,NA,,,,,MHB,,Not active at 100 µM,Fungus
 81,RILSILRHQNLLKELQDLALQGAK,DBAASPR_2110,Aspergillus fumigatus,MIC,30,µM,,,,MHB,,,Fungus
-82,GGLKKLGKKLEGAGKRVFNAAEKALPVVAGAKAL,DBAASPR_2138,Aspergillus fumigatus,-,NA,,,,,YPG,,Not active up to 100 µM,"Gram+, Gram-, Fungus"
 83,IFGAIAGLLKNIF,DBAASPR_2143,Aspergillus fumigatus,LC,>50,µM,,,,MEA,,,"Gram+, Gram-, Fungus, Mammalian Cell"
 84,FFGHLFKLATKIIPSLFQ,DBAASPR_2144,Aspergillus fumigatus,LC,8.30,µM,,,,MEA,,,"Gram+, Gram-, Insect, Fungus, Mammalian Cell"
 85,KVAKQEKKKKKTGRAKRR,DBAASPR_2376,Aspergillus fumigatus,EC50,37±15,µM,,,,YNB,5E4,Hyphal damage; clinical isolate,"Gram+, Fungus, Mammalian Cell"
 85,KVAKQEKKKKKTGRAKRR,DBAASPR_2376,Aspergillus fumigatus,MIC,18±13,µM,,,,YNB,5E4,Clinical isolate,"Gram+, Fungus, Mammalian Cell"
 86,TGRAKRRMQYNRR,DBAASPR_2380,Aspergillus fumigatus,EC50,91±19,µM,,,,YNB,5E4,Hyphal damage; clinical isolate,"Gram+, Fungus, Mammalian Cell"
 87,KWKLFKKIEKVGQGIGAVLKVLTTGL,DBAASPR_2577,Aspergillus fumigatus ATCC 16424,MIC,10.5±0.63,µg/ml,,,,YMM,,,"Gram+, Gram-, Parasite, Fungus, Mammalian Cell"
-88,ATCDLLSGTGINHSACAAHCLLRGNRGGYCNGKGVCVCRN,DBAASPR_2629,Aspergillus fumigatus,-,NA,,,,,PDB,,Not active at 50 micro M,"Gram+, Gram-, Parasite, Fungus"
-88,ATCDLLSGTGINHSACAAHCLLRGNRGGYCNGKGVCVCRN,DBAASPR_2629,Aspergillus fumigatus,-,NA,,,,,PDB,,Not active at 100 micro M,"Gram+, Gram-, Parasite, Fungus"
-89,ATCDLASGFGVGSSLCAAHCIARRYRGGYCNSKAVCVCRN,DBAASPR_2630,Aspergillus fumigatus,-,NA,,,,,PDB,,Not active at 100 µM,"Gram+, Fungus"
 90,FEDLPNFGHIQVKVFNHGEHIHH,DBAASPR_2739,Aspergillus fumigatus,MIC,>100,µM,,,,PDB,,,"Gram+, Gram-, Fungus"
 91,GEKLKKIGQKIKNFFQKL,DBAASPR_3073,Aspergillus fumigatus KCTC 4165,MIC,100.0,µM,,,,YMM,2E3,,"Gram+, Gram-, Cancer, Fungus, Mammalian Cell"
 92,GKKLKKIGQKIKNFFQKL,DBAASPR_3074,Aspergillus fumigatus KCTC 4165,MIC,12.5,µM,,,,YMM,2E3,,"Gram+, Gram-, Cancer, Fungus, Mammalian Cell"
@@ -137,15 +128,12 @@ Seq_ID,Seq,DB_ID,Target Species,Activity Measure,Activity,Unit,pH,Ionic Strength
 97,GLNALKKVFQGIHEAIKLINNHVQ,DBAASPR_3355,Aspergillus fumigatus KCTC 6145,MIC,24,µM,5.5,,,PDB,2E4,,"Gram+, Gram-, Fungus, Mammalian Cell"
 98,APPGARPPPGPPPPGPPPPGP,DBAASPR_4121,Aspergillus fumigatus UP1,EC50,58.68,µM,,,,SDA,3E4-5E4,,"Fungus, Mammalian Cell"
 99,PEEMNKYLTALRHYINLVTRQRY,DBAASPR_4191,Aspergillus fumigatus,MIC,80,µg/ml,,,,SGB,1E6,,"Gram+, Gram-, Fungus, Mammalian Cell"
-100,GRGREFMSNLKEKLSGVKEKMKNS,DBAASPR_4207,Aspergillus fumigatus,-,NA,,,,,MEA,,,"Gram+, Gram-, Parasite, Fungus, Mammalian Cell"
-101,VKLIQIRIWIQYVTVLQMFSMKTKQ,DBAASPR_4208,Aspergillus fumigatus,-,NA,,,,,MEA,,,"Gram+, Gram-, Parasite, Fungus, Mammalian Cell"
 102,YKQCHKKGGHCFPKEKICLPPSSDFGKMDCRWRWKCCKKGSG,DBAASPR_4321,Aspergillus fumigatus IOC 4526,MIC,>125,µg/ml,,,,PDB,,Clinical strain,"Gram+, Gram-, Parasite, Cancer, Fungus, Mammalian Cell"
 103,MAFKKLEKVGRNIRDGIIKAGPAVAVIGQATSIARPTGK,DBAASPR_4571,Aspergillus fumigatus,MIC,16.0,µM,,,,PDB,,,"Gram+, Gram-, Fungus, Mammalian Cell"
 104,GRRRRSVQWCA,DBAASPR_4663,Aspergillus fumigatus,EC50,29±5,µM,,,,YNB,5E4,Hyphal damage; clinical isolate,"Gram+, Gram-, Fungus, Mammalian Cell, Biofilm"
 104,GRRRRSVQWCA,DBAASPR_4663,Aspergillus fumigatus,MIC,5±4,µM,,,,YNB,5E4,Clinical isolate,"Gram+, Gram-, Fungus, Mammalian Cell, Biofilm"
 105,GRLKKLGKKIEGAGKRVFKAAEKALPVVAGVKALG,DBAASPR_5077,Aspergillus fumigatus,MIC,10-25,µM,,,,PDB,,,"Gram+, Gram-, Fungus"
 106,GRLKKLGKKIEGAGKRVFKAAEKALPVVAGVKAL,DBAASPR_5082,Aspergillus fumigatus,MIC,5-10,µM,,,,PDB,,,"Gram+, Gram-, Parasite, Fungus"
-107,GFGCPFNENECHAHCLSIGRKFGFCAGPLRATCTCGKQ,DBAASPR_5119,Aspergillus fumigatus CCTCC AF 93024,-,NA,,,,,MEA,,,"Gram+, Gram-, Mammalian Cell"
 108,CLAGRLDKQCTCRRSQPSRRSGHEVGRPSPHCGPSRQCGCHMD,DBAASPR_5175,Aspergillus fumigatus ATCC MYA-1163,MIC,6.25,µM,,,,PDB,,,"Gram+, Gram-, Fungus"
 109,KQSHKKGGHSFPKEKIS,DBAASPR_5438,Aspergillus fumigatus IOC 4526,MIC,>100,µg/ml,,,,PDB,,Clinical strain,"Gram+, Gram-, Fungus"
 110,KMDSRWRWKSSKK,DBAASPR_5439,Aspergillus fumigatus IOC 4526,MIC,>100,µg/ml,,,,PDB,,Clinical strain,"Gram+, Gram-, Fungus"
@@ -161,7 +149,6 @@ Seq_ID,Seq,DB_ID,Target Species,Activity Measure,Activity,Unit,pH,Ionic Strength
 119,AKRLKKLAKKIWNWK,DBAASPR_5565,Aspergillus fumigatus KCTC 6145,MIC,4,µM,,,,PDB,1E4,,"Gram+, Gram-, Fungus, Mammalian Cell"
 120,FKRLKKLFKKIWNWK,DBAASPR_5566,Aspergillus fumigatus KCTC 6145,MIC,4,µM,,,,PDB,1E4,,"Gram+, Gram-, Fungus, Mammalian Cell"
 121,AKRLKKLAKKIWKWK,DBAASPR_5567,Aspergillus fumigatus KCTC 6145,MIC,4,µM,,,,PDB,1E4,,"Gram+, Gram-, Fungus, Mammalian Cell"
-122,YVPKIPKPQPNKPNFPSFPGHGPFNPHASRFPR,DBAASPR_5784,Aspergillus fumigatus CCTCC AF 93024,-,NA,,,,,MEA,,,"Gram+, Gram-, Fungus"
 123,SSMKLSFRARAYGFRGPGPQL,DBAASPR_5879,Aspergillus fumigatus,MIC,>80,µM,,,,PDB,,,"Gram+, Gram-, Fungus, Mammalian Cell"
 124,SSMKLSFRARAYGFRGPGLQL,DBAASPR_5880,Aspergillus fumigatus,MIC,100,µM,,,,PDB,,,"Gram+, Gram-, Fungus"
 125,SSMKLSFRARAYSFRGPGPQL,DBAASPR_5881,Aspergillus fumigatus,MIC,80,µM,,,,PDB,,,"Gram+, Gram-, Fungus"
@@ -252,7 +239,6 @@ Seq_ID,Seq,DB_ID,Target Species,Activity Measure,Activity,Unit,pH,Ionic Strength
 191,RVCVWLVVMCKK,DBAASPR_18320,Aspergillus fumigatus,MIC,>=128,µg/ml,,,,PDB,,"Clinical isolates 9648, 9651","Gram+, Gram-, Fungus"
 192,FXIKARFXVRARLXLKI,DBAASPR_18321,Aspergillus fumigatus,MIC,64-128,µg/ml,,,,PDB,,"Clinical isolates 9648, 9651","Gram+, Gram-, Fungus, Mammalian Cell"
 193,FXLXAXIKVKLXAXIXL,DBAASPR_18322,Aspergillus fumigatus,MIC,64,µg/ml,,,,PDB,,"Clinical isolates 9648, 9651","Gram+, Gram-, Fungus"
-194,ExYxEaPQyI,DBAASPR_18536,Aspergillus fumigatus,,NA,,,,,YMM,,Not active up to 1000 µg/ml,"Gram+, Gram-, Cancer, Fungus, Mammalian Cell"
 195,SRWRWKSSKKGSG,DBAASPR_18610,Aspergillus fumigatus IOC 4526,MIC90,>250,µM,,,,RPMI-1640,2.7E4,,"Gram+, Gram-, Fungus"
 196,SQMGRMSSRRRFGK,DBAASPR_18612,Aspergillus fumigatus IOC 4526,MIC90,>250,µM,,,,RPMI-1640,2.7E4,,"Gram+, Gram-, Fungus"
 197,SQMGQMSSRRRFGK,DBAASPR_18622,Aspergillus fumigatus IOC 4526,MIC90,>250,µM,,,,RPMI-1640,2.7E4,,"Gram+, Gram-, Fungus"
@@ -272,23 +258,12 @@ Seq_ID,Seq,DB_ID,Target Species,Activity Measure,Activity,Unit,pH,Ionic Strength
 211,RWYKKIFKPVEKAVQRVRDGTLQALGVAQQAANVYATAQGAQQQRHA,DBAASPR_18639,Aspergillus fumigatus B42928,IC50,>32,µM,,,,RPMI-1640,5E3,,"Gram+, Gram-, Fungus, Mammalian Cell, Biofilm"
 212,RSLWKKIFKPVEKLGQRVRDAGIQGIAIAQQGANVLATVRGGPPQ,DBAASPR_18640,Aspergillus fumigatus B42928,IC50,>64,µM,,,,RPMI-1640,5E3,,"Gram+, Gram-, Fungus, Mammalian Cell"
 213,RSLWKKLFKPVERAGQRIRDATIKGIVIAQQGANVLATIRGGPAIPPGQ,DBAASPR_18641,Aspergillus fumigatus B42928,IC50,>32,µM,,,,RPMI-1640,5E3,,"Gram+, Gram-, Fungus, Mammalian Cell"
-214,NEPTHLLKAFSKAGFQ,DBAASPR_19019,Aspergillus fumigatus,,NA,,,,,PDB,5E4,Not active up to 200 µM; Bread isolate,"Gram+, Gram-, Fungus, Mammalian Cell"
 215,RVCFRPVATYLGVCGVSGACRDHCVKLGSCVYKGPG,DBAASPR_19111,Aspergillus fumigatus Af293,MIC,8,µg/ml,,,,SDB,1E5,,"Fungus, Mammalian Cell"
 215,RVCFRPVATYLGVCGVSGACRDHCVKLGSCVYKGPG,DBAASPR_19111,Aspergillus fumigatus Af293,MFC,16,µg/ml,,,,SDA,,,"Fungus, Mammalian Cell"
 216,GCVFLLPAKPHNYKKVFLSKGV,DBAASPR_20540,Aspergillus fumigatus CGMCC 3.5835,MIC,24,µM,,,,PDB,2E4,,"Gram+, Gram-, Fungus, Mammalian Cell, Biofilm"
 217,ARCCLVMPVPPFACVKFCS,DBAASPR_20587,Aspergillus fumigatus,EC50,>160,µM,,,,MEB,1E5,,"Gram+, Gram-, Cancer, Fungus"
 218,ATVXTILCSGGTLXSAGCV,DBAASPR_21129,Aspergillus fumigatus IFO 8866,MIC,>100,µg/ml,,,,YEPD,,,"Gram+, Gram-, Fungus"
-219,GSRIWVPGLGPVYEED,DBAASPR_21481,Aspergillus fumigatus,,NA,,,,,YEPD,,In disc diffusion assay,"Gram+, Gram-, Fungus"
 220,XVXNXNATXP,DBAASPR_21607,Aspergillus fumigatus BCC020_2845,MIC,37.5,µM,,,,MHB,5E5,MHB with 2% glucose,"Cancer, Fungus"
 221,XVXNXNAtXP,DBAASPR_21608,Aspergillus fumigatus BCC020_2845,MIC,2.34,µM,,,,MHB,5E5,MHB with 2% glucose,"Cancer, Fungus"
 221,XVXNXNATXP,DBAASPR_21609,Aspergillus fumigatus BCC020_2845,MIC,0.5,µM,,,,MHB,5E5,MHB with 2% glucose,"Cancer, Fungus"
-222,ATCYCNNKICVCRR,DBAASPR_22067,Aspergillus fumigatus,,NA,,,,,YEPD,,A. fumigatus YJ-407,"Gram+, Gram-, Fungus"
-223,mnPVfPWvAaSA,DBAASPR_22825,Aspergillus fumigatus,,NA,,,,,PDA,,Not active up to 100 µM,"Gram+, Gram-, Cancer, Fungus, Mammalian Cell"
-224,xnPVfPWvAaSA,DBAASPR_22826,Aspergillus fumigatus,,NA,,,,,PDA,,Not active up to 100 µM,"Gram+, Gram-, Cancer, Fungus, Mammalian Cell"
-224,mnPVfPWvAaSA,DBAASPR_22827,Aspergillus fumigatus,,NA,,,,,PDA,,Not active up to 100 µM,"Gram+, Gram-, Cancer, Fungus, Mammalian Cell"
-224,mnPVfPWvAaSA,DBAASPR_22828,Aspergillus fumigatus,,NA,,,,,PDA,,Not active up to 100 µM,"Gram+, Gram-, Cancer, Fungus, Mammalian Cell"
-224,mnPVfPWvAaSA,DBAASPR_22829,Aspergillus fumigatus,,NA,,,,,PDA,,Not active up to 100 µM,"Gram+, Gram-, Cancer, Fungus, Mammalian Cell"
-224,xnPVfPWvAaSA,DBAASPR_22830,Aspergillus fumigatus,,NA,,,,,PDA,,Not active up to 100 µM,"Gram+, Gram-, Cancer, Fungus, Mammalian Cell"
-225,lnPVfPWvAaSA,DBAASPR_22831,Aspergillus fumigatus,,NA,,,,,PDA,,Not active up to 100 µM,"Gram+, Gram-, Cancer, Fungus, Mammalian Cell"
-225,mnPVfPWvAaSA,DBAASPR_22832,Aspergillus fumigatus,,NA,,,,,PDA,,Not active up to 100 µM,"Gram+, Gram-, Cancer, Fungus, Mammalian Cell"
-225,mnPVfPWvAaSA,DBAASPR_22833,Aspergillus fumigatus,,NA,,,,,PDA,,Not active up to 100 µM,"Gram+, Gram-, Cancer, Fungus, Mammalian Cell"
+

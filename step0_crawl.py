@@ -11,8 +11,11 @@ from bs4 import BeautifulSoup
 # -----------------------
 # Setting
 # -----------------------
-target_source = 'dbaasp_dw/Monomer_10-50aa.csv'
-output_folder = 'mono10-50aa'
+target_source = './dbaasp_dw/Monomer_10-50aa.csv'
+output_folder = './mono10-50aa'
+error_log = './log.txt'
+
+
 
 
 def get_dbaasp_data(dbaasp_id):
@@ -40,7 +43,7 @@ def get_dbaasp_data(dbaasp_id):
             time.sleep(2) # Extra buffer for complete rendering
         except Exception as e:
             print(f"Timeout waiting for page to load or section not found: {e}")
-            return None
+            return str(e)
 
         page_source = driver.page_source
     finally:
@@ -48,16 +51,6 @@ def get_dbaasp_data(dbaasp_id):
 
     soup = BeautifulSoup(page_source, 'html.parser')
 
-    # Strategy: Find the header "Activity Against Target Species"
-    # Then look for the container following it.
-    
-    # Based on general observation of such sites, key headers are often in h3, h4, or strong tags.
-    # Let's find the element containing the text.
-    header = soup.find(lambda tag: tag.name in ['h3', 'div', 'span'] and 'Activity Against Target' in tag.get_text())
-    
-    if not header:
-        print("Could not find 'Activity Against Target Species' section.")
-        return None
 
     # The data is likely in a sibling grid or table. 
     # Since we don't have the exact structure, we'll try to find all 'cards' or rows.
@@ -66,37 +59,43 @@ def get_dbaasp_data(dbaasp_id):
     # Search for all elements that might be a 'row' or 'card'.
     # A robust way is to find the text "Target Species" and traverse up to its container.
     
-    cols = [
+    cols = (
         "Target Species", "Activity Measure", "Activity", "Unit", 
         "pH", "Ionic Strength mM", "Salt Type", "Medium", 
-        "CFU", "Note"
-    ]
+        "CFU", "Note")
     
-    data_rows = []
     
+    data_rows = [] #catch target information
     all_rows = soup.find_all('tr')
     all_rows=all_rows[4:-1]
-
+    
     for row in all_rows:
-        #row_text = row.get_text(" ", strip=True)
-
-            #cells = row.find_all(['td', 'th'], recursive=False)
+            #example_cells = row.find_all(['td', 'th'], recursive=False)
             data_cells = row.find_all('td', recursive=False)
-            
-            
-            if not data_cells:
-                continue
+            #print(type(data_cells), len(data_cells)) #<class 'bs4.element.ResultSet'>
+     
+            #if not data_cells: #len(data_cells)==0
+            #    continue
 
-            
-            extracted_data = {}
-            for i, col in enumerate(cols):
-                val = ""
-                if i < len(data_cells):
-                    val = data_cells[i].get_text(" ", strip=True)
-                extracted_data[col] = val
-            
-            data_rows.append(extracted_data)
-
+            if len(data_cells)>=2: 
+                extracted_data = {}
+                for i, col in enumerate(cols):
+                    val = ""
+                    if i < len(data_cells):
+                        val = data_cells[i].get_text(" ", strip=True)
+                    extracted_data[col] = val     
+                data_rows.append(extracted_data)
+                
+            #collect empty rows as separater for 3 main sections:
+            # 1.Activity Against Target Species 2.Hemolytic and Cytotoxic Activities 3. Synergy Between Current Peptide and Antimicrobials
+            elif len(data_cells)==0:
+                extracted_data = {}
+                for i, col in enumerate(cols):
+                    val = ""
+                    if i < len(data_cells):
+                        extracted_data[col] = val  
+                data_rows.append(extracted_data)
+                
     df = pd.DataFrame(data_rows)
     df.to_csv(f"{output_folder}/{sid}.csv", sep=",", index=False)
     print(f'save {sid}.csv')
@@ -104,13 +103,11 @@ def get_dbaasp_data(dbaasp_id):
 
 
 
-
-
-
 if __name__ == "__main__":
 
-    idli=[] #ex ['DBAASPR_8','DBAASPR_11','DBAASPR_12']
     
+    idli=[] #ex idli=['DBAASPR_8','DBAASPR_16493','DBAASPR_12']
+  
     with open(target_source, 'r') as f:
         for l in f:
             l=l.strip().split(',')
@@ -119,17 +116,15 @@ if __name__ == "__main__":
             idli.append('DBAASPR_'+sid)
     print(len(idli)) #18460
 
+    with open(error_log, 'w') as f:
+        for sid in idli:
+            #print('doing',sid)
+            error_catcher = get_dbaasp_data(sid) 
 
-    for sid in idli:
-        print(sid)
-        get_dbaasp_data(sid)     
-        time.sleep(random.uniform(0.4, 1.0))
+            if error_catcher:  
+                f.write(f"sid: {sid}, Error: {error_catcher}\n")
+            time.sleep(random.uniform(0.5, 0.9))
         
 
 
 
-
-# python DBAASP/crawl2/selen.py --id DBAASPR_3
-#                    Target Species Activity Measure Activity   Unit pH Ionic Strength mM Salt Type Medium  CFU Note Reference
-#0  Enterococcus faecium CCARM 5029              MIC       64  µg/ml                                   MHB  2E5  VRE         2
-#1  Enterococcus faecium CCARM 5029              MIC      >64  µg/ml                  150      NaCl    MHB  2E5  VRE         2

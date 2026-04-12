@@ -52,7 +52,7 @@ def csvfilter(inp_folder, kw_list):
                         # if row[0]=='': #display False in UI is weird. replace by if text=='':
                         text = row[0].lower()
                         if text=='':
-                            switch==0 #double confirm
+                            switch=0 #double confirm
                             break
 
                         found = any(kw in text for kw in kw_list)            
@@ -159,7 +159,7 @@ if st.button("Data Filtering"):
         st.stop()
     
     # If everything is OK
-    st.success("Datasource ./mono10-50aa exists. Proceeding with data filtering...")
+    st.success("Datasource folder (mono10-50aa) exists. Proceeding with data filtering...")
     
     if not output_filename:
         st.error("Please enter output_filename.")

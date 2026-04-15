@@ -57,12 +57,25 @@ Optional: search biology alias by LLM ( aliasLLM.py ):
   <img src="./other/ui_filter.png" alt="ui_filter" width="680" height="770"/>
 </p>
 
-9. check search result in directory /output_csv
+9. check search result in directory /output_csv<br> 
+and the output csv format as below
+
+<p align="center">
+  <img src="./other/output_format.png" alt="output_format" width="800" height="135"/>
+</p>
+
+
+
+the sample KVvvKWVvKvVK (Seq_ID: 11) maps the assay information on https://www.dbaasp.org/peptide-card?id=DBAASPR_75
+<p align="center">
+  <img src="./other/DBID_75.png" alt="DBID_75" width="800" height="146"/>
+</p>
+
 
 ---
 
 ### algorithm
-Use substring search (pattern matching) to identify target cell types based on keyword queries.
+Currently uses substring search (pattern matching) to identify target cell types based on keyword queries. Further optimizations are planned for future releases.
 
 ```bash
 text = "Fathead minnow muscle cells (FHM)"

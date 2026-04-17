@@ -71,16 +71,23 @@ def ask_ollama(term):
         return "It's not a biology term."
 
     prompt = f"""
-    What are the alias names of {term}?
+    You are a biology domain expert with strong knowledge of biological nomenclature and synonyms.
+
+    Task:
+    Provide common aliases, synonyms, or abbreviations for the biological term: "{term}".
 
     Requirements:
-    - Return alias separated by comma
-    - Each alias should be a string
-    - No explanation
-    - No more than 6 alias
+    - Return only a single line of output
+    - Separate each alias with a comma
+    - Each alias must be a concise string (no descriptions)
+    - Do not repeat the original term unless it is commonly used in abbreviated form
+    - Maximum of 6 aliases
+    - No explanations, definitions, or extra text
+    - If no widely recognized aliases exist, return: None
 
     Example:
-    Candida albicans Berkhout, C. albicans, Monilia albicans
+    Input: Candida albicans
+    Output: Candida albicans Berkhout, C. albicans, Monilia albicans
     """
 
     response = call_ollama(prompt)
@@ -92,8 +99,7 @@ if __name__ == '__main__':
     user_input = input("Enter a biology term: ")
     result = ask_ollama(user_input)
     print(result)
-    #Staphylococcus
-    #Staphylococcus aureus, S. epidermidis, Micrococcus pyogenes, Peptococcus aureus, Str. aureus, Bacillus pyogenes, Pyonecr. aureum, Corynebacterium pyogenes, C. zymogenes, Disciformis
+    
 
 
 

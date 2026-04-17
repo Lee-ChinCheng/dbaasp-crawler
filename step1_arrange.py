@@ -140,7 +140,7 @@ st.markdown(
     '<span style="font-size:18px;">Enter keywords (comma separated)</span>',
     unsafe_allow_html=True
 )
-keywords_input = st.text_input("(e.g. fumigatus,fumigata,fumigatum or ATCC,KCTC)", 
+keywords_input = st.text_input("(e.g. fumigatus,fumigata,fumigatum )", 
                                "")
 # Convert to list
 kw_list = tuple(kw.strip().lower() for kw in keywords_input.split(",") if kw)
@@ -171,7 +171,6 @@ if st.button("Data Filtering"):
         opli = csvfilter(inp_folder, kw_list)  
         all_result_list = opli[0]
         data_am = len(all_result_list)
-        data_am-=1
         seq_am = len(opli[1])
 
         if isinstance(data_am, int):

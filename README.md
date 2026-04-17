@@ -43,18 +43,18 @@ streamlit run step1_arrange.py
 
 Initial UI:
 <p align="center">
-  <img src="./other/ui_initial.png" alt="ui_initial" width="680" height="646"/>
+  <img src="./other/ui_initial.png" alt="ui_initial" width="700" height="664"/>
 </p>
 
 Optional: search biology alias by LLM ( aliasLLM.py ):
 <p align="center">
-  <img src="./other/ui_alias.png" alt="ui_alias" width="680" height="494"/>
+  <img src="./other/ui_alias.png" alt="ui_alias" width="700" height="509"/>
 </p>
 
 8. Enter keywords corresponding to target cell types. Any peptide assay whose "Target Species" field contains at least one of these keywords will be retrieved.
 
 <p align="center">
-  <img src="./other/ui_filter.png" alt="ui_filter" width="680" height="770"/>
+  <img src="./other/ui_filter.png" alt="ui_filter" width="700" height="828"/>
 </p>
 
 9. check search result in directory /output_csv<br> 

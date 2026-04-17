@@ -51,7 +51,7 @@ Optional: search biology alias by LLM ( aliasLLM.py ):
   <img src="./other/ui_alias.png" alt="ui_alias" width="700" height="509"/>
 </p>
 
-8. Enter keywords corresponding to target cell types. Any peptide assay whose "Target Species" field contains at least one of these keywords will be retrieved.
+8. Enter keywords corresponding to target cell types. Any peptide assay data whose "Target Species/Cells" field contains at least one of these keywords will be retrieved.
 
 <p align="center">
   <img src="./other/ui_filter.png" alt="ui_filter" width="700" height="828"/>

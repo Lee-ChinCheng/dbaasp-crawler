@@ -17,8 +17,8 @@ Seq_ID,Seq,DB_ID,Target Species,Activity Measure,Activity,Unit,pH,Ionic Strength
 8,FLPKTLRKFFARIRGGRAAVLNALGKEEQIGRASNSGRKCARKKK,DBAASPR_53,Acinetobacter baumannii ATCC 19606,MBC,0.6,µM,,,,ISB,1E5-5E5,,"Gram+, Gram-"
 9,kGGGkWGGkGGk,DBAASPR_72,Acinetobacter baumannii ATCC 19606,MIC,>100,µM,,,,LBB,1E6,,"Gram+, Gram-, Fungus"
 9,kGGGkWGGkGGk,DBAASPR_73,Acinetobacter baumannii ATCC 19606,MIC,25,µM,,,,LBB,1E6,,"Gram+, Gram-, Fungus"
-9,KAaaKWAaKaAK,DBAASPR_74,Acinetobacter baumannii ATCC 19606,MIC,>100,µM,,,,LBB,1E6,,"Gram+, Gram-, Fungus"
-9,KVvvKWVvKvVK,DBAASPR_75,Acinetobacter baumannii ATCC 19606,MIC,>100,µM,,,,LBB,1E6,,"Gram+, Gram-, Fungus"
+7,KAaaKWAaKaAK,DBAASPR_74,Acinetobacter baumannii ATCC 19606,MIC,>100,µM,,,,LBB,1E6,,"Gram+, Gram-, Fungus"
+1,KVvvKWVvKvVK,DBAASPR_75,Acinetobacter baumannii ATCC 19606,MIC,>100,µM,,,,LBB,1E6,,"Gram+, Gram-, Fungus"
 10,KLllKWLlKlLK,DBAASPR_77,Acinetobacter baumannii ATCC 19606,MIC,15,µM,,,,LBB,1E6,,"Gram+, Gram-, Fungus"
 10,KLllKWLlKlLK,DBAASPR_78,Acinetobacter baumannii ATCC 19606,MIC,>100,µM,,,,RPMI-1640,2E3,,"Gram+, Gram-, Fungus"
 11,ALWKTLLKKVLKAAAKAALKAVLVGANA,DBAASPR_102,Acinetobacter baumannii,MIC,3.125,µg/ml,,,,MHB,5E5,MDR Clinical isolate,"Gram+, Gram-, Virus, Parasite, Cancer, Fungus, Mammalian Cell, Biofilm"
@@ -546,8 +546,8 @@ Seq_ID,Seq,DB_ID,Target Species,Activity Measure,Activity,Unit,pH,Ionic Strength
 217,GLKkIFKAGLGSLVKGIKAHVAS,DBAASPR_4415,Acinetobacter baumannii NM124,MIC,20,µM,,,,MHB,1E6,MDR clinical isolate NM124,"Gram+, Gram-, Fungus, Mammalian Cell"
 217,GLKkIFKAGLGSLVKGIKAHVAS,DBAASPR_4415,Acinetobacter baumannii NM8,MBC,40,µM,,,,MHB,1E6,"MDR clinical isolates NM8, NM124","Gram+, Gram-, Fungus, Mammalian Cell"
 217,GLKkIFKAGLGSLVKGIKAHVAS,DBAASPR_4415,Acinetobacter baumannii NM35,MBC,20,µM,,,,MHB,1E6,"MDR clinical isolates NM35,NM75,NM108","Gram+, Gram-, Fungus, Mammalian Cell"
-217,GLKKIFKAGLGSLVKGIAAHVAS,DBAASPR_4416,Acinetobacter baumannii NM8,MIC,40,µM,,,,MHB,1E6,MDR clinical isolate NM8,"Gram+, Gram-, Mammalian Cell"
-217,GLKKIFKAGLGSLVKGIAAHVAS,DBAASPR_4416,Acinetobacter baumannii NM35,MIC,20,µM,,,,MHB,1E6,"MDR clinical isolates NM35,NM75,NM108,NM124","Gram+, Gram-, Mammalian Cell"
+210,GLKKIFKAGLGSLVKGIAAHVAS,DBAASPR_4416,Acinetobacter baumannii NM8,MIC,40,µM,,,,MHB,1E6,MDR clinical isolate NM8,"Gram+, Gram-, Mammalian Cell"
+210,GLKKIFKAGLGSLVKGIAAHVAS,DBAASPR_4416,Acinetobacter baumannii NM35,MIC,20,µM,,,,MHB,1E6,"MDR clinical isolates NM35,NM75,NM108,NM124","Gram+, Gram-, Mammalian Cell"
 218,GLKKIFKAGLGSLVKGIXAHVAS,DBAASPR_4417,Acinetobacter baumannii NM8,MIC,10,µM,,,,MHB,1E6,"MDR clinical isolates NM8,NM35,NM75,NM108,NM124","Gram+, Gram-, Mammalian Cell"
 219,FLPILASLAAKFGPKLFXLVTKKX,DBAASPR_4419,Acinetobacter baumannii NM8,MIC,4,µM,,,,MHB,1E6,"MDR clinical isolates NM8, NM75, NM109","Gram+, Gram-, Cancer, Fungus, Mammalian Cell"
 219,FLPILASLAAKFGPKLFXLVTKKX,DBAASPR_4419,Acinetobacter baumannii NM35,MIC,8,µM,,,,MHB,1E6,"MDR clinical isolates NM35, NM124","Gram+, Gram-, Cancer, Fungus, Mammalian Cell"
@@ -608,7 +608,7 @@ Seq_ID,Seq,DB_ID,Target Species,Activity Measure,Activity,Unit,pH,Ionic Strength
 264,KWKLFXXIGAVLKVL,DBAASPR_4863,Acinetobacter baumannii ATCC 19606,IC50,2.6±0.1,µM,,,,CAMHB,1E6,,"Gram+, Gram-, Parasite, Mammalian Cell"
 265,XWKLFKKIGAVLXVL,DBAASPR_4865,Acinetobacter baumannii ATCC 19606,IC50,1.8±0.5,µM,,,,CAMHB,1E6,,"Gram+, Gram-, Parasite, Mammalian Cell"
 266,XWXLFXXIGAVLXVL,DBAASPR_4866,Acinetobacter baumannii ATCC 19606,IC50,>30,µM,,,,CAMHB,1E6,,"Gram+, Gram-, Parasite, Mammalian Cell"
-266,FFHHIFRGIVHVGKTIHRLVTG,DBAASPR_4867,Acinetobacter baumannii CCARM 12005,MIC,2.0,µM,,,,LBB,2E6,"MDR CCARM 12035, 12036, 12037 strains also","Gram+, Gram-, Virus, Mammalian Cell, Protista, Biofilm"
+138,FFHHIFRGIVHVGKTIHRLVTG,DBAASPR_4867,Acinetobacter baumannii CCARM 12005,MIC,2.0,µM,,,,LBB,2E6,"MDR CCARM 12035, 12036, 12037 strains also","Gram+, Gram-, Virus, Mammalian Cell, Protista, Biofilm"
 267,GwGsffkkaahvGkhvGkaalthyl,DBAASPR_4899,Acinetobacter baumannii ATCC 17978,MIC,1,µg/ml,,,,MHB,5E5,,"Gram+, Gram-, Cancer, Mammalian Cell"
 268,VXLxPVXLxP,DBAASPR_4991,Acinetobacter baumannii ATCC 19606,IC50,4.6±0.1,µM,,,,CAMHB,5E5,,"Gram+, Gram-, Mammalian Cell"
 268,VXLxPVXLxP,DBAASPR_4991,Acinetobacter baumannii ATCC 19606R,IC50,6.2±0.1,µM,,,,CAMHB,5E5,Polymyxin-E resistant,"Gram+, Gram-, Mammalian Cell"
@@ -659,11 +659,11 @@ Seq_ID,Seq,DB_ID,Target Species,Activity Measure,Activity,Unit,pH,Ionic Strength
 286,RRIRPRPPRLPRPRPR,DBAASPR_5248,Acinetobacter baumannii ATCC 19606,MBC,>64,µM,,,,MHA,,,"Gram+, Gram-, Cancer, Mammalian Cell"
 287,VKLyPVKLyP,DBAASPR_5296,Acinetobacter baumannii DSM 30007,MIC,1.4-2.8,µM,,,,DMEM,1E5,,"Gram+, Gram-, Fungus, Mammalian Cell"
 288,RWKIFKKIEKMGRNIRDGIVKAGPAIEVLGSAKAI,DBAASPR_5349,Acinetobacter baumannii,MIC,7.04,µM,,,,LBA,,,"Gram+, Gram-, Cancer, Fungus, Mammalian Cell"
-288,GIGKFLHSAKKFGKAFVGEIMNS,DBAASPR_5368,Acinetobacter baumannii ATCC 19606,MIC,20.0±1.0,µM,,,,LBB,2.5E5,,"Gram+, Gram-, Cancer, Mammalian Cell, Biofilm"
-288,GIGKFLHSAKKFGKAFVGEIMNS,DBAASPR_5368,Acinetobacter baumannii ATCC 19606,MBC,22.3±3.4,µM,,,,LBA,2.5E5,,"Gram+, Gram-, Cancer, Mammalian Cell, Biofilm"
-288,GIGKFLHSAKKFGKAFVGEIMNS,DBAASPR_5368,Acinetobacter baumannii KCTC 2508,MIC,4,µM,,,,MHB,2E5,"Also with 50-150 mM NaCl, 0.5 mM MgCl2, 2-8 µM FeCl3","Gram+, Gram-, Cancer, Mammalian Cell, Biofilm"
-288,GIGKFLHSAKKFGKAFVGEIMNS,DBAASPR_5368,Acinetobacter baumannii KCTC 2508,MIC,8,µM,,1-2,MgCl2,MHB,2E5,,"Gram+, Gram-, Cancer, Mammalian Cell, Biofilm"
-288,GIGKFLHSAKKFGKAFVGEIMNS,DBAASPR_5368,Acinetobacter baumannii,MIC,2,µM,,,,MHB,2E5,5 MDR clinical isolates,"Gram+, Gram-, Cancer, Mammalian Cell, Biofilm"
+21,GIGKFLHSAKKFGKAFVGEIMNS,DBAASPR_5368,Acinetobacter baumannii ATCC 19606,MIC,20.0±1.0,µM,,,,LBB,2.5E5,,"Gram+, Gram-, Cancer, Mammalian Cell, Biofilm"
+21,GIGKFLHSAKKFGKAFVGEIMNS,DBAASPR_5368,Acinetobacter baumannii ATCC 19606,MBC,22.3±3.4,µM,,,,LBA,2.5E5,,"Gram+, Gram-, Cancer, Mammalian Cell, Biofilm"
+21,GIGKFLHSAKKFGKAFVGEIMNS,DBAASPR_5368,Acinetobacter baumannii KCTC 2508,MIC,4,µM,,,,MHB,2E5,"Also with 50-150 mM NaCl, 0.5 mM MgCl2, 2-8 µM FeCl3","Gram+, Gram-, Cancer, Mammalian Cell, Biofilm"
+21,GIGKFLHSAKKFGKAFVGEIMNS,DBAASPR_5368,Acinetobacter baumannii KCTC 2508,MIC,8,µM,,1-2,MgCl2,MHB,2E5,,"Gram+, Gram-, Cancer, Mammalian Cell, Biofilm"
+21,GIGKFLHSAKKFGKAFVGEIMNS,DBAASPR_5368,Acinetobacter baumannii,MIC,2,µM,,,,MHB,2E5,5 MDR clinical isolates,"Gram+, Gram-, Cancer, Mammalian Cell, Biofilm"
 289,GLVGTLLGHIGKAILG,DBAASPR_5369,Acinetobacter baumannii NM8,MIC,62.5,µM,,,,MHB,5E5,Clinical isolate,"Gram+, Gram-, Cancer, Fungus, Mammalian Cell"
 289,GLVGTLLGHIGKAILG,DBAASPR_5369,Acinetobacter baumannii NM35,MIC,62.5,µM,,,,MHB,5E5,Clinical isolate,"Gram+, Gram-, Cancer, Fungus, Mammalian Cell"
 289,GLVGTLLGHIGKAILG,DBAASPR_5369,Acinetobacter baumannii NM75,MIC,125,µM,,,,MHB,5E5,Clinical isolate,"Gram+, Gram-, Cancer, Fungus, Mammalian Cell"
@@ -674,11 +674,11 @@ Seq_ID,Seq,DB_ID,Target Species,Activity Measure,Activity,Unit,pH,Ionic Strength
 290,GLVGTLLGHIGKAILS,DBAASPR_5370,Acinetobacter baumannii NM75,MIC,62.5,µM,,,,MHB,5E5,Clinical isolate,"Gram+, Gram-, Cancer, Fungus, Mammalian Cell"
 290,GLVGTLLGHIGKAILS,DBAASPR_5370,Acinetobacter baumannii NM109,MIC,125,µM,,,,MHB,5E5,Clinical isolate,"Gram+, Gram-, Cancer, Fungus, Mammalian Cell"
 290,GLVGTLLGHIGKAILS,DBAASPR_5370,Acinetobacter baumannii NM124,MIC,125,µM,,,,MHB,5E5,Clinical isolate,"Gram+, Gram-, Cancer, Fungus, Mammalian Cell"
-290,GLVGTLLGHIGKAILG,DBAASPR_5371,Acinetobacter baumannii NM8,MIC,250,µM,,,,MHB,5E5,Clinical isolate,"Gram+, Gram-, Cancer, Fungus, Mammalian Cell"
-290,GLVGTLLGHIGKAILG,DBAASPR_5371,Acinetobacter baumannii NM35,MIC,250,µM,,,,MHB,5E5,Clinical isolate,"Gram+, Gram-, Cancer, Fungus, Mammalian Cell"
-290,GLVGTLLGHIGKAILG,DBAASPR_5371,Acinetobacter baumannii NM75,MIC,250,µM,,,,MHB,5E5,Clinical isolate,"Gram+, Gram-, Cancer, Fungus, Mammalian Cell"
-290,GLVGTLLGHIGKAILG,DBAASPR_5371,Acinetobacter baumannii NM109,MIC,250,µM,,,,MHB,5E5,Clinical isolate,"Gram+, Gram-, Cancer, Fungus, Mammalian Cell"
-290,GLVGTLLGHIGKAILG,DBAASPR_5371,Acinetobacter baumannii NM124,MIC,250,µM,,,,MHB,5E5,Clinical isolate,"Gram+, Gram-, Cancer, Fungus, Mammalian Cell"
+289,GLVGTLLGHIGKAILG,DBAASPR_5371,Acinetobacter baumannii NM8,MIC,250,µM,,,,MHB,5E5,Clinical isolate,"Gram+, Gram-, Cancer, Fungus, Mammalian Cell"
+289,GLVGTLLGHIGKAILG,DBAASPR_5371,Acinetobacter baumannii NM35,MIC,250,µM,,,,MHB,5E5,Clinical isolate,"Gram+, Gram-, Cancer, Fungus, Mammalian Cell"
+289,GLVGTLLGHIGKAILG,DBAASPR_5371,Acinetobacter baumannii NM75,MIC,250,µM,,,,MHB,5E5,Clinical isolate,"Gram+, Gram-, Cancer, Fungus, Mammalian Cell"
+289,GLVGTLLGHIGKAILG,DBAASPR_5371,Acinetobacter baumannii NM109,MIC,250,µM,,,,MHB,5E5,Clinical isolate,"Gram+, Gram-, Cancer, Fungus, Mammalian Cell"
+289,GLVGTLLGHIGKAILG,DBAASPR_5371,Acinetobacter baumannii NM124,MIC,250,µM,,,,MHB,5E5,Clinical isolate,"Gram+, Gram-, Cancer, Fungus, Mammalian Cell"
 291,KRFKKFFKKVKKSVKKRLKKIFKKPMVIGVTIPF,DBAASPR_5383,Acinetobacter baumannii,MIC,16,µg/ml,,,,MHB,,Clinical isolate,"Gram+, Gram-, Parasite, Cancer, Fungus, Mammalian Cell"
 292,KRFKKFFKKLKNSVKKRVKKFFRKPRVIGVTFPF,DBAASPR_5385,Acinetobacter baumannii,MIC,16,µg/ml,,,,MHB,,Clinical isolate,"Gram+, Gram-, Parasite, Mammalian Cell"
 293,KRFKKFFMKLKKSVKKRVMKFFKKPMVIGVTFPF,DBAASPR_5387,Acinetobacter baumannii,MIC,16,µg/ml,,,,MHB,,Clinical isolate,"Gram+, Gram-, Mammalian Cell"
@@ -688,7 +688,7 @@ Seq_ID,Seq,DB_ID,Target Species,Activity Measure,Activity,Unit,pH,Ionic Strength
 296,CYCRIPACIAGERRYGTCIYQGRLWAFCC,DBAASPR_5401,Acinetobacter baumannii CIP 70.34T,MIC,>4,µg/ml,,,,MHB,1E6,,"Gram+, Gram-, Virus, Mammalian Cell"
 296,CYCRIPACIAGERRYGTCIYQGRLWAFCC,DBAASPR_5401,Acinetobacter baumannii,MIC,1,µg/ml,,,,MHB,1E6,Clinical isolate,"Gram+, Gram-, Virus, Mammalian Cell"
 296,CYCRIPACIAGERRYGTCIYQGRLWAFCC,DBAASPR_5401,Acinetobacter baumannii,MBC,4,µg/ml,,,,MHA,1E6,Clinical isolate,"Gram+, Gram-, Virus, Mammalian Cell"
-296,GIGKFLKKAKKFGKAFVKILKK,DBAASPR_5419,Acinetobacter baumannii,MIC,4,µg/ml,,,,LBB,1E6,MDR clinical isolate,"Gram+, Gram-, Mammalian Cell"
+50,GIGKFLKKAKKFGKAFVKILKK,DBAASPR_5419,Acinetobacter baumannii,MIC,4,µg/ml,,,,LBB,1E6,MDR clinical isolate,"Gram+, Gram-, Mammalian Cell"
 297,GSKKPVPIIYCNRRSGKCQRM,DBAASPR_5467,Acinetobacter baumannii ATCC 19606,MIC,>128,µg/ml,,,,MHB,1E5-1E6,,"Gram+, Gram-, Fungus, Mammalian Cell"
 297,GSKKPVPIIYCNRRSGKCQRM,DBAASPR_5467,Acinetobacter baumannii,MIC,>128,µg/ml,,,,MHB,1E5-1E6,8 clinical isolates,"Gram+, Gram-, Fungus, Mammalian Cell"
 298,GILKTIKSIASKVANTVQKLKRKAKNAVA,DBAASPR_5468,Acinetobacter baumannii,MIC,3.1,µM,,,,MHB,5E5,MDR clinical isolates,"Gram-, Parasite, Mammalian Cell"
@@ -772,16 +772,16 @@ Seq_ID,Seq,DB_ID,Target Species,Activity Measure,Activity,Unit,pH,Ionic Strength
 340,XFXXXKXXXFXXXKXKKKK,DBAASPR_6689,Acinetobacter baumannii WRAIR13,MBC,25,µg/ml,,,,MHA,2E6,,"Gram+, Gram-, Mammalian Cell"
 341,AKKVFKRLGIGKFLHSAKKF,DBAASPR_6713,Acinetobacter baumannii KCTC 2508,MIC,6.25,µM,,,,MHB,2E5,,"Gram-, Biofilm"
 341,AKKVFKRLGIGKFLHSAKKF,DBAASPR_6713,Acinetobacter baumannii,MIC,3.12-12.5,µM,,,,MHB,2E5,19 MDR clinical isolates tested,"Gram-, Biofilm"
-341,XFXXXKXXXFXXXKXKKKK,DBAASPR_6716,Acinetobacter baumannii WRAIR13,MIC,12.5,µg/ml,,,,MHB,2E6,,"Gram+, Gram-, Mammalian Cell"
-341,XFXXXKXXXFXXXKXKKKK,DBAASPR_6716,Acinetobacter baumannii WRAIR13,MBC,25,µg/ml,,,,MHA,2E6,,"Gram+, Gram-, Mammalian Cell"
+340,XFXXXKXXXFXXXKXKKKK,DBAASPR_6716,Acinetobacter baumannii WRAIR13,MIC,12.5,µg/ml,,,,MHB,2E6,,"Gram+, Gram-, Mammalian Cell"
+340,XFXXXKXXXFXXXKXKKKK,DBAASPR_6716,Acinetobacter baumannii WRAIR13,MBC,25,µg/ml,,,,MHA,2E6,,"Gram+, Gram-, Mammalian Cell"
 342,GXXXGKXXGXXXGKXKKKK,DBAASPR_6729,Acinetobacter baumannii WRAIR13,MIC,12.5,µg/ml,,,,MHB,2E6,,"Gram+, Gram-"
 342,GXXXGKXXGXXXGKXKKKK,DBAASPR_6729,Acinetobacter baumannii WRAIR13,MBC,25,µg/ml,,,,MHA,2E6,,"Gram+, Gram-"
 343,GFXXGXXXGFXXGXXXXXX,DBAASPR_6730,Acinetobacter baumannii WRAIR13,MIC,6.25,µg/ml,,,,MHB,2E6,,"Gram+, Gram-"
 343,GFXXGXXXGFXXGXXXXXX,DBAASPR_6730,Acinetobacter baumannii WRAIR13,MBC,25,µg/ml,,,,MHA,2E6,,"Gram+, Gram-"
 343,GFXXGXXXGFXXGXXXXXX,DBAASPR_6732,Acinetobacter baumannii WRAIR13,MIC,12.5,µg/ml,,,,MHB,2E6,,"Gram+, Gram-"
 343,GFXXGXXXGFXXGXXXXXX,DBAASPR_6732,Acinetobacter baumannii WRAIR13,MBC,12.5,µg/ml,,,,MHA,2E6,,"Gram+, Gram-"
-343,GXXXGKXXGXXXGKXKKKK,DBAASPR_6738,Acinetobacter baumannii WRAIR13,MIC,12.5,µg/ml,,,,MHB,2E6,,"Gram+, Gram-"
-343,GXXXGKXXGXXXGKXKKKK,DBAASPR_6738,Acinetobacter baumannii WRAIR13,MBC,12.5,µg/ml,,,,MHA,2E6,,"Gram+, Gram-"
+342,GXXXGKXXGXXXGKXKKKK,DBAASPR_6738,Acinetobacter baumannii WRAIR13,MIC,12.5,µg/ml,,,,MHB,2E6,,"Gram+, Gram-"
+342,GXXXGKXXGXXXGKXKKKK,DBAASPR_6738,Acinetobacter baumannii WRAIR13,MBC,12.5,µg/ml,,,,MHA,2E6,,"Gram+, Gram-"
 344,LRKLRKRLVRLASHLRKLRKRLL,DBAASPR_6768,Acinetobacter baumannii,MIC,6,µg/ml,,,,LBB,5E4,MDR clinical isolate,"Gram+, Gram-"
 345,LRKLRKRLLLRKLRKRLL,DBAASPR_6769,Acinetobacter baumannii,MIC,>32,µg/ml,,,,LBB,5E4,MDR clinical isolate,"Gram+, Gram-"
 346,CLRKLRKRLLC,DBAASPR_6770,Acinetobacter baumannii,MIC,>32,µg/ml,,,,LBB,5E4,MDR clinical isolate,"Gram+, Gram-"
@@ -789,7 +789,7 @@ Seq_ID,Seq,DB_ID,Target Species,Activity Measure,Activity,Unit,pH,Ionic Strength
 347,DCYCRIPACIAGERRYGTCIYQGRLWAFCC,DBAASPR_6785,Acinetobacter baumannii,MIC,1,µg/ml,,,,MHB,1E6,Clinical isolate,"Gram+, Gram-, Virus"
 347,DCYCRIPACIAGERRYGTCIYQGRLWAFCC,DBAASPR_6785,Acinetobacter baumannii,MBC,4,µg/ml,,,,MHA,1E6,Clinical isolate,"Gram+, Gram-, Virus"
 348,GIGKHVGKALKGLKGLLKGLGEC,DBAASPR_6806,Acinetobacter baumannii LMG 01041,MIC,2,µM,,,,CAMHB,5E5,,Gram-
-348,KRIVQRIKDFLR,DBAASPR_6825,Acinetobacter baumannii ATCC BAA-1605,MIC,256,µg/ml,,,,MHB,5E4,,"Gram+, Gram-, Cancer, Mammalian Cell"
+13,KRIVQRIKDFLR,DBAASPR_6825,Acinetobacter baumannii ATCC BAA-1605,MIC,256,µg/ml,,,,MHB,5E4,,"Gram+, Gram-, Cancer, Mammalian Cell"
 349,KRIVQRIKKWLR,DBAASPR_6827,Acinetobacter baumannii LMG 01041,MIC,16,µM,,,,CAMHB,5E5,,"Gram+, Gram-, Mammalian Cell"
 350,RRLFRRILRWL,DBAASPR_6841,Acinetobacter baumannii LMG 01041,MIC,2,µM,,,,CAMHB,5E5,,"Gram+, Gram-, Cancer, Fungus, Mammalian Cell, Biofilm"
 351,GKXXGLGKEXXGLGKXXELMGER,DBAASPR_6843,Acinetobacter baumannii WRAIR13,MIC,>100,µg/ml,,,,MHB,2E6,,"Gram+, Gram-"
@@ -808,16 +808,16 @@ Seq_ID,Seq,DB_ID,Target Species,Activity Measure,Activity,Unit,pH,Ionic Strength
 356,GFXXGKXXGFXXGKXXKKKK,DBAASPR_6866,Acinetobacter baumannii WRAIR13,MBC,50,µg/ml,,,,MHA,2E6,,"Gram+, Gram-"
 356,GFXXGKXXGFXXGKXXKKKK,DBAASPR_6867,Acinetobacter baumannii WRAIR13,MIC,12.5,µg/ml,,,,MHB,2E6,,"Gram+, Gram-"
 356,GFXXGKXXGFXXGKXXKKKK,DBAASPR_6867,Acinetobacter baumannii WRAIR13,MBC,25,µg/ml,,,,MHA,2E6,,"Gram+, Gram-"
-356,GFXXGXXXGFXXGXXXXXX,DBAASPR_6869,Acinetobacter baumannii WRAIR13,MIC,6.25,µg/ml,,,,MHB,2E6,,"Gram+, Gram-, Mammalian Cell"
-356,GFXXGXXXGFXXGXXXXXX,DBAASPR_6869,Acinetobacter baumannii WRAIR13,MBC,12.5,µg/ml,,,,MHA,2E6,,"Gram+, Gram-, Mammalian Cell"
+343,GFXXGXXXGFXXGXXXXXX,DBAASPR_6869,Acinetobacter baumannii WRAIR13,MIC,6.25,µg/ml,,,,MHB,2E6,,"Gram+, Gram-, Mammalian Cell"
+343,GFXXGXXXGFXXGXXXXXX,DBAASPR_6869,Acinetobacter baumannii WRAIR13,MBC,12.5,µg/ml,,,,MHA,2E6,,"Gram+, Gram-, Mammalian Cell"
 357,GFXXGWXXGFXXGWXKKKK,DBAASPR_6870,Acinetobacter baumannii WRAIR13,MIC,25,µg/ml,,,,MHB,2E6,,"Gram+, Gram-"
 357,GFXXGWXXGFXXGWXKKKK,DBAASPR_6870,Acinetobacter baumannii WRAIR13,MBC,100,µg/ml,,,,MHA,2E6,,"Gram+, Gram-"
 358,GFXXGRXXGFXXGRXRRRR,DBAASPR_6871,Acinetobacter baumannii WRAIR13,MIC,6.25,µg/ml,,,,MHB,2E6,,"Gram+, Gram-"
 358,GFXXGRXXGFXXGRXRRRR,DBAASPR_6871,Acinetobacter baumannii WRAIR13,MBC,12.5,µg/ml,,,,MHA,2E6,,"Gram+, Gram-"
 359,KKKKGFXXGKXXGFXXGKX,DBAASPR_6880,Acinetobacter baumannii WRAIR13,MIC,12.5,µg/ml,,,,MHB,2E6,,"Gram+, Gram-"
 359,KKKKGFXXGKXXGFXXGKX,DBAASPR_6880,Acinetobacter baumannii WRAIR13,MBC,25,µg/ml,,,,MHA,2E6,,"Gram+, Gram-"
-359,GFXXGKXXGFXXGKXKKKK,DBAASPR_6881,Acinetobacter baumannii WRAIR13,MIC,12.5,µg/ml,,,,MHB,2E6,,"Gram+, Gram-"
-359,GFXXGKXXGFXXGKXKKKK,DBAASPR_6881,Acinetobacter baumannii WRAIR13,MBC,12.5,µg/ml,,,,MHA,2E6,,"Gram+, Gram-"
+339,GFXXGKXXGFXXGKXKKKK,DBAASPR_6881,Acinetobacter baumannii WRAIR13,MIC,12.5,µg/ml,,,,MHB,2E6,,"Gram+, Gram-"
+339,GFXXGKXXGFXXGKXKKKK,DBAASPR_6881,Acinetobacter baumannii WRAIR13,MBC,12.5,µg/ml,,,,MHA,2E6,,"Gram+, Gram-"
 360,GFXXGKXXGFXXGKXKKK,DBAASPR_6882,Acinetobacter baumannii WRAIR13,MIC,12.5,µg/ml,,,,MHB,2E6,,"Gram+, Gram-"
 360,GFXXGKXXGFXXGKXKKK,DBAASPR_6882,Acinetobacter baumannii WRAIR13,MBC,50,µg/ml,,,,MHA,2E6,,"Gram+, Gram-"
 361,KLXXKXXFXXKXXFXXKXXKKKK,DBAASPR_6883,Acinetobacter baumannii WRAIR13,MIC,100,µg/ml,,,,MHB,2E6,,"Gram+, Gram-"
@@ -908,7 +908,7 @@ Seq_ID,Seq,DB_ID,Target Species,Activity Measure,Activity,Unit,pH,Ionic Strength
 390,FFHHIKRGIKHVGKTIHRLVTG,DBAASPR_7216,Acinetobacter baumannii CCARM 12036,MIC,4.0,µM,,,,LBB,2E6,MDR,"Gram+, Gram-, Mammalian Cell"
 390,FFHHIKRGIKHVGKTIHRLVTG,DBAASPR_7216,Acinetobacter baumannii CCARM 12037,MIC,4.0,µM,,,,LBB,2E6,MDR,"Gram+, Gram-, Mammalian Cell"
 391,FLFKLIPKAIKKLISKFK,DBAASPR_7227,Acinetobacter baumannii ATCC 17978,MIC,4,µg/ml,,,,MHB,5E5,,"Gram+, Gram-, Fungus, Mammalian Cell, Biofilm"
-391,GLFDVIKKVASVIGGL,DBAASPR_7386,Acinetobacter baumannii ATCC 19606,MIC,32,µg/ml,,,,MHB,1.5E8,,"Gram+, Gram-, Cancer, Fungus, Mammalian Cell"
+91,GLFDVIKKVASVIGGL,DBAASPR_7386,Acinetobacter baumannii ATCC 19606,MIC,32,µg/ml,,,,MHB,1.5E8,,"Gram+, Gram-, Cancer, Fungus, Mammalian Cell"
 392,ECKFTVKPYLKRFQVYYKGRMWCP,DBAASPR_7397,Acinetobacter baumannii aba CIP-R2,MIC,100,µg/ml,,,,TSB,,"Clinical isolates aba CIP-R2, aba FEP-R1","Gram+, Gram-, Parasite, Fungus"
 393,VDKPPYLPRPRPPRRIYNR,DBAASPR_7483,Acinetobacter baumannii LMG 01041,MIC,16,µM,,,,CAMHB,5E5,,"Gram+, Gram-"
 393,VDKPPYLPRPRPPRRIYNR,DBAASPR_7484,Acinetobacter baumannii ICB 14067,MIC,1,µg/ml,,,,TSB,,,"Gram+, Gram-, Cancer, Mammalian Cell"
@@ -1064,7 +1064,7 @@ Seq_ID,Seq,DB_ID,Target Species,Activity Measure,Activity,Unit,pH,Ionic Strength
 477,GFXGXXXGXFXGXGXXXXXX,DBAASPR_9500,Acinetobacter baumannii ATCC 15149,MIC,1.48,µM,,,,CAMHB,5E4,B5W71 strain,"Gram+, Gram-, Cancer"
 477,GFXGXXXGXFXGXGXXXXXX,DBAASPR_9501,Acinetobacter baumannii ATCC 15149,MIC,>48,µM,,,,CAMHB,5E4,B5W71 strain,"Gram+, Gram-"
 478,GFXGXKXGXFXGXGKXKKKK,DBAASPR_9505,Acinetobacter baumannii ATCC 15149,MIC,2.86,µM,,,,CAMHB,5E4,B5W71 strain,"Gram+, Gram-, Cancer"
-478,GFXGXRXGXFXGXGRXRRRR,DBAASPR_9506,Acinetobacter baumannii ATCC 15149,MIC,2.65,µM,,,,CAMHB,5E4,B5W71 strain,"Gram+, Gram-, Cancer"
+476,GFXGXRXGXFXGXGRXRRRR,DBAASPR_9506,Acinetobacter baumannii ATCC 15149,MIC,2.65,µM,,,,CAMHB,5E4,B5W71 strain,"Gram+, Gram-, Cancer"
 478,GFXGXKXGXFXGXGKXKKKK,DBAASPR_9507,Acinetobacter baumannii ATCC 15149,MIC,>45,µM,,,,CAMHB,5E4,B5W71 strain,"Gram+, Gram-, Cancer"
 478,GFXGXKXGXFXGXGKXKKKK,DBAASPR_9509,Acinetobacter baumannii ATCC 15149,MIC,20.93,µM,,,,CAMHB,5E4,B5W71 strain,"Gram+, Gram-, Cancer"
 478,GFXGXKXGXFXGXGKXKKKK,DBAASPR_9510,Acinetobacter baumannii ATCC 15149,MIC,>45,µM,,,,CAMHB,5E4,B5W71 strain,"Gram+, Gram-, Cancer"
@@ -1263,13 +1263,13 @@ Seq_ID,Seq,DB_ID,Target Species,Activity Measure,Activity,Unit,pH,Ionic Strength
 553,FVPWFSKFlpRIL,DBAASPR_10615,Acinetobacter baumannii ATCC 19606,MIC,50,µM,,,,MHB,2E6,,"Gram+, Gram-, Virus, Fungus, Mammalian Cell"
 554,FVPWFSKFlXRIL,DBAASPR_10616,Acinetobacter baumannii ATCC 19606,MIC,6.25,µM,,,,MHB,2E6,,"Gram+, Gram-, Virus, Fungus, Mammalian Cell"
 555,FVPWFSKFlxRIL,DBAASPR_10617,Acinetobacter baumannii ATCC 19606,MIC,25,µM,,,,MHB,2E6,,"Gram+, Gram-, Virus, Fungus, Mammalian Cell"
-555,FVPWFSKFlXRIL,DBAASPR_10618,Acinetobacter baumannii ATCC 19606,MIC,6.25,µM,,,,MHB,2E6,,"Gram+, Gram-, Virus, Fungus, Mammalian Cell"
+554,FVPWFSKFlXRIL,DBAASPR_10618,Acinetobacter baumannii ATCC 19606,MIC,6.25,µM,,,,MHB,2E6,,"Gram+, Gram-, Virus, Fungus, Mammalian Cell"
 555,FVPWFSKFlxRIL,DBAASPR_10619,Acinetobacter baumannii ATCC 19606,MIC,6.25,µM,,,,MHB,2E6,,"Gram+, Gram-, Virus, Fungus, Mammalian Cell"
 556,FVPWFSKFlKRIL,DBAASPR_10620,Acinetobacter baumannii ATCC 19606,MIC,3.125,µM,,,,MHB,2E6,,"Gram+, Gram-, Virus, Fungus, Mammalian Cell"
 557,FVPWFSKFlkRIL,DBAASPR_10621,Acinetobacter baumannii ATCC 19606,MIC,6.25,µM,,,,MHB,2E6,,"Gram+, Gram-, Virus, Fungus, Mammalian Cell"
 558,FVPWFSKFlWRIL,DBAASPR_10622,Acinetobacter baumannii ATCC 19606,MIC,3.125,µM,,,,MHB,2E6,,"Gram+, Gram-, Virus, Fungus, Mammalian Cell"
 559,FVPWFSKFlwRIL,DBAASPR_10623,Acinetobacter baumannii ATCC 19606,MIC,3.125,µM,,,,MHB,2E6,,"Gram+, Gram-, Virus, Fungus, Mammalian Cell"
-559,FVPWFSKFlXRIL,DBAASPR_10624,Acinetobacter baumannii ATCC 19606,MIC,3.125,µM,,,,MHB,2E6,,"Gram+, Gram-, Virus, Fungus, Mammalian Cell"
+554,FVPWFSKFlXRIL,DBAASPR_10624,Acinetobacter baumannii ATCC 19606,MIC,3.125,µM,,,,MHB,2E6,,"Gram+, Gram-, Virus, Fungus, Mammalian Cell"
 560,WKRRIKIWKKIR,DBAASPR_10625,Acinetobacter baumannii ATCC BAA-1605,MIC,>256,µM,,,,MHB,5E5,,"Gram-, Mammalian Cell"
 560,WKRRIKIWKKIR,DBAASPR_10625,Acinetobacter baumannii ATCC 19606,MIC,>256,µM,,,,MHB,5E5,,"Gram-, Mammalian Cell"
 560,WKRRIKIWKKIR,DBAASPR_10625,Acinetobacter baumannii ATCC BAA-747,MIC,>256,µM,,,,MHB,5E5,,"Gram-, Mammalian Cell"
@@ -1399,8 +1399,8 @@ Seq_ID,Seq,DB_ID,Target Species,Activity Measure,Activity,Unit,pH,Ionic Strength
 616,SDDAQRCYPHNRTPFTYTYI,DBAASPR_10959,Acinetobacter baumannii AB5075,MBC,>128,µM,,,,M9,1E6,,"Gram-, Mammalian Cell"
 617,EPCSPKNNYHDLFYRT,DBAASPR_10960,Acinetobacter baumannii AB5075,MBC,>128,µM,,,,M9,1E6,,"Gram-, Mammalian Cell"
 618,CNPLNGADRRTDSFPRFTVI,DBAASPR_10961,Acinetobacter baumannii AB5075,MBC,>128,µM,,,,M9,1E6,,"Gram-, Mammalian Cell"
-618,TCRTNRPCFYDLDLNVCRCS,DBAASPR_10962,Acinetobacter baumannii AB5075,MBC,128,µM,,,,M9,1E6,,Gram-
-618,YYNPLPHDCGRDNNTDICSR,DBAASPR_10963,Acinetobacter baumannii AB5075,MBC,>128,µM,,,,M9,1E6,,Gram-
+605,TCRTNRPCFYDLDLNVCRCS,DBAASPR_10962,Acinetobacter baumannii AB5075,MBC,128,µM,,,,M9,1E6,,Gram-
+607,YYNPLPHDCGRDNNTDICSR,DBAASPR_10963,Acinetobacter baumannii AB5075,MBC,>128,µM,,,,M9,1E6,,Gram-
 619,PDRAIDTYRTSPVADQRYNA,DBAASPR_10964,Acinetobacter baumannii AB5075,MBC,>128,µM,,,,M9,1E6,,Gram-
 620,KWLKKWLKWLKK,DBAASPR_10965,Acinetobacter baumannii ATCC 19606,MIC,8,µg/ml,,,,MHB,1E5,,"Gram+, Gram-, Mammalian Cell"
 621,kwXkkwXkwXkk,DBAASPR_10968,Acinetobacter baumannii ATCC 19606,MIC,32,µg/ml,,,,MHB,1E5,,"Gram+, Gram-, Mammalian Cell"
@@ -1548,9 +1548,9 @@ Seq_ID,Seq,DB_ID,Target Species,Activity Measure,Activity,Unit,pH,Ionic Strength
 695,AWCFRVCYRGACYRRCR,DBAASPR_11760,Acinetobacter baumannii,MIC,0.25,µg/ml,,,,MHB,5E5,"XDR, polymyxin resistant Clinical isolate 100734512:2","Gram+, Gram-, Fungus, Mammalian Cell"
 696,KWCFRVCYAGICYRRCA,DBAASPR_11761,Acinetobacter baumannii ATCC 19606,MIC,0.25,µg/ml,,,,MHB,5E5,,"Gram+, Gram-, Fungus, Mammalian Cell"
 696,KWCFRVCYAGICYRRCA,DBAASPR_11761,Acinetobacter baumannii,MIC,0.5,µg/ml,,,,MHB,5E5,"XDR, polymyxin resistant Clinical isolate 100734512:2","Gram+, Gram-, Fungus, Mammalian Cell"
-696,XRPDKPRPYLPRPRPPRPVR,DBAASPR_11763,Acinetobacter baumannii ATCC 19606,MIC,52.5±9.5,µM,,,,MHB,2.5E5,,"Gram-, Mammalian Cell"
-696,XRPDKPRPYLPRPRPPRPVR,DBAASPR_11763,Acinetobacter baumannii 30008,MIC,64,µg/ml,,,.,MHB,1.5E7,in 25% MHB,"Gram-, Mammalian Cell"
-696,XRPDKPRPYLPRPRPPRPVR,DBAASPR_11763,Acinetobacter baumannii 30008,MIC,>512,µg/ml,,,,MHB,1.5E7,,"Gram-, Mammalian Cell"
+440,XRPDKPRPYLPRPRPPRPVR,DBAASPR_11763,Acinetobacter baumannii ATCC 19606,MIC,52.5±9.5,µM,,,,MHB,2.5E5,,"Gram-, Mammalian Cell"
+440,XRPDKPRPYLPRPRPPRPVR,DBAASPR_11763,Acinetobacter baumannii 30008,MIC,64,µg/ml,,,.,MHB,1.5E7,in 25% MHB,"Gram-, Mammalian Cell"
+440,XRPDKPRPYLPRPRPPRPVR,DBAASPR_11763,Acinetobacter baumannii 30008,MIC,>512,µg/ml,,,,MHB,1.5E7,,"Gram-, Mammalian Cell"
 697,XRVPRPPRPRPLYPRPKDPR,DBAASPR_11764,Acinetobacter baumannii 30008,MIC,64,µg/ml,,,.,MHB,1.5E7,in 25% MHB,"Gram-, Mammalian Cell"
 697,XRVPRPPRPRPLYPRPKDPR,DBAASPR_11764,Acinetobacter baumannii 30008,MIC,>512,µg/ml,,,,MHB,1.5E7,,"Gram-, Mammalian Cell"
 698,RPDKPRPYLPRPRPPRPVR,DBAASPR_11765,Acinetobacter baumannii ATCC 19606,MIC,>100,µM,,,,MHB,2.5E5,,"Gram-, Mammalian Cell"
@@ -1593,8 +1593,8 @@ Seq_ID,Seq,DB_ID,Target Species,Activity Measure,Activity,Unit,pH,Ionic Strength
 705,GIKKWVKGVAKGVAKDLAKKIL,DBAASPR_11866,Acinetobacter baumannii,MBC,1.0,µM,,,,MHA,5E5,2 clinical isolates,"Gram-, Mammalian Cell"
 706,GFKRlVQRlKDFlRNLV,DBAASPR_11868,Acinetobacter baumannii B2367-12,MIC,6.2-12.5,µM,,,,LBB,,,"Gram+, Gram-, Mammalian Cell"
 707,GFKRlVQRlKDXlRNLV,DBAASPR_11870,Acinetobacter baumannii B2367-12,MIC,3.1,µM,,,,LBB,,,"Gram+, Gram-, Mammalian Cell"
-707,GXKRlVQRlKDXlRNLV,DBAASPR_11871,Acinetobacter baumannii B2367-12,MIC,3.1,µM,,,,LBB,,,"Gram+, Gram-, Mammalian Cell"
-707,GXKRlVQRlKDXlRNLV,DBAASPR_11872,Acinetobacter baumannii B2367-12,MIC,3.1,µM,,,,LBB,,,"Gram+, Gram-, Mammalian Cell"
+703,GXKRlVQRlKDXlRNLV,DBAASPR_11871,Acinetobacter baumannii B2367-12,MIC,3.1,µM,,,,LBB,,,"Gram+, Gram-, Mammalian Cell"
+703,GXKRlVQRlKDXlRNLV,DBAASPR_11872,Acinetobacter baumannii B2367-12,MIC,3.1,µM,,,,LBB,,,"Gram+, Gram-, Mammalian Cell"
 708,GXKRlVQRlKDFlRNLV,DBAASPR_11873,Acinetobacter baumannii B2367-12,MIC,3.1,µM,,,,LBB,,,"Gram+, Gram-, Mammalian Cell"
 709,CwWkKkKkWwC,DBAASPR_11924,Acinetobacter baumannii ATCC 19606,MIC,16,µg/ml,,,,MHB,1E5,,"Gram+, Gram-, Mammalian Cell"
 710,CWwKkKkKwWwC,DBAASPR_11927,Acinetobacter baumannii ATCC 19606,MIC,16,µg/ml,,,,MHB,1E5,,"Gram+, Gram-, Mammalian Cell"
@@ -1921,7 +1921,7 @@ Seq_ID,Seq,DB_ID,Target Species,Activity Measure,Activity,Unit,pH,Ionic Strength
 842,WCRRYRVLVRGVLVRYRRCW,DBAASPR_13507,Acinetobacter baumannii,MIC,2,µM,,,,MHB,2E5,Clinical isolate,"Gram+, Gram-, Cancer, Mammalian Cell"
 843,RFCVYAYVRVRGVLVRYRRCF,DBAASPR_13515,Acinetobacter baumannii,MIC,2,µM,,,,MHB,2E5,Clinical isolate,"Gram+, Gram-, Cancer, Mammalian Cell"
 844,RWXVYAYVRVRGVLVRYRRXW,DBAASPR_13516,Acinetobacter baumannii,MIC,4,µM,,,,MHB,2E5,Clinical isolate,"Gram+, Gram-, Cancer, Mammalian Cell"
-844,RWCVYAYVRVRGVLVRYRRCW,DBAASPR_13517,Acinetobacter baumannii,MIC,4,µM,,,,MHB,2E5,Clinical isolate,"Gram+, Gram-, Cancer, Mammalian Cell"
+112,RWCVYAYVRVRGVLVRYRRCW,DBAASPR_13517,Acinetobacter baumannii,MIC,4,µM,,,,MHB,2E5,Clinical isolate,"Gram+, Gram-, Cancer, Mammalian Cell"
 845,EVAKKLLASALKLALAI,DBAASPR_13630,Acinetobacter baumannii MTCC 9829,MIC,>128,µg/ml,,,,MHB,5E5,,"Gram+, Gram-, Fungus"
 846,EDWNHLGAAVHTLKHVYK,DBAASPR_13637,Acinetobacter baumannii MTCC 9829,MIC,>128,µg/ml,,,,MHB,5E5,,"Gram+, Gram-, Fungus"
 847,AIVEQLRKRC,DBAASPR_13638,Acinetobacter baumannii MTCC 9829,MIC,>128,µg/ml,,,,MHB,5E5,,"Gram+, Gram-, Fungus"
@@ -2191,14 +2191,14 @@ Seq_ID,Seq,DB_ID,Target Species,Activity Measure,Activity,Unit,pH,Ionic Strength
 982,GxGsfSXxIEIxS,DBAASPR_14752,Acinetobacter baumannii ATCC 19606,MIC,128,µg/ml,,,,CAMHB,4E5,,"Gram-, Mammalian Cell"
 983,vxGswSXxFEVvA,DBAASPR_14753,Acinetobacter baumannii,MIC,25,µg/ml,,,,MHB,5E5,Water isolate,"Gram+, Gram-, Mammalian Cell"
 983,vxGswSXxFEVvA,DBAASPR_14753,Acinetobacter baumannii ACM 11,MIC,50-100,µg/ml,,,,MHB,5E5,"Clinical isolates ACM 11, ACM 29","Gram+, Gram-, Mammalian Cell"
-983,vxGswSXxFEVxA,DBAASPR_14754,Acinetobacter baumannii,MIC,100,µg/ml,,,,MHB,5E5,Water isolate,"Gram-, Mammalian Cell"
-983,vxGswSXxFEVxA,DBAASPR_14754,Acinetobacter baumannii ACM 11,MIC,50,µg/ml,,,,MHB,5E5,"Clinical isolates ACM 11, ACM 29","Gram-, Mammalian Cell"
+445,vxGswSXxFEVxA,DBAASPR_14754,Acinetobacter baumannii,MIC,100,µg/ml,,,,MHB,5E5,Water isolate,"Gram-, Mammalian Cell"
+445,vxGswSXxFEVxA,DBAASPR_14754,Acinetobacter baumannii ACM 11,MIC,50,µg/ml,,,,MHB,5E5,"Clinical isolates ACM 11, ACM 29","Gram-, Mammalian Cell"
 984,vkGswSKxFEVxA,DBAASPR_14755,Acinetobacter baumannii,MIC,50,µg/ml,,,,MHB,5E5,Water isolate,"Gram-, Mammalian Cell"
 984,vkGswSKxFEVxA,DBAASPR_14755,Acinetobacter baumannii ACM 11,MIC,25-50,µg/ml,,,,MHB,5E5,"Clinical isolates ACM 11, ACM 29","Gram-, Mammalian Cell"
-984,vxGswSXxFEVxA,DBAASPR_14756,Acinetobacter baumannii,MIC,12.5,µg/ml,,,,MHB,5E5,Water isolate,"Gram-, Mammalian Cell"
-984,vxGswSXxFEVxA,DBAASPR_14756,Acinetobacter baumannii ACM 11,MIC,50,µg/ml,,,,MHB,5E5,"Clinical isolates ACM 11, ACM 29","Gram-, Mammalian Cell"
-984,vxGswSXxFEVvA,DBAASPR_14758,Acinetobacter baumannii,MIC,25,µg/ml,,,,MHB,5E5,Water isolate,"Gram-, Mammalian Cell"
-984,vxGswSXxFEVvA,DBAASPR_14758,Acinetobacter baumannii ACM 11,MIC,25-50,µg/ml,,,,MHB,5E5,"Clinical isolates ACM 11, ACM 29","Gram-, Mammalian Cell"
+445,vxGswSXxFEVxA,DBAASPR_14756,Acinetobacter baumannii,MIC,12.5,µg/ml,,,,MHB,5E5,Water isolate,"Gram-, Mammalian Cell"
+445,vxGswSXxFEVxA,DBAASPR_14756,Acinetobacter baumannii ACM 11,MIC,50,µg/ml,,,,MHB,5E5,"Clinical isolates ACM 11, ACM 29","Gram-, Mammalian Cell"
+983,vxGswSXxFEVvA,DBAASPR_14758,Acinetobacter baumannii,MIC,25,µg/ml,,,,MHB,5E5,Water isolate,"Gram-, Mammalian Cell"
+983,vxGswSXxFEVvA,DBAASPR_14758,Acinetobacter baumannii ACM 11,MIC,25-50,µg/ml,,,,MHB,5E5,"Clinical isolates ACM 11, ACM 29","Gram-, Mammalian Cell"
 985,vkGswSKkFEVvA,DBAASPR_14759,Acinetobacter baumannii,MIC,>100,µg/ml,,,,MHB,5E5,Water isolate,"Gram-, Mammalian Cell"
 985,vkGswSKkFEVvA,DBAASPR_14759,Acinetobacter baumannii ACM 11,MIC,>100,µg/ml,,,,MHB,5E5,"Clinical isolates ACM 11, ACM 29","Gram-, Mammalian Cell"
 986,GxGswSXxIEVxA,DBAASPR_14764,Acinetobacter baumannii ATCC 19606,MIC,25,µg/ml,,,,MHB,5E5,MIC=50µg/ml when N-terminus is (6'R)-6-ME-C8,"Gram+, Gram-"
@@ -2229,19 +2229,19 @@ Seq_ID,Seq,DB_ID,Target Species,Activity Measure,Activity,Unit,pH,Ionic Strength
 996,KKLFKkilryl,DBAASPR_14790,Acinetobacter baumannii,MIC,8.5,µg/ml,,,,CAMHB,1E6,MDR colistin-susceptible Ab-167 clinical isolate,"Gram+, Gram-, Mammalian Cell"
 997,KKLXKKILKYL,DBAASPR_14792,Acinetobacter baumannii ATCC BAA-1605,MIC,134,µg/ml,,,,CAMHB,1E6,MDR,"Gram+, Gram-"
 998,KKLFKXXXXXX,DBAASPR_14793,Acinetobacter baumannii ATCC BAA-1605,MIC,>269,µg/ml,,,,CAMHB,1E6,MDR,"Gram+, Gram-"
-998,vxGswSXxFEVxA,DBAASPR_14794,Acinetobacter baumannii ATCC 19606,MIC,>100,µg/ml,,,,MHB,5E5,,"Gram+, Gram-, Mammalian Cell"
-998,vxGswSXxFEVxA,DBAASPR_14803,Acinetobacter baumannii ATCC 19606,MIC,>100,µg/ml,,,,MHB,5E5,,"Gram+, Gram-"
-998,vxGswSXxFEVxA,DBAASPR_14804,Acinetobacter baumannii ATCC 19606,MIC,100,µg/ml,,,,MHB,5E5,,"Gram+, Gram-, Mammalian Cell"
-998,vxGswSXxFEVxA,DBAASPR_14805,Acinetobacter baumannii ATCC 19606,MIC,25,µg/ml,,,,MHB,5E5,,"Gram+, Gram-"
-998,vxGswSXxFEVxA,DBAASPR_14806,Acinetobacter baumannii ATCC 19606,MIC,12.5,µg/ml,,,,MHB,5E5,,"Gram+, Gram-"
-998,vxGswSXxFEVxA,DBAASPR_14807,Acinetobacter baumannii ATCC 19606,MIC,50,µg/ml,,,,MHB,5E5,,"Gram+, Gram-"
-998,vxGswSXxFEVxA,DBAASPR_14808,Acinetobacter baumannii ATCC 19606,MIC,12.5,µg/ml,,,,MHB,5E5,,"Gram+, Gram-"
-998,vxGswSXxFEVxA,DBAASPR_14809,Acinetobacter baumannii ATCC 19606,MIC,12.5,µg/ml,,,,MHB,5E5,,"Gram+, Gram-"
-998,vxGswSXxFEVxA,DBAASPR_14812,Acinetobacter baumannii ATCC 19606,MIC,>100,µg/ml,,,,MHB,5E5,,"Gram+, Gram-"
-998,vxGswSXxFEVxA,DBAASPR_14813,Acinetobacter baumannii ATCC 19606,MIC,>100,µg/ml,,,,MHB,5E5,,"Gram+, Gram-"
-998,vxGswSXxFEVxA,DBAASPR_14816,Acinetobacter baumannii ATCC 19606,MIC,12.5,µg/ml,,,,MHB,5E5,,"Gram+, Gram-, Mammalian Cell"
-998,vxGswSXxFEVxA,DBAASPR_14818,Acinetobacter baumannii ATCC 19606,MIC,12.5,µg/ml,,,,MHB,5E5,,"Gram+, Gram-"
-998,vxGswSXxFEVxA,DBAASPR_14823,Acinetobacter baumannii ATCC 19606,MIC,12.5-25,µg/ml,,,,MHB,5E5,"when stereochemistry of N-termini is (3S,6R) MIC=50 µg/ml","Gram+, Gram-, Mammalian Cell"
+445,vxGswSXxFEVxA,DBAASPR_14794,Acinetobacter baumannii ATCC 19606,MIC,>100,µg/ml,,,,MHB,5E5,,"Gram+, Gram-, Mammalian Cell"
+445,vxGswSXxFEVxA,DBAASPR_14803,Acinetobacter baumannii ATCC 19606,MIC,>100,µg/ml,,,,MHB,5E5,,"Gram+, Gram-"
+445,vxGswSXxFEVxA,DBAASPR_14804,Acinetobacter baumannii ATCC 19606,MIC,100,µg/ml,,,,MHB,5E5,,"Gram+, Gram-, Mammalian Cell"
+445,vxGswSXxFEVxA,DBAASPR_14805,Acinetobacter baumannii ATCC 19606,MIC,25,µg/ml,,,,MHB,5E5,,"Gram+, Gram-"
+445,vxGswSXxFEVxA,DBAASPR_14806,Acinetobacter baumannii ATCC 19606,MIC,12.5,µg/ml,,,,MHB,5E5,,"Gram+, Gram-"
+445,vxGswSXxFEVxA,DBAASPR_14807,Acinetobacter baumannii ATCC 19606,MIC,50,µg/ml,,,,MHB,5E5,,"Gram+, Gram-"
+445,vxGswSXxFEVxA,DBAASPR_14808,Acinetobacter baumannii ATCC 19606,MIC,12.5,µg/ml,,,,MHB,5E5,,"Gram+, Gram-"
+445,vxGswSXxFEVxA,DBAASPR_14809,Acinetobacter baumannii ATCC 19606,MIC,12.5,µg/ml,,,,MHB,5E5,,"Gram+, Gram-"
+445,vxGswSXxFEVxA,DBAASPR_14812,Acinetobacter baumannii ATCC 19606,MIC,>100,µg/ml,,,,MHB,5E5,,"Gram+, Gram-"
+445,vxGswSXxFEVxA,DBAASPR_14813,Acinetobacter baumannii ATCC 19606,MIC,>100,µg/ml,,,,MHB,5E5,,"Gram+, Gram-"
+445,vxGswSXxFEVxA,DBAASPR_14816,Acinetobacter baumannii ATCC 19606,MIC,12.5,µg/ml,,,,MHB,5E5,,"Gram+, Gram-, Mammalian Cell"
+445,vxGswSXxFEVxA,DBAASPR_14818,Acinetobacter baumannii ATCC 19606,MIC,12.5,µg/ml,,,,MHB,5E5,,"Gram+, Gram-"
+445,vxGswSXxFEVxA,DBAASPR_14823,Acinetobacter baumannii ATCC 19606,MIC,12.5-25,µg/ml,,,,MHB,5E5,"when stereochemistry of N-termini is (3S,6R) MIC=50 µg/ml","Gram+, Gram-, Mammalian Cell"
 999,vxGscSXxCEVxA,DBAASPR_14828,Acinetobacter baumannii NCTC 13304,MIC,12.5,µg/ml,,,,MHB,5E5,,"Gram+, Gram-"
 1000,SNGYRPAYRPAYRPSYRP,DBAASPR_14829,Acinetobacter baumannii ATCC 19606,MIC,>32,µM,,,,MHB,5E5,,"Gram+, Gram-, Cancer"
 1000,SNGYRPAYRPAYRPSYRP,DBAASPR_14829,Acinetobacter baumannii,MIC,>32,µM,,,,MHB,5E5,Clinical isolate,"Gram+, Gram-, Cancer"
@@ -2253,28 +2253,28 @@ Seq_ID,Seq,DB_ID,Target Species,Activity Measure,Activity,Unit,pH,Ionic Strength
 1002,FYPRPYRPPYLPDPRPFPRPLPAFGHEFRRH,DBAASPR_14831,Acinetobacter baumannii ATCC 19606,MBC,8,µM,,,,MHA,5E5,,"Gram+, Gram-, Cancer"
 1002,FYPRPYRPPYLPDPRPFPRPLPAFGHEFRRH,DBAASPR_14831,Acinetobacter baumannii,MIC,8,µM,,,,MHB,5E5,Clinical isolate,"Gram+, Gram-, Cancer"
 1002,FYPRPYRPPYLPDPRPFPRPLPAFGHEFRRH,DBAASPR_14831,Acinetobacter baumannii,MBC,8,µM,,,,MHA,5E5,,"Gram+, Gram-, Cancer"
-1002,KRIVQRIKDFLR,DBAASPR_14886,Acinetobacter baumannii ATCC BAA-1605,MIC,>256,µg/ml,,,,MHB,5E4,,"Gram+, Gram-, Mammalian Cell"
-1002,KRIVQRIKDFLR,DBAASPR_14886,Acinetobacter baumannii BCRC 14B0100,MIC,16,µg/ml,,,,MHB,5E5,,"Gram+, Gram-, Mammalian Cell"
-1002,KRIVQRIKDFLR,DBAASPR_14886,Acinetobacter baumannii BCRC 14B0100,MIC,1,µg/ml,,,,LYM,5E5,,"Gram+, Gram-, Mammalian Cell"
-1002,KRIVQRIKDFLR,DBAASPR_14886,Acinetobacter baumannii BCRC 14B0100,MIC,4,µg/ml,,100,NaCl,LYM,5E5,,"Gram+, Gram-, Mammalian Cell"
-1002,KRIVQRIKDFLR,DBAASPR_14886,Acinetobacter baumannii BCRC 14B0100,MIC,16,µg/ml,,200,NaCl,LYM,5E5,,"Gram+, Gram-, Mammalian Cell"
-1002,KRIVQRIKDFLR,DBAASPR_14886,Acinetobacter baumannii BCRC 14B0100,MIC,32,µg/ml,,300,NaCl,LYM,5E5,,"Gram+, Gram-, Mammalian Cell"
-1002,KRIVQRIKDFLR,DBAASPR_14886,Acinetobacter baumannii ATCC 19606,MIC,>256,µg/ml,,,,CAMHB,1E6,,"Gram+, Gram-, Mammalian Cell"
-1002,KRIVQRIKDFLR,DBAASPR_14887,Acinetobacter baumannii ATCC BAA-1605,MIC,>256,µg/ml,,,,MHB,5E4,,"Gram+, Gram-, Mammalian Cell"
-1002,KRIVQRIKDFLR,DBAASPR_14888,Acinetobacter baumannii ATCC BAA-1605,MIC,16,µg/ml,,,,MHB,5E4,,"Gram+, Gram-, Mammalian Cell"
-1002,KRIVQRIKDFLR,DBAASPR_14890,Acinetobacter baumannii ATCC BAA-1605,MIC,2,µg/ml,,,,MHB,5E4,,"Gram+, Gram-, Mammalian Cell"
-1002,KRIVQRIKDFLR,DBAASPR_14891,Acinetobacter baumannii ATCC BAA-1605,MIC,8,µg/ml,,,,MHB,5E4,,"Gram+, Gram-, Mammalian Cell"
-1002,KRIVQRIKDFLR,DBAASPR_14892,Acinetobacter baumannii ATCC BAA-1605,MIC,16,µg/ml,,,,MHB,5E4,,"Gram+, Gram-, Mammalian Cell"
-1002,KRIVQRIKDFLR,DBAASPR_14893,Acinetobacter baumannii ATCC BAA-1605,MIC,32,µg/ml,,,,MHB,5E4,,"Gram+, Gram-, Mammalian Cell"
-1002,KRIVQRIKDFLR,DBAASPR_14894,Acinetobacter baumannii ATCC BAA-1605,MIC,16,µg/ml,,,,MHB,5E4,,"Gram+, Gram-, Mammalian Cell"
-1002,KRIVQRIKDFLR,DBAASPR_14895,Acinetobacter baumannii ATCC BAA-1605,MIC,4,µg/ml,,,,MHB,5E4,,"Gram+, Gram-, Mammalian Cell"
+13,KRIVQRIKDFLR,DBAASPR_14886,Acinetobacter baumannii ATCC BAA-1605,MIC,>256,µg/ml,,,,MHB,5E4,,"Gram+, Gram-, Mammalian Cell"
+13,KRIVQRIKDFLR,DBAASPR_14886,Acinetobacter baumannii BCRC 14B0100,MIC,16,µg/ml,,,,MHB,5E5,,"Gram+, Gram-, Mammalian Cell"
+13,KRIVQRIKDFLR,DBAASPR_14886,Acinetobacter baumannii BCRC 14B0100,MIC,1,µg/ml,,,,LYM,5E5,,"Gram+, Gram-, Mammalian Cell"
+13,KRIVQRIKDFLR,DBAASPR_14886,Acinetobacter baumannii BCRC 14B0100,MIC,4,µg/ml,,100,NaCl,LYM,5E5,,"Gram+, Gram-, Mammalian Cell"
+13,KRIVQRIKDFLR,DBAASPR_14886,Acinetobacter baumannii BCRC 14B0100,MIC,16,µg/ml,,200,NaCl,LYM,5E5,,"Gram+, Gram-, Mammalian Cell"
+13,KRIVQRIKDFLR,DBAASPR_14886,Acinetobacter baumannii BCRC 14B0100,MIC,32,µg/ml,,300,NaCl,LYM,5E5,,"Gram+, Gram-, Mammalian Cell"
+13,KRIVQRIKDFLR,DBAASPR_14886,Acinetobacter baumannii ATCC 19606,MIC,>256,µg/ml,,,,CAMHB,1E6,,"Gram+, Gram-, Mammalian Cell"
+13,KRIVQRIKDFLR,DBAASPR_14887,Acinetobacter baumannii ATCC BAA-1605,MIC,>256,µg/ml,,,,MHB,5E4,,"Gram+, Gram-, Mammalian Cell"
+13,KRIVQRIKDFLR,DBAASPR_14888,Acinetobacter baumannii ATCC BAA-1605,MIC,16,µg/ml,,,,MHB,5E4,,"Gram+, Gram-, Mammalian Cell"
+13,KRIVQRIKDFLR,DBAASPR_14890,Acinetobacter baumannii ATCC BAA-1605,MIC,2,µg/ml,,,,MHB,5E4,,"Gram+, Gram-, Mammalian Cell"
+13,KRIVQRIKDFLR,DBAASPR_14891,Acinetobacter baumannii ATCC BAA-1605,MIC,8,µg/ml,,,,MHB,5E4,,"Gram+, Gram-, Mammalian Cell"
+13,KRIVQRIKDFLR,DBAASPR_14892,Acinetobacter baumannii ATCC BAA-1605,MIC,16,µg/ml,,,,MHB,5E4,,"Gram+, Gram-, Mammalian Cell"
+13,KRIVQRIKDFLR,DBAASPR_14893,Acinetobacter baumannii ATCC BAA-1605,MIC,32,µg/ml,,,,MHB,5E4,,"Gram+, Gram-, Mammalian Cell"
+13,KRIVQRIKDFLR,DBAASPR_14894,Acinetobacter baumannii ATCC BAA-1605,MIC,16,µg/ml,,,,MHB,5E4,,"Gram+, Gram-, Mammalian Cell"
+13,KRIVQRIKDFLR,DBAASPR_14895,Acinetobacter baumannii ATCC BAA-1605,MIC,4,µg/ml,,,,MHB,5E4,,"Gram+, Gram-, Mammalian Cell"
 1003,rwwrwwrrwwrr,DBAASPR_14957,Acinetobacter baumannii ATCC BAA-1605,MBC,8.9,µg/ml,,,,TSA,1E6,,"Gram+, Gram-"
-1003,INLKALAALAKKIL,DBAASPR_15027,Acinetobacter baumannii CR17,MIC,10.5,µM,,,,MHB,,Colistin-resistant clinical isolate,Gram-
-1003,INLKALAALAKKIL,DBAASPR_15027,Acinetobacter baumannii CR86,MIC,21,µM,,,,MHB,,Colistin-resistant clinical isolate,Gram-
-1003,INLKALAALAKKIL,DBAASPR_15027,Acinetobacter baumannii Ab11,MIC,42,µM,,,,MHB,,"Colistin-resistant clinical isolates Ab11, Ab113",Gram-
-1003,INLKALAALAKKIL,DBAASPR_15028,Acinetobacter baumannii CR17,MIC,2.6,µM,,,,MHB,,Colistin-resistant clinical isolate,"Gram-, Cancer"
-1003,INLKALAALAKKIL,DBAASPR_15028,Acinetobacter baumannii CR86,MIC,2.6,µM,,,,MHB,,Colistin-resistant clinical isolate,"Gram-, Cancer"
-1003,INLKALAALAKKIL,DBAASPR_15028,Acinetobacter baumannii Ab11,MIC,2.6,µM,,,,MHB,,"Colistin-resistant clinical isolates Ab11, Ab113","Gram-, Cancer"
+161,INLKALAALAKKIL,DBAASPR_15027,Acinetobacter baumannii CR17,MIC,10.5,µM,,,,MHB,,Colistin-resistant clinical isolate,Gram-
+161,INLKALAALAKKIL,DBAASPR_15027,Acinetobacter baumannii CR86,MIC,21,µM,,,,MHB,,Colistin-resistant clinical isolate,Gram-
+161,INLKALAALAKKIL,DBAASPR_15027,Acinetobacter baumannii Ab11,MIC,42,µM,,,,MHB,,"Colistin-resistant clinical isolates Ab11, Ab113",Gram-
+161,INLKALAALAKKIL,DBAASPR_15028,Acinetobacter baumannii CR17,MIC,2.6,µM,,,,MHB,,Colistin-resistant clinical isolate,"Gram-, Cancer"
+161,INLKALAALAKKIL,DBAASPR_15028,Acinetobacter baumannii CR86,MIC,2.6,µM,,,,MHB,,Colistin-resistant clinical isolate,"Gram-, Cancer"
+161,INLKALAALAKKIL,DBAASPR_15028,Acinetobacter baumannii Ab11,MIC,2.6,µM,,,,MHB,,"Colistin-resistant clinical isolates Ab11, Ab113","Gram-, Cancer"
 1004,iNLKALAALAKKIL,DBAASPR_15030,Acinetobacter baumannii CR17,MIC,21.6,µM,,,,MHB,,Colistin-resistant clinical isolate,Gram-
 1004,iNLKALAALAKKIL,DBAASPR_15030,Acinetobacter baumannii CR86,MIC,21.6,µM,,,,MHB,,Colistin-resistant clinical isolate,Gram-
 1004,iNLKALAALAKKIL,DBAASPR_15030,Acinetobacter baumannii Ab11,MIC,43.3,µM,,,,MHB,,Colistin-resistant clinical isolate,Gram-
@@ -2418,7 +2418,7 @@ Seq_ID,Seq,DB_ID,Target Species,Activity Measure,Activity,Unit,pH,Ionic Strength
 1070,AAWKKAAKKAAKSAKKAG,DBAASPR_16570,Acinetobacter baumannii ATCC 19606,MIC,>15,µM,,,,MHB,5E5,,"Gram+, Gram-, Mammalian Cell"
 1070,AAWKKAAKKAAKSAKKAG,DBAASPR_16570,Acinetobacter baumannii ATCC 19606,MBC,>15,µM,,,,LBA,5E5,,"Gram+, Gram-, Mammalian Cell"
 1071,KRWHWWRRHWVVW,DBAASPR_16641,Acinetobacter baumannii ATCC 19606,MIC,50,µM,,,,CAMHB,,,"Gram+, Gram-, Cancer, Mammalian Cell"
-1071,RFRLPFRRPPIRIHPPPFYPPFRRFL,DBAASPR_16644,Acinetobacter baumannii 7226/16,MIC,4-8,µM,,,,MHB,1E6,MDR clinical isolate,"Gram+, Gram-, Cancer, Mammalian Cell"
+188,RFRLPFRRPPIRIHPPPFYPPFRRFL,DBAASPR_16644,Acinetobacter baumannii 7226/16,MIC,4-8,µM,,,,MHB,1E6,MDR clinical isolate,"Gram+, Gram-, Cancer, Mammalian Cell"
 1072,RFRLPFRRIHPPPFVRIHPPPFYRRFL,DBAASPR_16645,Acinetobacter baumannii 7226/16,MIC,4,µM,,,,MHB,1E6,MDR clinical isolate,"Gram+, Gram-, Cancer, Mammalian Cell"
 1072,RFRLPFRRIHPPPFVRIHPPPFYRRFL,DBAASPR_16646,Acinetobacter baumannii 7226/16,MIC,4,µM,,,,MHB,1E6,MDR clinical isolate,"Gram+, Gram-, Cancer, Mammalian Cell"
 1073,RFRRFRLPFRRIHPPPFVRIHPPPFYRRFL,DBAASPR_16647,Acinetobacter baumannii 7226/16,MIC,8,µM,,,,MHB,1E6,MDR clinical isolate,"Gram+, Gram-, Cancer, Mammalian Cell"
@@ -2468,21 +2468,21 @@ Seq_ID,Seq,DB_ID,Target Species,Activity Measure,Activity,Unit,pH,Ionic Strength
 1095,XTXXXxAXXT,DBAASPR_16836,Acinetobacter baumannii ATCC 19606,MIC,4,µg/ml,,,,CAMHB,1E6,,"Gram+, Gram-, Mammalian Cell"
 1095,XTXXXxAXXT,DBAASPR_16836,Acinetobacter baumannii ATCC 17978,MIC,4,µg/ml,,,,CAMHB,1E6,,"Gram+, Gram-, Mammalian Cell"
 1095,XTXXXxAXXT,DBAASPR_16836,Acinetobacter baumannii,MIC,1-16,µg/ml,,,,CAMHB,1E6,3 polymyxin-resistant clinical isolates,"Gram+, Gram-, Mammalian Cell"
-1095,XTXXXxLXXT,DBAASPR_16837,Acinetobacter baumannii ATCC 19606,MIC,8,µg/ml,,,,CAMHB,1E6,,"Gram+, Gram-"
-1095,XTXXXxLXXT,DBAASPR_16837,Acinetobacter baumannii ATCC 17978,MIC,2,µg/ml,,,,CAMHB,1E6,,"Gram+, Gram-"
-1095,XTXXXxLXXT,DBAASPR_16837,Acinetobacter baumannii,MIC,4-8,µg/ml,,,,CAMHB,1E6,3 polymyxin-resistant clinical isolates,"Gram+, Gram-"
-1095,XTXXXxLXXT,DBAASPR_16838,Acinetobacter baumannii ATCC 19606,MIC,4,µg/ml,,,,CAMHB,1E6,,"Gram+, Gram-"
-1095,XTXXXxLXXT,DBAASPR_16838,Acinetobacter baumannii,MIC,4-8,µg/ml,,,,CAMHB,1E6,3 polymyxin-resistant clinical isolates,"Gram+, Gram-"
-1095,XTXXXxLXXT,DBAASPR_16838,Acinetobacter baumannii ATCC 17978,MIC,1,µg/ml,,,,CAMHB,1E6,,"Gram+, Gram-"
-1095,XTXXXxLXXT,DBAASPR_16839,Acinetobacter baumannii ATCC 19606,MIC,4,µg/ml,,,,CAMHB,1E6,,"Gram+, Gram-"
-1095,XTXXXxLXXT,DBAASPR_16839,Acinetobacter baumannii ATCC 17978,MIC,4,µg/ml,,,,CAMHB,1E6,,"Gram+, Gram-"
-1095,XTXXXxLXXT,DBAASPR_16839,Acinetobacter baumannii,MIC,4-32,µg/ml,,,,CAMHB,1E6,3 polymyxin-resistant clinical isolates,"Gram+, Gram-"
-1095,XTXXXxLXXT,DBAASPR_16840,Acinetobacter baumannii ATCC 19606,MIC,4,µg/ml,,,,CAMHB,1E6,,"Gram+, Gram-, Mammalian Cell"
-1095,XTXXXxLXXT,DBAASPR_16840,Acinetobacter baumannii ATCC 17978,MIC,2,µg/ml,,,,CAMHB,1E6,,"Gram+, Gram-, Mammalian Cell"
-1095,XTXXXxLXXT,DBAASPR_16840,Acinetobacter baumannii,MIC,2-8,µg/ml,,,,CAMHB,1E6,3 polymyxin-resistant clinical isolates,"Gram+, Gram-, Mammalian Cell"
-1095,XTXXXfXXXT,DBAASPR_16841,Acinetobacter baumannii ATCC 19606,MIC,2,µg/ml,,,,CAMHB,1E6,,"Gram+, Gram-"
-1095,XTXXXfXXXT,DBAASPR_16841,Acinetobacter baumannii ATCC 17978,MIC,1,µg/ml,,,,CAMHB,1E6,,"Gram+, Gram-"
-1095,XTXXXfXXXT,DBAASPR_16841,Acinetobacter baumannii,MIC,1-32,µg/ml,,,,CAMHB,1E6,3 polymyxin-resistant clinical isolates,"Gram+, Gram-"
+1093,XTXXXxLXXT,DBAASPR_16837,Acinetobacter baumannii ATCC 19606,MIC,8,µg/ml,,,,CAMHB,1E6,,"Gram+, Gram-"
+1093,XTXXXxLXXT,DBAASPR_16837,Acinetobacter baumannii ATCC 17978,MIC,2,µg/ml,,,,CAMHB,1E6,,"Gram+, Gram-"
+1093,XTXXXxLXXT,DBAASPR_16837,Acinetobacter baumannii,MIC,4-8,µg/ml,,,,CAMHB,1E6,3 polymyxin-resistant clinical isolates,"Gram+, Gram-"
+1093,XTXXXxLXXT,DBAASPR_16838,Acinetobacter baumannii ATCC 19606,MIC,4,µg/ml,,,,CAMHB,1E6,,"Gram+, Gram-"
+1093,XTXXXxLXXT,DBAASPR_16838,Acinetobacter baumannii,MIC,4-8,µg/ml,,,,CAMHB,1E6,3 polymyxin-resistant clinical isolates,"Gram+, Gram-"
+1093,XTXXXxLXXT,DBAASPR_16838,Acinetobacter baumannii ATCC 17978,MIC,1,µg/ml,,,,CAMHB,1E6,,"Gram+, Gram-"
+1093,XTXXXxLXXT,DBAASPR_16839,Acinetobacter baumannii ATCC 19606,MIC,4,µg/ml,,,,CAMHB,1E6,,"Gram+, Gram-"
+1093,XTXXXxLXXT,DBAASPR_16839,Acinetobacter baumannii ATCC 17978,MIC,4,µg/ml,,,,CAMHB,1E6,,"Gram+, Gram-"
+1093,XTXXXxLXXT,DBAASPR_16839,Acinetobacter baumannii,MIC,4-32,µg/ml,,,,CAMHB,1E6,3 polymyxin-resistant clinical isolates,"Gram+, Gram-"
+1093,XTXXXxLXXT,DBAASPR_16840,Acinetobacter baumannii ATCC 19606,MIC,4,µg/ml,,,,CAMHB,1E6,,"Gram+, Gram-, Mammalian Cell"
+1093,XTXXXxLXXT,DBAASPR_16840,Acinetobacter baumannii ATCC 17978,MIC,2,µg/ml,,,,CAMHB,1E6,,"Gram+, Gram-, Mammalian Cell"
+1093,XTXXXxLXXT,DBAASPR_16840,Acinetobacter baumannii,MIC,2-8,µg/ml,,,,CAMHB,1E6,3 polymyxin-resistant clinical isolates,"Gram+, Gram-, Mammalian Cell"
+1092,XTXXXfXXXT,DBAASPR_16841,Acinetobacter baumannii ATCC 19606,MIC,2,µg/ml,,,,CAMHB,1E6,,"Gram+, Gram-"
+1092,XTXXXfXXXT,DBAASPR_16841,Acinetobacter baumannii ATCC 17978,MIC,1,µg/ml,,,,CAMHB,1E6,,"Gram+, Gram-"
+1092,XTXXXfXXXT,DBAASPR_16841,Acinetobacter baumannii,MIC,1-32,µg/ml,,,,CAMHB,1E6,3 polymyxin-resistant clinical isolates,"Gram+, Gram-"
 1096,XTXXXfFXXT,DBAASPR_16842,Acinetobacter baumannii ATCC 19606,MIC,4,µg/ml,,,,CAMHB,1E6,,"Gram+, Gram-"
 1096,XTXXXfFXXT,DBAASPR_16842,Acinetobacter baumannii ATCC 17978,MIC,1,µg/ml,,,,CAMHB,1E6,,"Gram+, Gram-"
 1096,XTXXXfFXXT,DBAASPR_16842,Acinetobacter baumannii,MIC,4->32,µg/ml,,,,CAMHB,1E6,3 polymyxin-resistant clinical isolates,"Gram+, Gram-"
@@ -2521,7 +2521,7 @@ Seq_ID,Seq,DB_ID,Target Species,Activity Measure,Activity,Unit,pH,Ionic Strength
 1119,LFSIIWKLNRKLIKA,DBAASPR_16916,Acinetobacter baumannii,MIC,>64,µM,,,,TSB,1E6,Fish isolate,"Gram+, Gram-, Cancer, Mammalian Cell"
 1120,KIAKRIWKILRRRL,DBAASPR_16917,Acinetobacter baumannii,MIC,3.91,µg/ml,,,,MHB,1E7,,"Gram+, Gram-, Mammalian Cell"
 1121,KIAKRIWKILRRR,DBAASPR_16918,Acinetobacter baumannii,MIC,7.81,µg/ml,,,,MHB,1E7,,"Gram+, Gram-, Mammalian Cell"
-1121,FIGAIARLLSKIF,DBAASPR_16936,Acinetobacter baumannii ATCC 19606,MIC50,>69.02,µM,,,,LBB,,,"Gram+, Gram-, Cancer, Mammalian Cell"
+95,FIGAIARLLSKIF,DBAASPR_16936,Acinetobacter baumannii ATCC 19606,MIC50,>69.02,µM,,,,LBB,,,"Gram+, Gram-, Cancer, Mammalian Cell"
 1122,ILGKIWKGIKSLF,DBAASPR_16937,Acinetobacter baumannii ATCC 19606,MIC50,>66.54,µM,,,,LBB,,,"Gram+, Gram-, Cancer, Mammalian Cell"
 1123,INLKAIAAMAKKLL,DBAASPR_16938,Acinetobacter baumannii ATCC 19606,MIC50,>66.76,µM,,,,LBB,,,"Gram+, Gram-, Cancer"
 1124,FLPIAGKLLSGLSGLL,DBAASPR_16939,Acinetobacter baumannii ATCC 19606,MIC,>62.54,µM,,,,LBB,,,"Gram+, Gram-, Cancer, Mammalian Cell"
@@ -2695,10 +2695,10 @@ Seq_ID,Seq,DB_ID,Target Species,Activity Measure,Activity,Unit,pH,Ionic Strength
 1222,VRGKRLWDIVRRWVGWL,DBAASPR_17448,Acinetobacter baumannii,MIC,4,µg/ml,,,,MHB,5E5,,"Gram+, Gram-"
 1223,SHHRCCRSHRCRR,DBAASPR_17450,Acinetobacter baumannii ATCC 19606,MIC,>32,µg/ml,,,,CAMHB,5E5,,"Gram+, Gram-, Fungus"
 1224,HAHSGHGQSTQRGSRTAGR,DBAASPR_17451,Acinetobacter baumannii ATCC 19606,MIC,>32,µg/ml,,,,CAMHB,5E5,,"Gram+, Gram-, Fungus"
-1224,GRRGSGLGRSSSRGQRGSGSGR,DBAASPR_17452,Acinetobacter baumannii ATCC 19606,MIC,>32,µg/ml,,,,CAMHB,5E5,,"Gram+, Gram-, Fungus"
+1213,GRRGSGLGRSSSRGQRGSGSGR,DBAASPR_17452,Acinetobacter baumannii ATCC 19606,MIC,>32,µg/ml,,,,CAMHB,5E5,,"Gram+, Gram-, Fungus"
 1225,RGSRSGQSSRGERR,DBAASPR_17453,Acinetobacter baumannii ATCC 19606,MIC,4,µg/ml,,,,CAMHB,5E5,,"Gram+, Gram-, Fungus"
-1225,GRRGGRGGRGRGR,DBAASPR_17454,Acinetobacter baumannii ATCC 19606,MIC,>32,µg/ml,,,,CAMHB,5E5,,"Gram+, Gram-, Fungus"
-1225,SHHRCCRSHRCRR,DBAASPR_17455,Acinetobacter baumannii ATCC 19606,MIC,>32,µg/ml,,,,CAMHB,5E5,,"Gram+, Gram-, Fungus"
+1217,GRRGGRGGRGRGR,DBAASPR_17454,Acinetobacter baumannii ATCC 19606,MIC,>32,µg/ml,,,,CAMHB,5E5,,"Gram+, Gram-, Fungus"
+1223,SHHRCCRSHRCRR,DBAASPR_17455,Acinetobacter baumannii ATCC 19606,MIC,>32,µg/ml,,,,CAMHB,5E5,,"Gram+, Gram-, Fungus"
 1226,SHHRHFRSHQCRR,DBAASPR_17456,Acinetobacter baumannii ATCC 19606,MIC,>32,µg/ml,,,,CAMHB,5E5,,"Gram+, Gram-, Fungus"
 1226,SHHRHFRSHQCRR,DBAASPR_17457,Acinetobacter baumannii ATCC 19606,MIC,>32,µg/ml,,,,CAMHB,5E5,,"Gram+, Gram-, Cancer"
 1227,SHHRHFRSHQCRRQRSNSCDR,DBAASPR_17458,Acinetobacter baumannii ATCC 19606,MIC,>32,µg/ml,,,,CAMHB,5E5,,"Gram+, Gram-, Fungus, Mammalian Cell"
@@ -2833,8 +2833,8 @@ Seq_ID,Seq,DB_ID,Target Species,Activity Measure,Activity,Unit,pH,Ionic Strength
 1311,VFALKKWIQKVI,DBAASPR_18081,Acinetobacter baumannii ATCC 17978,MIC,50,µg/ml,,,,LBB,1E6,,"Gram-, Mammalian Cell"
 1312,VFRLKKAIQKVI,DBAASPR_18085,Acinetobacter baumannii ATCC 17978,MIC,>200,µg/ml,,,,LBB,1E6,,"Gram-, Mammalian Cell"
 1313,VFRLKKWIQKVA,DBAASPR_18090,Acinetobacter baumannii ATCC 17978,MIC,100,µg/ml,,,,LBB,1E6,,"Gram-, Mammalian Cell"
-1313,AIPWIWIWRLLRKG,DBAASPR_18178,Acinetobacter baumannii ATCC 19606,MIC,3.75,µM,,,,MHB,5E5,,"Gram+, Gram-, Mammalian Cell"
-1313,AIPWIWIWRLLRKG,DBAASPR_18178,Acinetobacter baumannii ATCC 19606,MBC,3.75,µM,,,,LBA,,,"Gram+, Gram-, Mammalian Cell"
+443,AIPWIWIWRLLRKG,DBAASPR_18178,Acinetobacter baumannii ATCC 19606,MIC,3.75,µM,,,,MHB,5E5,,"Gram+, Gram-, Mammalian Cell"
+443,AIPWIWIWRLLRKG,DBAASPR_18178,Acinetobacter baumannii ATCC 19606,MBC,3.75,µM,,,,LBA,,,"Gram+, Gram-, Mammalian Cell"
 1314,AIPXIWIWRLLRKG,DBAASPR_18179,Acinetobacter baumannii ATCC 19606,MIC,7.5,µM,,,,MHB,5E5,,"Gram+, Gram-, Mammalian Cell"
 1314,AIPXIWIWRLLRKG,DBAASPR_18179,Acinetobacter baumannii ATCC 19606,MBC,7.5,µM,,,,LBA,,,"Gram+, Gram-, Mammalian Cell"
 1315,AIPWIXIWRLLRKG,DBAASPR_18180,Acinetobacter baumannii ATCC 19606,MIC,3.75,µM,,,,MHB,5E5,,"Gram+, Gram-, Mammalian Cell"
@@ -2932,21 +2932,21 @@ Seq_ID,Seq,DB_ID,Target Species,Activity Measure,Activity,Unit,pH,Ionic Strength
 1341,XTsXXlIXXL,DBAASPR_18684,Acinetobacter baumannii SM1536 (pMQ124xlab1-mcr-1),MIC,4,µg/ml,,,,LBB,1E6,Colistin-resistant,Gram-
 1341,XTsXXlIXXL,DBAASPR_18684,Acinetobacter baumannii 0301,MIC,2,µg/ml,,,,LBB,1E6,Colistin-sensitive,Gram-
 1341,XTsXXlIXXL,DBAASPR_18684,Acinetobacter baumannii 0301 (mcr-1),MIC,2,µg/ml,,,,LBB,1E6,Colistin-resistant,Gram-
-1341,XTXXXfLXXT,DBAASPR_18698,Acinetobacter baumannii ATCC 19606,MIC,0.5,µg/ml,,,,MHB,1E4,,"Gram-, Mammalian Cell"
-1341,XTXXXfLXXT,DBAASPR_18699,Acinetobacter baumannii ATCC 19606,MIC,0.5,µg/ml,,,,MHB,1E4,,"Gram-, Mammalian Cell"
-1341,XTXXXfLXXT,DBAASPR_18700,Acinetobacter baumannii ATCC 19606,MIC,0.5,µg/ml,,,,MHB,1E4,,"Gram-, Mammalian Cell"
-1341,XTXXXfLXXT,DBAASPR_18700,Acinetobacter baumannii ATCC 19606,MIC,0.5,µg/ml,,,,CAMHB,5E5,,"Gram-, Mammalian Cell"
-1341,XTXXXfLXXT,DBAASPR_18701,Acinetobacter baumannii ATCC 19606,MIC,2,µg/ml,,,,MHB,1E4,,"Gram-, Mammalian Cell"
+1048,XTXXXfLXXT,DBAASPR_18698,Acinetobacter baumannii ATCC 19606,MIC,0.5,µg/ml,,,,MHB,1E4,,"Gram-, Mammalian Cell"
+1048,XTXXXfLXXT,DBAASPR_18699,Acinetobacter baumannii ATCC 19606,MIC,0.5,µg/ml,,,,MHB,1E4,,"Gram-, Mammalian Cell"
+1048,XTXXXfLXXT,DBAASPR_18700,Acinetobacter baumannii ATCC 19606,MIC,0.5,µg/ml,,,,MHB,1E4,,"Gram-, Mammalian Cell"
+1048,XTXXXfLXXT,DBAASPR_18700,Acinetobacter baumannii ATCC 19606,MIC,0.5,µg/ml,,,,CAMHB,5E5,,"Gram-, Mammalian Cell"
+1048,XTXXXfLXXT,DBAASPR_18701,Acinetobacter baumannii ATCC 19606,MIC,2,µg/ml,,,,MHB,1E4,,"Gram-, Mammalian Cell"
 1342,XTXXXfIXXT,DBAASPR_18702,Acinetobacter baumannii ATCC 19606,MIC,1,µg/ml,,,,MHB,1E4,,"Gram-, Mammalian Cell"
-1342,XTXXXlLXXT,DBAASPR_18703,Acinetobacter baumannii ATCC 19606,MIC,0.5,µg/ml,,,,MHB,1E4,,"Gram-, Mammalian Cell"
-1342,XTXXXlLXXT,DBAASPR_18705,Acinetobacter baumannii ATCC 19606,MIC,0.5,µg/ml,,,,MHB,1E4,,"Gram-, Mammalian Cell"
-1342,XTXXXlLXXT,DBAASPR_18706,Acinetobacter baumannii ATCC 19606,MIC,2,µg/ml,,,,MHB,1E4,,"Gram-, Mammalian Cell"
-1342,XTXXXlLXXT,DBAASPR_18708,Acinetobacter baumannii ATCC 19606,MIC,1,µg/ml,,,,MHB,1E4,,"Gram-, Mammalian Cell"
+1097,XTXXXlLXXT,DBAASPR_18703,Acinetobacter baumannii ATCC 19606,MIC,0.5,µg/ml,,,,MHB,1E4,,"Gram-, Mammalian Cell"
+1097,XTXXXlLXXT,DBAASPR_18705,Acinetobacter baumannii ATCC 19606,MIC,0.5,µg/ml,,,,MHB,1E4,,"Gram-, Mammalian Cell"
+1097,XTXXXlLXXT,DBAASPR_18706,Acinetobacter baumannii ATCC 19606,MIC,2,µg/ml,,,,MHB,1E4,,"Gram-, Mammalian Cell"
+1097,XTXXXlLXXT,DBAASPR_18708,Acinetobacter baumannii ATCC 19606,MIC,1,µg/ml,,,,MHB,1E4,,"Gram-, Mammalian Cell"
 1343,XTXXXlIXXT,DBAASPR_18711,Acinetobacter baumannii ATCC 19606,MIC,1,µg/ml,,,,MHB,1E4,,"Gram-, Mammalian Cell"
 1344,XTXXXlXXXT,DBAASPR_18712,Acinetobacter baumannii ATCC 19606,MIC,1,µg/ml,,,,MHB,1E4,,"Gram-, Mammalian Cell"
 1345,XTXXXlVXXT,DBAASPR_18713,Acinetobacter baumannii ATCC 19606,MIC,0.5,µg/ml,,,,MHB,1E4,,"Gram-, Mammalian Cell"
-1345,XTXXXlIXXT,DBAASPR_18714,Acinetobacter baumannii ATCC 19606,MIC,1,µg/ml,,,,MHB,1E4,,"Gram-, Mammalian Cell"
-1345,XTXXXlXXXT,DBAASPR_18715,Acinetobacter baumannii ATCC 19606,MIC,0.5,µg/ml,,,,MHB,1E4,,"Gram-, Mammalian Cell"
+1343,XTXXXlIXXT,DBAASPR_18714,Acinetobacter baumannii ATCC 19606,MIC,1,µg/ml,,,,MHB,1E4,,"Gram-, Mammalian Cell"
+1344,XTXXXlXXXT,DBAASPR_18715,Acinetobacter baumannii ATCC 19606,MIC,0.5,µg/ml,,,,MHB,1E4,,"Gram-, Mammalian Cell"
 1345,XTXXXlVXXT,DBAASPR_18716,Acinetobacter baumannii ATCC 19606,MIC,1,µg/ml,,,,MHB,1E4,,"Gram-, Mammalian Cell"
 1346,XTxXXlTXXT,DBAASPR_18717,Acinetobacter baumannii ATCC 19606,MIC,1,µg/ml,,,,MHB,1E4,,"Gram-, Mammalian Cell"
 1346,XTxXXlTXXT,DBAASPR_18718,Acinetobacter baumannii ATCC 19606,MIC,0.5,µg/ml,,,,MHB,1E4,,"Gram-, Mammalian Cell"
@@ -2991,19 +2991,19 @@ Seq_ID,Seq,DB_ID,Target Species,Activity Measure,Activity,Unit,pH,Ionic Strength
 1361,XTYXXYYXXT,DBAASPR_18750,Acinetobacter baumannii ATCC 19606,MIC,>32,µg/ml,,,,CAMHB,1E6,,Gram-
 1361,XTYXXYYXXT,DBAASPR_18750,Acinetobacter baumannii ATCC 17978,MIC,>32,µg/ml,,,,CAMHB,1E6,,Gram-
 1361,XTYXXYYXXT,DBAASPR_18750,Acinetobacter baumannii,MIC,>32,µg/ml,,,,CAMHB,1E6,"Clinical isolates FADDI-AB034, AB030",Gram-
-1361,XTXXXfLXXT,DBAASPR_18760,Acinetobacter baumannii ATCC 19606,MIC,1,µg/ml,,,,MHB,5E5,,"Gram+, Gram-, Cancer"
-1361,XTXXXfLXXT,DBAASPR_18760,Acinetobacter baumannii,MIC,>32,µg/ml,,,,MHB,5E5,polymyxin and carbapenem resistant clinical isolate Ptyela 100734512:2,"Gram+, Gram-, Cancer"
-1361,XTXXXfLXXT,DBAASPR_18761,Acinetobacter baumannii ATCC 19606,MIC,0.5,µg/ml,,,,MHB,5E5,,"Gram+, Gram-, Cancer, Mammalian Cell"
-1361,XTXXXfLXXT,DBAASPR_18761,Acinetobacter baumannii,MIC,8,µg/ml,,,,MHB,5E5,polymyxin and carbapenem resistant clinical isolate Ptyela 100734512:2,"Gram+, Gram-, Cancer, Mammalian Cell"
-1361,XTXXXfLXXT,DBAASPR_18762,Acinetobacter baumannii ATCC 19606,MIC,0.5,µg/ml,,,,MHB,5E5,,"Gram+, Gram-, Cancer, Mammalian Cell"
-1361,XTXXXfLXXT,DBAASPR_18762,Acinetobacter baumannii,MIC,16,µg/ml,,,,MHB,5E5,polymyxin and carbapenem resistant clinical isolate Ptyela 100734512:2,"Gram+, Gram-, Cancer, Mammalian Cell"
-1361,XTXXXfLXXT,DBAASPR_18763,Acinetobacter baumannii ATCC 19606,MIC,1,µg/ml,,,,MHB,5E5,,"Gram+, Gram-, Cancer, Mammalian Cell"
-1361,XTXXXfLXXT,DBAASPR_18763,Acinetobacter baumannii,MIC,16,µg/ml,,,,MHB,5E5,polymyxin and carbapenem resistant clinical isolate Ptyela 100734512:2,"Gram+, Gram-, Cancer, Mammalian Cell"
+1048,XTXXXfLXXT,DBAASPR_18760,Acinetobacter baumannii ATCC 19606,MIC,1,µg/ml,,,,MHB,5E5,,"Gram+, Gram-, Cancer"
+1048,XTXXXfLXXT,DBAASPR_18760,Acinetobacter baumannii,MIC,>32,µg/ml,,,,MHB,5E5,polymyxin and carbapenem resistant clinical isolate Ptyela 100734512:2,"Gram+, Gram-, Cancer"
+1048,XTXXXfLXXT,DBAASPR_18761,Acinetobacter baumannii ATCC 19606,MIC,0.5,µg/ml,,,,MHB,5E5,,"Gram+, Gram-, Cancer, Mammalian Cell"
+1048,XTXXXfLXXT,DBAASPR_18761,Acinetobacter baumannii,MIC,8,µg/ml,,,,MHB,5E5,polymyxin and carbapenem resistant clinical isolate Ptyela 100734512:2,"Gram+, Gram-, Cancer, Mammalian Cell"
+1048,XTXXXfLXXT,DBAASPR_18762,Acinetobacter baumannii ATCC 19606,MIC,0.5,µg/ml,,,,MHB,5E5,,"Gram+, Gram-, Cancer, Mammalian Cell"
+1048,XTXXXfLXXT,DBAASPR_18762,Acinetobacter baumannii,MIC,16,µg/ml,,,,MHB,5E5,polymyxin and carbapenem resistant clinical isolate Ptyela 100734512:2,"Gram+, Gram-, Cancer, Mammalian Cell"
+1048,XTXXXfLXXT,DBAASPR_18763,Acinetobacter baumannii ATCC 19606,MIC,1,µg/ml,,,,MHB,5E5,,"Gram+, Gram-, Cancer, Mammalian Cell"
+1048,XTXXXfLXXT,DBAASPR_18763,Acinetobacter baumannii,MIC,16,µg/ml,,,,MHB,5E5,polymyxin and carbapenem resistant clinical isolate Ptyela 100734512:2,"Gram+, Gram-, Cancer, Mammalian Cell"
 1362,XTxXXfLXXT,DBAASPR_18764,Acinetobacter baumannii ATCC 19606,MIC,2,µg/ml,,,,MHB,5E5,,"Gram+, Gram-, Cancer"
 1362,XTxXXfLXXT,DBAASPR_18764,Acinetobacter baumannii,MIC,>32,µg/ml,,,,MHB,5E5,polymyxin and carbapenem resistant clinical isolate Ptyela 100734512:2,"Gram+, Gram-, Cancer"
 1363,XTsXXfLXXT,DBAASPR_18765,Acinetobacter baumannii,MIC,>32,µg/ml,,,,MHB,5E5,polymyxin and carbapenem resistant clinical isolate Ptyela 100734512:2,"Gram+, Gram-, Cancer"
-1363,XTxXXfLXXT,DBAASPR_18766,Acinetobacter baumannii ATCC 19606,MIC,1,µg/ml,,,,MHB,5E5,,"Gram+, Gram-, Cancer"
-1363,XTxXXfLXXT,DBAASPR_18766,Acinetobacter baumannii,MIC,>32,µg/ml,,,,MHB,5E5,polymyxin and carbapenem resistant clinical isolate Ptyela 100734512:2,"Gram+, Gram-, Cancer"
+1362,XTxXXfLXXT,DBAASPR_18766,Acinetobacter baumannii ATCC 19606,MIC,1,µg/ml,,,,MHB,5E5,,"Gram+, Gram-, Cancer"
+1362,XTxXXfLXXT,DBAASPR_18766,Acinetobacter baumannii,MIC,>32,µg/ml,,,,MHB,5E5,polymyxin and carbapenem resistant clinical isolate Ptyela 100734512:2,"Gram+, Gram-, Cancer"
 1363,XTsXXfLXXT,DBAASPR_18767,Acinetobacter baumannii ATCC 19606,MIC,1,µg/ml,,,,MHB,5E5,,"Gram+, Gram-, Cancer"
 1363,XTsXXfLXXT,DBAASPR_18767,Acinetobacter baumannii,MIC,>32,µg/ml,,,,MHB,5E5,polymyxin and carbapenem resistant clinical isolate Ptyela 100734512:2,"Gram+, Gram-, Cancer"
 1364,XTGXXfLXXT,DBAASPR_18768,Acinetobacter baumannii ATCC 19606,MIC,1,µg/ml,,,,MHB,5E5,,"Gram+, Gram-, Cancer, Mammalian Cell"
@@ -3012,20 +3012,20 @@ Seq_ID,Seq,DB_ID,Target Species,Activity Measure,Activity,Unit,pH,Ionic Strength
 1365,xTGXXfLXXT,DBAASPR_18770,Acinetobacter baumannii,MIC,>32,µg/ml,,,,MHB,5E5,polymyxin and carbapenem resistant clinical isolate Ptyela 100734512:2,"Gram+, Gram-, Cancer"
 1366,GXTXXfLXXT,DBAASPR_18771,Acinetobacter baumannii ATCC 19606,MIC,>32,µg/ml,,,,MHB,5E5,,"Gram+, Gram-, Cancer"
 1366,GXTXXfLXXT,DBAASPR_18771,Acinetobacter baumannii,MIC,>32,µg/ml,,,,MHB,5E5,polymyxin and carbapenem resistant clinical isolate Ptyela 100734512:2,"Gram+, Gram-, Cancer"
-1366,XTXXXfLXXT,DBAASPR_18772,Acinetobacter baumannii ATCC 19606,MIC,>32,µg/ml,,,,MHB,5E5,,"Gram+, Gram-, Cancer"
-1366,XTXXXfLXXT,DBAASPR_18772,Acinetobacter baumannii,MIC,>32,µg/ml,,,,MHB,5E5,polymyxin and carbapenem resistant clinical isolate Ptyela 100734512:2,"Gram+, Gram-, Cancer"
+1048,XTXXXfLXXT,DBAASPR_18772,Acinetobacter baumannii ATCC 19606,MIC,>32,µg/ml,,,,MHB,5E5,,"Gram+, Gram-, Cancer"
+1048,XTXXXfLXXT,DBAASPR_18772,Acinetobacter baumannii,MIC,>32,µg/ml,,,,MHB,5E5,polymyxin and carbapenem resistant clinical isolate Ptyela 100734512:2,"Gram+, Gram-, Cancer"
 1367,XTXXXfLXRT,DBAASPR_18773,Acinetobacter baumannii ATCC 19606,MIC,32,µg/ml,,,,MHB,5E5,,"Gram+, Gram-, Cancer"
 1367,XTXXXfLXRT,DBAASPR_18773,Acinetobacter baumannii,MIC,>32,µg/ml,,,,MHB,5E5,polymyxin and carbapenem resistant clinical isolate Ptyela 100734512:2,"Gram+, Gram-, Cancer"
-1367,XTXXXfLXXT,DBAASPR_18774,Acinetobacter baumannii ATCC 19606,MIC,8,µg/ml,,,,MHB,5E5,,"Gram+, Gram-, Cancer"
-1367,XTXXXfLXXT,DBAASPR_18774,Acinetobacter baumannii,MIC,>32,µg/ml,,,,MHB,5E5,polymyxin and carbapenem resistant clinical isolate Ptyela 100734512:2,"Gram+, Gram-, Cancer"
-1367,XTXXXfLXXT,DBAASPR_18775,Acinetobacter baumannii ATCC 19606,MIC,0.5,µg/ml,,,,MHB,5E5,,"Gram+, Gram-, Cancer"
-1367,XTXXXfLXXT,DBAASPR_18775,Acinetobacter baumannii,MIC,>32,µg/ml,,,,MHB,5E5,polymyxin and carbapenem resistant clinical isolate Ptyela 100734512:2,"Gram+, Gram-, Cancer"
+1048,XTXXXfLXXT,DBAASPR_18774,Acinetobacter baumannii ATCC 19606,MIC,8,µg/ml,,,,MHB,5E5,,"Gram+, Gram-, Cancer"
+1048,XTXXXfLXXT,DBAASPR_18774,Acinetobacter baumannii,MIC,>32,µg/ml,,,,MHB,5E5,polymyxin and carbapenem resistant clinical isolate Ptyela 100734512:2,"Gram+, Gram-, Cancer"
+1048,XTXXXfLXXT,DBAASPR_18775,Acinetobacter baumannii ATCC 19606,MIC,0.5,µg/ml,,,,MHB,5E5,,"Gram+, Gram-, Cancer"
+1048,XTXXXfLXXT,DBAASPR_18775,Acinetobacter baumannii,MIC,>32,µg/ml,,,,MHB,5E5,polymyxin and carbapenem resistant clinical isolate Ptyela 100734512:2,"Gram+, Gram-, Cancer"
 1368,XTXXXfLRXT,DBAASPR_18776,Acinetobacter baumannii ATCC 19606,MIC,0.5,µg/ml,,,,MHB,5E5,,"Gram+, Gram-, Cancer"
 1368,XTXXXfLRXT,DBAASPR_18776,Acinetobacter baumannii,MIC,32,µg/ml,,,,MHB,5E5,polymyxin and carbapenem resistant clinical isolate Ptyela 100734512:2,"Gram+, Gram-, Cancer"
-1368,XTXXXfLXXT,DBAASPR_18777,Acinetobacter baumannii ATCC 19606,MIC,>32,µg/ml,,,,MHB,5E5,,"Gram+, Gram-, Cancer"
-1368,XTXXXfLXXT,DBAASPR_18777,Acinetobacter baumannii,MIC,>32,µg/ml,,,,MHB,5E5,polymyxin and carbapenem resistant clinical isolate Ptyela 100734512:2,"Gram+, Gram-, Cancer"
-1368,XTXXXfLXXT,DBAASPR_18778,Acinetobacter baumannii ATCC 19606,MIC,>32,µg/ml,,,,MHB,5E5,,"Gram+, Gram-, Cancer"
-1368,XTXXXfLXXT,DBAASPR_18778,Acinetobacter baumannii,MIC,>32,µg/ml,,,,MHB,5E5,polymyxin and carbapenem resistant clinical isolate Ptyela 100734512:2,"Gram+, Gram-, Cancer"
+1048,XTXXXfLXXT,DBAASPR_18777,Acinetobacter baumannii ATCC 19606,MIC,>32,µg/ml,,,,MHB,5E5,,"Gram+, Gram-, Cancer"
+1048,XTXXXfLXXT,DBAASPR_18777,Acinetobacter baumannii,MIC,>32,µg/ml,,,,MHB,5E5,polymyxin and carbapenem resistant clinical isolate Ptyela 100734512:2,"Gram+, Gram-, Cancer"
+1048,XTXXXfLXXT,DBAASPR_18778,Acinetobacter baumannii ATCC 19606,MIC,>32,µg/ml,,,,MHB,5E5,,"Gram+, Gram-, Cancer"
+1048,XTXXXfLXXT,DBAASPR_18778,Acinetobacter baumannii,MIC,>32,µg/ml,,,,MHB,5E5,polymyxin and carbapenem resistant clinical isolate Ptyela 100734512:2,"Gram+, Gram-, Cancer"
 1369,XTXXRfLXXT,DBAASPR_18779,Acinetobacter baumannii ATCC 19606,MIC,>32,µg/ml,,,,MHB,5E5,,"Gram+, Gram-, Cancer"
 1369,XTXXRfLXXT,DBAASPR_18779,Acinetobacter baumannii,MIC,>32,µg/ml,,,,MHB,5E5,polymyxin and carbapenem resistant clinical isolate Ptyela 100734512:2,"Gram+, Gram-, Cancer"
 1370,KAIKRIGKRIKKLLLKLKKK,DBAASPR_18784,Acinetobacter baumannii MTCC 9829,MIC,32,µg/ml,,,,MHB,5E4,,"Gram+, Gram-, Fungus"
@@ -3046,7 +3046,7 @@ Seq_ID,Seq,DB_ID,Target Species,Activity Measure,Activity,Unit,pH,Ionic Strength
 1382,FVPWFXKFlGRIX,DBAASPR_18806,Acinetobacter baumannii ATCC 19606,MIC,100,µM,,,,MHB,1E6,,"Gram+, Gram-, Fungus"
 1383,FVPWXSKFlGRXL,DBAASPR_18807,Acinetobacter baumannii ATCC 19606,MIC,>100,µM,,,,MHB,1E6,,"Gram+, Gram-, Fungus"
 1384,FVPWFEKFlKRIL,DBAASPR_18808,Acinetobacter baumannii ATCC 19606,MIC,3.12,µM,,,,MHB,1E6,,"Gram+, Gram-, Fungus, Mammalian Cell, Biofilm"
-1384,FVPWFXKFlXRIL,DBAASPR_18809,Acinetobacter baumannii ATCC 19606,MIC,>100,µM,,,,MHB,1E6,,"Gram+, Gram-, Fungus"
+1378,FVPWFXKFlXRIL,DBAASPR_18809,Acinetobacter baumannii ATCC 19606,MIC,>100,µM,,,,MHB,1E6,,"Gram+, Gram-, Fungus"
 1385,FVPWFCKFlCRIL,DBAASPR_18810,Acinetobacter baumannii ATCC 19606,MIC,25,µM,,,,MHB,1E6,,"Gram+, Gram-, Fungus, Biofilm"
 1386,VRKPPYLPRPRPPRrIYNr,DBAASPR_18874,Acinetobacter baumannii ATCC 15308,MIC,8,µg/ml,,,,CAMHB,7.5E6,,"Gram+, Gram-, Cancer, Mammalian Cell"
 1387,VWKPPYLPRPRPPRrIYNr,DBAASPR_18875,Acinetobacter baumannii ATCC 15308,MIC,16,µg/ml,,,,CAMHB,7.5E6,,"Gram+, Gram-, Cancer, Mammalian Cell"
@@ -3103,18 +3103,18 @@ Seq_ID,Seq,DB_ID,Target Species,Activity Measure,Activity,Unit,pH,Ionic Strength
 1434,XETLDPICMAKCVLKCGKKAWCLTKCIAGCVL,DBAASPR_19018,Acinetobacter baumannii AB5075,MBC,8.6,µM,,,,TSA,,,"Gram-, Mammalian Cell"
 1435,KVTXSVKSIPVKI,DBAASPR_19028,Acinetobacter baumannii ATCC BAA-747,MIC,2,µg/ml,,,,CAMHB,5E5,,"Gram+, Gram-, Cancer, Mammalian Cell"
 1435,KVTXSVKSIPVKI,DBAASPR_19028,Acinetobacter baumannii,MIC,2,µg/ml,,,,CAMHB,5E5,2 MDR Clinical isolates,"Gram+, Gram-, Cancer, Mammalian Cell"
-1435,XTXXXlTXXT,DBAASPR_19036,Acinetobacter baumannii ATCC 19606,MIC,4,µg/ml,,,,CAMHB,5E5,,Gram-
-1435,XTXXXlTXXT,DBAASPR_19036,Acinetobacter baumannii FADDI-AB030,MIC,1,µg/ml,,,,CAMHB,5E5,carbapenem-resistant clinical isolate,Gram-
-1435,XTXXXlTXXT,DBAASPR_19036,Acinetobacter baumannii FADDI-AB034,MIC,2,µg/ml,,,,CAMHB,5E5,carbapenem-resistant clinical isolate,Gram-
+1347,XTXXXlTXXT,DBAASPR_19036,Acinetobacter baumannii ATCC 19606,MIC,4,µg/ml,,,,CAMHB,5E5,,Gram-
+1347,XTXXXlTXXT,DBAASPR_19036,Acinetobacter baumannii FADDI-AB030,MIC,1,µg/ml,,,,CAMHB,5E5,carbapenem-resistant clinical isolate,Gram-
+1347,XTXXXlTXXT,DBAASPR_19036,Acinetobacter baumannii FADDI-AB034,MIC,2,µg/ml,,,,CAMHB,5E5,carbapenem-resistant clinical isolate,Gram-
 1436,XTXXXlAXXT,DBAASPR_19037,Acinetobacter baumannii ATCC 19606,MIC,1,µg/ml,,,,CAMHB,5E5,,Gram-
 1436,XTXXXlAXXT,DBAASPR_19037,Acinetobacter baumannii FADDI-AB030,MIC,1,µg/ml,,,,CAMHB,5E5,carbapenem-resistant clinical isolate,Gram-
 1436,XTXXXlAXXT,DBAASPR_19037,Acinetobacter baumannii FADDI-AB034,MIC,0.5,µg/ml,,,,CAMHB,5E5,carbapenem-resistant clinical isolate,Gram-
 1437,XTXXXfTXXT,DBAASPR_19038,Acinetobacter baumannii ATCC 19606,MIC,1,µg/ml,,,,CAMHB,5E5,,Gram-
 1437,XTXXXfTXXT,DBAASPR_19038,Acinetobacter baumannii FADDI-AB030,MIC,0.25,µg/ml,,,,CAMHB,5E5,carbapenem-resistant clinical isolate,Gram-
 1437,XTXXXfTXXT,DBAASPR_19038,Acinetobacter baumannii FADDI-AB034,MIC,0.5,µg/ml,,,,CAMHB,5E5,carbapenem-resistant clinical isolate,Gram-
-1437,XTXXXlVXXT,DBAASPR_19039,Acinetobacter baumannii ATCC 19606,MIC,0.5,µg/ml,,,,CAMHB,5E5,,Gram-
-1437,XTXXXlVXXT,DBAASPR_19039,Acinetobacter baumannii FADDI-AB030,MIC,0.25,µg/ml,,,,CAMHB,5E5,carbapenem-resistant clinical isolate,Gram-
-1437,XTXXXlVXXT,DBAASPR_19039,Acinetobacter baumannii FADDI-AB034,MIC,0.25,µg/ml,,,,CAMHB,5E5,carbapenem-resistant clinical isolate,Gram-
+1345,XTXXXlVXXT,DBAASPR_19039,Acinetobacter baumannii ATCC 19606,MIC,0.5,µg/ml,,,,CAMHB,5E5,,Gram-
+1345,XTXXXlVXXT,DBAASPR_19039,Acinetobacter baumannii FADDI-AB030,MIC,0.25,µg/ml,,,,CAMHB,5E5,carbapenem-resistant clinical isolate,Gram-
+1345,XTXXXlVXXT,DBAASPR_19039,Acinetobacter baumannii FADDI-AB034,MIC,0.25,µg/ml,,,,CAMHB,5E5,carbapenem-resistant clinical isolate,Gram-
 1438,XTXXXxTXXT,DBAASPR_19040,Acinetobacter baumannii ATCC 19606,MIC,2,µg/ml,,,,CAMHB,5E5,,Gram-
 1438,XTXXXxTXXT,DBAASPR_19040,Acinetobacter baumannii FADDI-AB030,MIC,0.5,µg/ml,,,,CAMHB,5E5,carbapenem-resistant clinical isolate,Gram-
 1438,XTXXXxTXXT,DBAASPR_19040,Acinetobacter baumannii FADDI-AB034,MIC,1,µg/ml,,,,CAMHB,5E5,carbapenem-resistant clinical isolate,Gram-
@@ -3130,78 +3130,78 @@ Seq_ID,Seq,DB_ID,Target Species,Activity Measure,Activity,Unit,pH,Ionic Strength
 1442,XTXXXtTXXT,DBAASPR_19044,Acinetobacter baumannii ATCC 19606,MIC,>32,µg/ml,,,,CAMHB,5E5,,Gram-
 1442,XTXXXtTXXT,DBAASPR_19044,Acinetobacter baumannii FADDI-AB030,MIC,>32,µg/ml,,,,CAMHB,5E5,carbapenem-resistant clinical isolate,Gram-
 1442,XTXXXtTXXT,DBAASPR_19044,Acinetobacter baumannii FADDI-AB034,MIC,>32,µg/ml,,,,CAMHB,5E5,carbapenem-resistant clinical isolate,Gram-
-1442,XTXXXlXXXT,DBAASPR_19045,Acinetobacter baumannii ATCC 19606,MIC,0.5,µg/ml,,,,CAMHB,5E5,,Gram-
-1442,XTXXXlXXXT,DBAASPR_19045,Acinetobacter baumannii FADDI-AB030,MIC,0.5,µg/ml,,,,CAMHB,5E5,carbapenem-resistant clinical isolate,Gram-
-1442,XTXXXlXXXT,DBAASPR_19045,Acinetobacter baumannii FADDI-AB034,MIC,<0.125,µg/ml,,,,CAMHB,5E5,carbapenem-resistant clinical isolate,Gram-
-1442,XTxXXlTXXT,DBAASPR_19046,Acinetobacter baumannii ATCC 19606,MIC,1,µg/ml,,,,CAMHB,5E5,,Gram-
-1442,XTxXXlTXXT,DBAASPR_19046,Acinetobacter baumannii FADDI-AB030,MIC,0.25,µg/ml,,,,CAMHB,5E5,carbapenem-resistant clinical isolate,Gram-
-1442,XTxXXlTXXT,DBAASPR_19046,Acinetobacter baumannii FADDI-AB034,MIC,2,µg/ml,,,,CAMHB,5E5,carbapenem-resistant clinical isolate,Gram-
-1442,XTsXXlTXXT,DBAASPR_19047,Acinetobacter baumannii ATCC 19606,MIC,1,µg/ml,,,,CAMHB,5E5,,Gram-
-1442,XTsXXlTXXT,DBAASPR_19047,Acinetobacter baumannii FADDI-AB030,MIC,<0.125,µg/ml,,,,CAMHB,5E5,carbapenem-resistant clinical isolate,Gram-
-1442,XTsXXlTXXT,DBAASPR_19047,Acinetobacter baumannii FADDI-AB034,MIC,0.25,µg/ml,,,,CAMHB,5E5,carbapenem-resistant clinical isolate,Gram-
-1442,XTXXXlTXXT,DBAASPR_19048,Acinetobacter baumannii ATCC 19606,MIC,0.5,µg/ml,,,,CAMHB,5E5,,Gram-
-1442,XTXXXlTXXT,DBAASPR_19048,Acinetobacter baumannii FADDI-AB030,MIC,0.25,µg/ml,,,,CAMHB,5E5,carbapenem-resistant clinical isolate,Gram-
-1442,XTXXXlTXXT,DBAASPR_19048,Acinetobacter baumannii FADDI-AB034,MIC,0.25,µg/ml,,,,CAMHB,5E5,carbapenem-resistant clinical isolate,Gram-
-1442,XTXXXlTXXT,DBAASPR_19049,Acinetobacter baumannii ATCC 19606,MIC,1,µg/ml,,,,CAMHB,5E5,,Gram-
-1442,XTXXXlTXXT,DBAASPR_19049,Acinetobacter baumannii FADDI-AB030,MIC,0.5,µg/ml,,,,CAMHB,5E5,carbapenem-resistant clinical isolate,Gram-
-1442,XTXXXlTXXT,DBAASPR_19049,Acinetobacter baumannii FADDI-AB034,MIC,1,µg/ml,,,,CAMHB,5E5,carbapenem-resistant clinical isolate,Gram-
-1442,XTXXXlAXXT,DBAASPR_19050,Acinetobacter baumannii ATCC 19606,MIC,0.5,µg/ml,,,,CAMHB,5E5,,Gram-
-1442,XTXXXlAXXT,DBAASPR_19050,Acinetobacter baumannii FADDI-AB030,MIC,0.25,µg/ml,,,,CAMHB,5E5,carbapenem-resistant clinical isolate,Gram-
-1442,XTXXXlAXXT,DBAASPR_19050,Acinetobacter baumannii FADDI-AB034,MIC,0.25,µg/ml,,,,CAMHB,5E5,carbapenem-resistant clinical isolate,Gram-
-1442,XTXXXlXXXT,DBAASPR_19051,Acinetobacter baumannii ATCC 19606,MIC,0.25,µg/ml,,,,CAMHB,5E5,,Gram-
-1442,XTXXXlXXXT,DBAASPR_19051,Acinetobacter baumannii FADDI-AB030,MIC,0.25,µg/ml,,,,CAMHB,5E5,carbapenem-resistant clinical isolate,Gram-
-1442,XTXXXlXXXT,DBAASPR_19051,Acinetobacter baumannii FADDI-AB034,MIC,<0.125,µg/ml,,,,CAMHB,5E5,carbapenem-resistant clinical isolate,Gram-
-1442,XTxXXlTXXT,DBAASPR_19052,Acinetobacter baumannii ATCC 19606,MIC,0.25,µg/ml,,,,CAMHB,5E5,,Gram-
-1442,XTxXXlTXXT,DBAASPR_19052,Acinetobacter baumannii FADDI-AB030,MIC,<0.125,µg/ml,,,,CAMHB,5E5,carbapenem-resistant clinical isolate,Gram-
-1442,XTxXXlTXXT,DBAASPR_19052,Acinetobacter baumannii FADDI-AB034,MIC,<0.125,µg/ml,,,,CAMHB,5E5,carbapenem-resistant clinical isolate,Gram-
-1442,XTXXXlXXXT,DBAASPR_19053,Acinetobacter baumannii ATCC 19606,MIC,0.5,µg/ml,,,,CAMHB,5E5,,Gram-
-1442,XTXXXlXXXT,DBAASPR_19053,Acinetobacter baumannii FADDI-AB030,MIC,0.5,µg/ml,,,,CAMHB,5E5,carbapenem-resistant clinical isolate,Gram-
-1442,XTXXXlXXXT,DBAASPR_19053,Acinetobacter baumannii FADDI-AB034,MIC,2,µg/ml,,,,CAMHB,5E5,carbapenem-resistant clinical isolate,Gram-
-1442,XTXXXlXXXT,DBAASPR_19054,Acinetobacter baumannii ATCC 19606,MIC,2,µg/ml,,,,CAMHB,5E5,,Gram-
-1442,XTXXXlXXXT,DBAASPR_19054,Acinetobacter baumannii FADDI-AB030,MIC,1,µg/ml,,,,CAMHB,5E5,carbapenem-resistant clinical isolate,Gram-
-1442,XTXXXlXXXT,DBAASPR_19054,Acinetobacter baumannii FADDI-AB034,MIC,1,µg/ml,,,,CAMHB,5E5,carbapenem-resistant clinical isolate,Gram-
-1442,XTXXXlXXXT,DBAASPR_19055,Acinetobacter baumannii ATCC 19606,MIC,8,µg/ml,,,,CAMHB,5E5,,Gram-
-1442,XTXXXlXXXT,DBAASPR_19055,Acinetobacter baumannii FADDI-AB030,MIC,4,µg/ml,,,,CAMHB,5E5,carbapenem-resistant clinical isolate,Gram-
-1442,XTXXXlXXXT,DBAASPR_19055,Acinetobacter baumannii FADDI-AB034,MIC,4,µg/ml,,,,CAMHB,5E5,carbapenem-resistant clinical isolate,Gram-
-1442,XTXXXlXXXT,DBAASPR_19055,Acinetobacter baumannii FADDI-AB034,MIC,1,µg/ml,,,,CAMHB,5E5,carbapenem-resistant clinical isolate,Gram-
-1442,XTXXXlXXXT,DBAASPR_19056,Acinetobacter baumannii ATCC 19606,MIC,16,µg/ml,,,,CAMHB,5E5,,Gram-
-1442,XTXXXlXXXT,DBAASPR_19056,Acinetobacter baumannii FADDI-AB030,MIC,4,µg/ml,,,,CAMHB,5E5,carbapenem-resistant clinical isolate,Gram-
-1442,XTXXXlXXXT,DBAASPR_19056,Acinetobacter baumannii FADDI-AB034,MIC,8,µg/ml,,,,CAMHB,5E5,carbapenem-resistant clinical isolate,Gram-
-1442,XTXXXlXXXT,DBAASPR_19057,Acinetobacter baumannii ATCC 19606,MIC,0.25,µg/ml,,,,CAMHB,5E5,,Gram-
-1442,XTXXXlXXXT,DBAASPR_19057,Acinetobacter baumannii FADDI-AB030,MIC,0.25,µg/ml,,,,CAMHB,5E5,carbapenem-resistant clinical isolate,Gram-
-1442,XTXXXlXXXT,DBAASPR_19057,Acinetobacter baumannii FADDI-AB034,MIC,0.25,µg/ml,,,,CAMHB,5E5,carbapenem-resistant clinical isolate,Gram-
-1442,XTXXXlXXXT,DBAASPR_19058,Acinetobacter baumannii ATCC 19606,MIC,4,µg/ml,,,,CAMHB,5E5,,Gram-
-1442,XTXXXlXXXT,DBAASPR_19058,Acinetobacter baumannii FADDI-AB030,MIC,1,µg/ml,,,,CAMHB,5E5,carbapenem-resistant clinical isolate,Gram-
-1442,XTXXXlXXXT,DBAASPR_19058,Acinetobacter baumannii FADDI-AB034,MIC,1,µg/ml,,,,CAMHB,5E5,carbapenem-resistant clinical isolate,Gram-
-1442,XTXXXlXXXT,DBAASPR_19059,Acinetobacter baumannii ATCC 19606,MIC,1,µg/ml,,,,CAMHB,5E5,,Gram-
-1442,XTXXXlXXXT,DBAASPR_19059,Acinetobacter baumannii FADDI-AB030,MIC,1,µg/ml,,,,CAMHB,5E5,carbapenem-resistant clinical isolate,Gram-
-1442,XTXXXlXXXT,DBAASPR_19059,Acinetobacter baumannii FADDI-AB034,MIC,0.25,µg/ml,,,,CAMHB,5E5,carbapenem-resistant clinical isolate,Gram-
-1442,XTXXXlXXXT,DBAASPR_19060,Acinetobacter baumannii ATCC 19606,MIC,8,µg/ml,,,,CAMHB,5E5,,Gram-
-1442,XTXXXlXXXT,DBAASPR_19060,Acinetobacter baumannii FADDI-AB030,MIC,4,µg/ml,,,,CAMHB,5E5,carbapenem-resistant clinical isolate,Gram-
-1442,XTXXXlXXXT,DBAASPR_19060,Acinetobacter baumannii FADDI-AB034,MIC,8,µg/ml,,,,CAMHB,5E5,carbapenem-resistant clinical isolate,Gram-
-1442,XTXXXlXXXT,DBAASPR_19061,Acinetobacter baumannii ATCC 19606,MIC,0.5,µg/ml,,,,CAMHB,5E5,,Gram-
-1442,XTXXXlXXXT,DBAASPR_19061,Acinetobacter baumannii FADDI-AB030,MIC,0.25,µg/ml,,,,CAMHB,5E5,carbapenem-resistant clinical isolate,Gram-
-1442,XTXXXlXXXT,DBAASPR_19061,Acinetobacter baumannii FADDI-AB034,MIC,0.25,µg/ml,,,,CAMHB,5E5,carbapenem-resistant clinical isolate,Gram-
-1442,XTXXXlXXXT,DBAASPR_19062,Acinetobacter baumannii ATCC 19606,MIC,2,µg/ml,,,,CAMHB,5E5,,Gram-
-1442,XTXXXlXXXT,DBAASPR_19062,Acinetobacter baumannii FADDI-AB030,MIC,2,µg/ml,,,,CAMHB,5E5,carbapenem-resistant clinical isolate,Gram-
-1442,XTXXXlXXXT,DBAASPR_19062,Acinetobacter baumannii FADDI-AB034,MIC,2,µg/ml,,,,CAMHB,5E5,carbapenem-resistant clinical isolate,Gram-
-1442,XTXXXlXXXT,DBAASPR_19063,Acinetobacter baumannii ATCC 19606,MIC,2,µg/ml,,,,CAMHB,5E5,,Gram-
-1442,XTXXXlXXXT,DBAASPR_19063,Acinetobacter baumannii FADDI-AB030,MIC,1,µg/ml,,,,CAMHB,5E5,carbapenem-resistant clinical isolate,Gram-
-1442,XTXXXlXXXT,DBAASPR_19063,Acinetobacter baumannii FADDI-AB034,MIC,0.5,µg/ml,,,,CAMHB,5E5,carbapenem-resistant clinical isolate,Gram-
-1442,XTXXXlXXXT,DBAASPR_19064,Acinetobacter baumannii ATCC 19606,MIC,4,µg/ml,,,,CAMHB,5E5,,Gram-
-1442,XTXXXlXXXT,DBAASPR_19064,Acinetobacter baumannii FADDI-AB030,MIC,1,µg/ml,,,,CAMHB,5E5,carbapenem-resistant clinical isolate,Gram-
-1442,XTXXXlXXXT,DBAASPR_19064,Acinetobacter baumannii FADDI-AB034,MIC,1,µg/ml,,,,CAMHB,5E5,carbapenem-resistant clinical isolate,Gram-
-1442,XTXXXlXXXT,DBAASPR_19065,Acinetobacter baumannii ATCC 19606,MIC,1,µg/ml,,,,CAMHB,5E5,,Gram-
-1442,XTXXXlXXXT,DBAASPR_19065,Acinetobacter baumannii FADDI-AB030,MIC,0.5,µg/ml,,,,CAMHB,5E5,carbapenem-resistant clinical isolate,Gram-
-1442,XTXXXlXXXT,DBAASPR_19065,Acinetobacter baumannii FADDI-AB034,MIC,0.25,µg/ml,,,,CAMHB,5E5,carbapenem-resistant clinical isolate,Gram-
+1344,XTXXXlXXXT,DBAASPR_19045,Acinetobacter baumannii ATCC 19606,MIC,0.5,µg/ml,,,,CAMHB,5E5,,Gram-
+1344,XTXXXlXXXT,DBAASPR_19045,Acinetobacter baumannii FADDI-AB030,MIC,0.5,µg/ml,,,,CAMHB,5E5,carbapenem-resistant clinical isolate,Gram-
+1344,XTXXXlXXXT,DBAASPR_19045,Acinetobacter baumannii FADDI-AB034,MIC,<0.125,µg/ml,,,,CAMHB,5E5,carbapenem-resistant clinical isolate,Gram-
+1346,XTxXXlTXXT,DBAASPR_19046,Acinetobacter baumannii ATCC 19606,MIC,1,µg/ml,,,,CAMHB,5E5,,Gram-
+1346,XTxXXlTXXT,DBAASPR_19046,Acinetobacter baumannii FADDI-AB030,MIC,0.25,µg/ml,,,,CAMHB,5E5,carbapenem-resistant clinical isolate,Gram-
+1346,XTxXXlTXXT,DBAASPR_19046,Acinetobacter baumannii FADDI-AB034,MIC,2,µg/ml,,,,CAMHB,5E5,carbapenem-resistant clinical isolate,Gram-
+1348,XTsXXlTXXT,DBAASPR_19047,Acinetobacter baumannii ATCC 19606,MIC,1,µg/ml,,,,CAMHB,5E5,,Gram-
+1348,XTsXXlTXXT,DBAASPR_19047,Acinetobacter baumannii FADDI-AB030,MIC,<0.125,µg/ml,,,,CAMHB,5E5,carbapenem-resistant clinical isolate,Gram-
+1348,XTsXXlTXXT,DBAASPR_19047,Acinetobacter baumannii FADDI-AB034,MIC,0.25,µg/ml,,,,CAMHB,5E5,carbapenem-resistant clinical isolate,Gram-
+1347,XTXXXlTXXT,DBAASPR_19048,Acinetobacter baumannii ATCC 19606,MIC,0.5,µg/ml,,,,CAMHB,5E5,,Gram-
+1347,XTXXXlTXXT,DBAASPR_19048,Acinetobacter baumannii FADDI-AB030,MIC,0.25,µg/ml,,,,CAMHB,5E5,carbapenem-resistant clinical isolate,Gram-
+1347,XTXXXlTXXT,DBAASPR_19048,Acinetobacter baumannii FADDI-AB034,MIC,0.25,µg/ml,,,,CAMHB,5E5,carbapenem-resistant clinical isolate,Gram-
+1347,XTXXXlTXXT,DBAASPR_19049,Acinetobacter baumannii ATCC 19606,MIC,1,µg/ml,,,,CAMHB,5E5,,Gram-
+1347,XTXXXlTXXT,DBAASPR_19049,Acinetobacter baumannii FADDI-AB030,MIC,0.5,µg/ml,,,,CAMHB,5E5,carbapenem-resistant clinical isolate,Gram-
+1347,XTXXXlTXXT,DBAASPR_19049,Acinetobacter baumannii FADDI-AB034,MIC,1,µg/ml,,,,CAMHB,5E5,carbapenem-resistant clinical isolate,Gram-
+1436,XTXXXlAXXT,DBAASPR_19050,Acinetobacter baumannii ATCC 19606,MIC,0.5,µg/ml,,,,CAMHB,5E5,,Gram-
+1436,XTXXXlAXXT,DBAASPR_19050,Acinetobacter baumannii FADDI-AB030,MIC,0.25,µg/ml,,,,CAMHB,5E5,carbapenem-resistant clinical isolate,Gram-
+1436,XTXXXlAXXT,DBAASPR_19050,Acinetobacter baumannii FADDI-AB034,MIC,0.25,µg/ml,,,,CAMHB,5E5,carbapenem-resistant clinical isolate,Gram-
+1344,XTXXXlXXXT,DBAASPR_19051,Acinetobacter baumannii ATCC 19606,MIC,0.25,µg/ml,,,,CAMHB,5E5,,Gram-
+1344,XTXXXlXXXT,DBAASPR_19051,Acinetobacter baumannii FADDI-AB030,MIC,0.25,µg/ml,,,,CAMHB,5E5,carbapenem-resistant clinical isolate,Gram-
+1344,XTXXXlXXXT,DBAASPR_19051,Acinetobacter baumannii FADDI-AB034,MIC,<0.125,µg/ml,,,,CAMHB,5E5,carbapenem-resistant clinical isolate,Gram-
+1346,XTxXXlTXXT,DBAASPR_19052,Acinetobacter baumannii ATCC 19606,MIC,0.25,µg/ml,,,,CAMHB,5E5,,Gram-
+1346,XTxXXlTXXT,DBAASPR_19052,Acinetobacter baumannii FADDI-AB030,MIC,<0.125,µg/ml,,,,CAMHB,5E5,carbapenem-resistant clinical isolate,Gram-
+1346,XTxXXlTXXT,DBAASPR_19052,Acinetobacter baumannii FADDI-AB034,MIC,<0.125,µg/ml,,,,CAMHB,5E5,carbapenem-resistant clinical isolate,Gram-
+1344,XTXXXlXXXT,DBAASPR_19053,Acinetobacter baumannii ATCC 19606,MIC,0.5,µg/ml,,,,CAMHB,5E5,,Gram-
+1344,XTXXXlXXXT,DBAASPR_19053,Acinetobacter baumannii FADDI-AB030,MIC,0.5,µg/ml,,,,CAMHB,5E5,carbapenem-resistant clinical isolate,Gram-
+1344,XTXXXlXXXT,DBAASPR_19053,Acinetobacter baumannii FADDI-AB034,MIC,2,µg/ml,,,,CAMHB,5E5,carbapenem-resistant clinical isolate,Gram-
+1344,XTXXXlXXXT,DBAASPR_19054,Acinetobacter baumannii ATCC 19606,MIC,2,µg/ml,,,,CAMHB,5E5,,Gram-
+1344,XTXXXlXXXT,DBAASPR_19054,Acinetobacter baumannii FADDI-AB030,MIC,1,µg/ml,,,,CAMHB,5E5,carbapenem-resistant clinical isolate,Gram-
+1344,XTXXXlXXXT,DBAASPR_19054,Acinetobacter baumannii FADDI-AB034,MIC,1,µg/ml,,,,CAMHB,5E5,carbapenem-resistant clinical isolate,Gram-
+1344,XTXXXlXXXT,DBAASPR_19055,Acinetobacter baumannii ATCC 19606,MIC,8,µg/ml,,,,CAMHB,5E5,,Gram-
+1344,XTXXXlXXXT,DBAASPR_19055,Acinetobacter baumannii FADDI-AB030,MIC,4,µg/ml,,,,CAMHB,5E5,carbapenem-resistant clinical isolate,Gram-
+1344,XTXXXlXXXT,DBAASPR_19055,Acinetobacter baumannii FADDI-AB034,MIC,4,µg/ml,,,,CAMHB,5E5,carbapenem-resistant clinical isolate,Gram-
+1344,XTXXXlXXXT,DBAASPR_19055,Acinetobacter baumannii FADDI-AB034,MIC,1,µg/ml,,,,CAMHB,5E5,carbapenem-resistant clinical isolate,Gram-
+1344,XTXXXlXXXT,DBAASPR_19056,Acinetobacter baumannii ATCC 19606,MIC,16,µg/ml,,,,CAMHB,5E5,,Gram-
+1344,XTXXXlXXXT,DBAASPR_19056,Acinetobacter baumannii FADDI-AB030,MIC,4,µg/ml,,,,CAMHB,5E5,carbapenem-resistant clinical isolate,Gram-
+1344,XTXXXlXXXT,DBAASPR_19056,Acinetobacter baumannii FADDI-AB034,MIC,8,µg/ml,,,,CAMHB,5E5,carbapenem-resistant clinical isolate,Gram-
+1344,XTXXXlXXXT,DBAASPR_19057,Acinetobacter baumannii ATCC 19606,MIC,0.25,µg/ml,,,,CAMHB,5E5,,Gram-
+1344,XTXXXlXXXT,DBAASPR_19057,Acinetobacter baumannii FADDI-AB030,MIC,0.25,µg/ml,,,,CAMHB,5E5,carbapenem-resistant clinical isolate,Gram-
+1344,XTXXXlXXXT,DBAASPR_19057,Acinetobacter baumannii FADDI-AB034,MIC,0.25,µg/ml,,,,CAMHB,5E5,carbapenem-resistant clinical isolate,Gram-
+1344,XTXXXlXXXT,DBAASPR_19058,Acinetobacter baumannii ATCC 19606,MIC,4,µg/ml,,,,CAMHB,5E5,,Gram-
+1344,XTXXXlXXXT,DBAASPR_19058,Acinetobacter baumannii FADDI-AB030,MIC,1,µg/ml,,,,CAMHB,5E5,carbapenem-resistant clinical isolate,Gram-
+1344,XTXXXlXXXT,DBAASPR_19058,Acinetobacter baumannii FADDI-AB034,MIC,1,µg/ml,,,,CAMHB,5E5,carbapenem-resistant clinical isolate,Gram-
+1344,XTXXXlXXXT,DBAASPR_19059,Acinetobacter baumannii ATCC 19606,MIC,1,µg/ml,,,,CAMHB,5E5,,Gram-
+1344,XTXXXlXXXT,DBAASPR_19059,Acinetobacter baumannii FADDI-AB030,MIC,1,µg/ml,,,,CAMHB,5E5,carbapenem-resistant clinical isolate,Gram-
+1344,XTXXXlXXXT,DBAASPR_19059,Acinetobacter baumannii FADDI-AB034,MIC,0.25,µg/ml,,,,CAMHB,5E5,carbapenem-resistant clinical isolate,Gram-
+1344,XTXXXlXXXT,DBAASPR_19060,Acinetobacter baumannii ATCC 19606,MIC,8,µg/ml,,,,CAMHB,5E5,,Gram-
+1344,XTXXXlXXXT,DBAASPR_19060,Acinetobacter baumannii FADDI-AB030,MIC,4,µg/ml,,,,CAMHB,5E5,carbapenem-resistant clinical isolate,Gram-
+1344,XTXXXlXXXT,DBAASPR_19060,Acinetobacter baumannii FADDI-AB034,MIC,8,µg/ml,,,,CAMHB,5E5,carbapenem-resistant clinical isolate,Gram-
+1344,XTXXXlXXXT,DBAASPR_19061,Acinetobacter baumannii ATCC 19606,MIC,0.5,µg/ml,,,,CAMHB,5E5,,Gram-
+1344,XTXXXlXXXT,DBAASPR_19061,Acinetobacter baumannii FADDI-AB030,MIC,0.25,µg/ml,,,,CAMHB,5E5,carbapenem-resistant clinical isolate,Gram-
+1344,XTXXXlXXXT,DBAASPR_19061,Acinetobacter baumannii FADDI-AB034,MIC,0.25,µg/ml,,,,CAMHB,5E5,carbapenem-resistant clinical isolate,Gram-
+1344,XTXXXlXXXT,DBAASPR_19062,Acinetobacter baumannii ATCC 19606,MIC,2,µg/ml,,,,CAMHB,5E5,,Gram-
+1344,XTXXXlXXXT,DBAASPR_19062,Acinetobacter baumannii FADDI-AB030,MIC,2,µg/ml,,,,CAMHB,5E5,carbapenem-resistant clinical isolate,Gram-
+1344,XTXXXlXXXT,DBAASPR_19062,Acinetobacter baumannii FADDI-AB034,MIC,2,µg/ml,,,,CAMHB,5E5,carbapenem-resistant clinical isolate,Gram-
+1344,XTXXXlXXXT,DBAASPR_19063,Acinetobacter baumannii ATCC 19606,MIC,2,µg/ml,,,,CAMHB,5E5,,Gram-
+1344,XTXXXlXXXT,DBAASPR_19063,Acinetobacter baumannii FADDI-AB030,MIC,1,µg/ml,,,,CAMHB,5E5,carbapenem-resistant clinical isolate,Gram-
+1344,XTXXXlXXXT,DBAASPR_19063,Acinetobacter baumannii FADDI-AB034,MIC,0.5,µg/ml,,,,CAMHB,5E5,carbapenem-resistant clinical isolate,Gram-
+1344,XTXXXlXXXT,DBAASPR_19064,Acinetobacter baumannii ATCC 19606,MIC,4,µg/ml,,,,CAMHB,5E5,,Gram-
+1344,XTXXXlXXXT,DBAASPR_19064,Acinetobacter baumannii FADDI-AB030,MIC,1,µg/ml,,,,CAMHB,5E5,carbapenem-resistant clinical isolate,Gram-
+1344,XTXXXlXXXT,DBAASPR_19064,Acinetobacter baumannii FADDI-AB034,MIC,1,µg/ml,,,,CAMHB,5E5,carbapenem-resistant clinical isolate,Gram-
+1344,XTXXXlXXXT,DBAASPR_19065,Acinetobacter baumannii ATCC 19606,MIC,1,µg/ml,,,,CAMHB,5E5,,Gram-
+1344,XTXXXlXXXT,DBAASPR_19065,Acinetobacter baumannii FADDI-AB030,MIC,0.5,µg/ml,,,,CAMHB,5E5,carbapenem-resistant clinical isolate,Gram-
+1344,XTXXXlXXXT,DBAASPR_19065,Acinetobacter baumannii FADDI-AB034,MIC,0.25,µg/ml,,,,CAMHB,5E5,carbapenem-resistant clinical isolate,Gram-
 1443,XVXVVVKVLKYL,DBAASPR_19091,Acinetobacter baumannii CICC 10980,MIC,2,µg/ml,,,,NB,1E6,,"Gram+, Gram-, Fungus, Mammalian Cell"
 1444,XVXIVVKVLKYL,DBAASPR_19093,Acinetobacter baumannii CICC 10980,MIC,2,µg/ml,,,,NB,1E6,,"Gram+, Gram-, Fungus, Mammalian Cell"
 1445,XXVXVVVKVLKYL,DBAASPR_19099,Acinetobacter baumannii CICC 10980,MIC,4,µg/ml,,,,NB,1E6,,"Gram+, Gram-, Mammalian Cell"
-1445,XVXVVVKVLKYL,DBAASPR_19100,Acinetobacter baumannii CICC 10980,MIC,4,µg/ml,,,,NB,1E6,,"Gram+, Gram-, Mammalian Cell"
+1443,XVXVVVKVLKYL,DBAASPR_19100,Acinetobacter baumannii CICC 10980,MIC,4,µg/ml,,,,NB,1E6,,"Gram+, Gram-, Mammalian Cell"
 1446,XVKVVVKVLKYL,DBAASPR_19101,Acinetobacter baumannii CICC 10980,MIC,2,µg/ml,,,,NB,1E6,,"Gram+, Gram-, Mammalian Cell"
-1446,XVXIVVKVLKYL,DBAASPR_19102,Acinetobacter baumannii CICC 10980,MIC,2,µg/ml,,,,NB,1E6,,"Gram+, Gram-, Mammalian Cell"
+1444,XVXIVVKVLKYL,DBAASPR_19102,Acinetobacter baumannii CICC 10980,MIC,2,µg/ml,,,,NB,1E6,,"Gram+, Gram-, Mammalian Cell"
 1447,ATCDLLSAYKVAHSACAAHCLLRGNRGGYCNSRAVCVCRN,DBAASPR_19121,Acinetobacter baumannii,MIC50,512,µg/ml,,,,RPMI-1640,0.75E8,CRABA clinical isolate,"Gram+, Gram-, Fungus"
-1447,FFGSVLKLIPKIL,DBAASPR_19131,Acinetobacter baumannii,MIC,21.7,µM,,,,MHB,2E5-5E5,clinical isolate 003326263,"Gram+, Gram-, Mammalian Cell, Biofilm"
+317,FFGSVLKLIPKIL,DBAASPR_19131,Acinetobacter baumannii,MIC,21.7,µM,,,,MHB,2E5-5E5,clinical isolate 003326263,"Gram+, Gram-, Mammalian Cell, Biofilm"
 1448,AAGKVLKLLKKLL,DBAASPR_19132,Acinetobacter baumannii,MIC,23,µM,,,,MHB,2E5-5E5,clinical isolate 003326263,"Gram+, Gram-, Biofilm"
 1449,AAKKVLKLLKKLL,DBAASPR_19133,Acinetobacter baumannii,MBC,21.7,µM,,,,MHA,,clinical isolate 003326263,"Gram+, Gram-, Biofilm"
 1450,IFFRRNKKMAVKVAINGFGRIGRLAFRQMF,DBAASPR_19140,Acinetobacter baumannii ATCC 19606,MIC,20,µM,,,,CAMHB,2.5E5,,"Gram+, Gram-, Mammalian Cell"
@@ -3395,10 +3395,10 @@ Seq_ID,Seq,DB_ID,Target Species,Activity Measure,Activity,Unit,pH,Ionic Strength
 1540,ILGRLRDLLRRGGRKIGQGLERIGQRIQGFFSNREPMEES,DBAASPR_19597,Acinetobacter baumannii KCTC 23254,MIC,1.1,µM,,,,MHB,1.5E5,,"Gram+, Gram-, Fungus, Mammalian Cell"
 1541,LNPLIKAGIFILKHRRPIGRGIEITGRGIKKFFSK,DBAASPR_19599,Acinetobacter baumannii KCTC 23254,MIC,1.0,µM,,,,MHB,1E5,,"Gram+, Gram-, Fungus, Mammalian Cell"
 1542,ILGPALRIGGRIAGRIAGKLIGDAINRHRERNRQRRG,DBAASPR_19601,Acinetobacter baumannii KCTC 23254,MIC,1.0,µM,,,,MHB,1.5E5,,"Gram+, Gram-, Fungus, Mammalian Cell"
-1542,RRIRPRPPRLPRPRPR,DBAASPR_19631,Acinetobacter baumannii ATCC 17978,MIC,8,µM,,,,MHB,2.5E5,,"Gram+, Gram-, Mammalian Cell"
-1542,RRIRPRPPRLPRPRPR,DBAASPR_19631,Acinetobacter baumannii ATCC 17978,MBC,16,µM,,,,MHA,,,"Gram+, Gram-, Mammalian Cell"
-1542,RRIRPRPPRLPRPRPR,DBAASPR_19631,Acinetobacter baumannii ATCC 19606,MIC,8,µM,,,,MHB,2.5E5,,"Gram+, Gram-, Mammalian Cell"
-1542,RRIRPRPPRLPRPRPR,DBAASPR_19631,Acinetobacter baumannii ATCC 19606,MBC,8,µM,,,,MHA,,,"Gram+, Gram-, Mammalian Cell"
+286,RRIRPRPPRLPRPRPR,DBAASPR_19631,Acinetobacter baumannii ATCC 17978,MIC,8,µM,,,,MHB,2.5E5,,"Gram+, Gram-, Mammalian Cell"
+286,RRIRPRPPRLPRPRPR,DBAASPR_19631,Acinetobacter baumannii ATCC 17978,MBC,16,µM,,,,MHA,,,"Gram+, Gram-, Mammalian Cell"
+286,RRIRPRPPRLPRPRPR,DBAASPR_19631,Acinetobacter baumannii ATCC 19606,MIC,8,µM,,,,MHB,2.5E5,,"Gram+, Gram-, Mammalian Cell"
+286,RRIRPRPPRLPRPRPR,DBAASPR_19631,Acinetobacter baumannii ATCC 19606,MBC,8,µM,,,,MHA,,,"Gram+, Gram-, Mammalian Cell"
 1543,KFAKFAKKFAKFAKKFAKFAK,DBAASPR_19634,Acinetobacter baumannii ATCC 19606,MIC,2,µg/ml,,,,MHB,1E6,,"Gram+, Gram-, Cancer, Mammalian Cell"
 1544,KFAKFAKKFAKFAK,DBAASPR_19635,Acinetobacter baumannii ATCC 19606,MIC,64,µg/ml,,,,MHB,1E6,,"Gram+, Gram-"
 1545,KFAKFAKKFAKFAKGGRPKPQQFFGLM,DBAASPR_19636,Acinetobacter baumannii ATCC 19606,MIC,4,µg/ml,,,,MHB,1E6,,"Gram+, Gram-, Cancer, Mammalian Cell"
@@ -3408,23 +3408,23 @@ Seq_ID,Seq,DB_ID,Target Species,Activity Measure,Activity,Unit,pH,Ionic Strength
 1548,KFAKFAKKFAKFAKGGQQFFGLM,DBAASPR_19640,Acinetobacter baumannii ATCC 19606,MIC,4,µg/ml,,,,MHB,1E6,,"Gram+, Gram-, Cancer, Mammalian Cell"
 1549,KFAKFAKKFAKFAKGGQFFGLM,DBAASPR_19641,Acinetobacter baumannii ATCC 19606,MIC,4,µg/ml,,,,MHB,1E6,,"Gram+, Gram-, Cancer, Mammalian Cell"
 1550,KFAKFAKKFAKFAKGGFFGLM,DBAASPR_19642,Acinetobacter baumannii ATCC 19606,MIC,2,µg/ml,,,,MHB,1E6,,"Gram+, Gram-, Cancer, Mammalian Cell"
-1550,kklfkkilryl,DBAASPR_19651,Acinetobacter baumannii ATCC 19606,MIC,4,µg/ml,,,,CAMHB,5E5,,"Gram+, Gram-"
-1550,kklfkkilryl,DBAASPR_19652,Acinetobacter baumannii ATCC 19606,MIC,4,µg/ml,,,,CAMHB,5E5,,"Gram+, Gram-, Mammalian Cell"
-1550,kklfkkilryl,DBAASPR_19653,Acinetobacter baumannii ATCC 19606,MIC,32,µg/ml,,,,CAMHB,5E5,,"Gram+, Gram-, Mammalian Cell"
-1550,kklfkkilryl,DBAASPR_19654,Acinetobacter baumannii ATCC 19606,MIC,64,µg/ml,,,,CAMHB,5E5,,"Gram+, Gram-, Mammalian Cell"
-1550,kklfkkilryl,DBAASPR_19655,Acinetobacter baumannii ATCC 19606,MIC,>64,µg/ml,,,,CAMHB,5E5,,"Gram+, Gram-, Mammalian Cell"
+141,kklfkkilryl,DBAASPR_19651,Acinetobacter baumannii ATCC 19606,MIC,4,µg/ml,,,,CAMHB,5E5,,"Gram+, Gram-"
+141,kklfkkilryl,DBAASPR_19652,Acinetobacter baumannii ATCC 19606,MIC,4,µg/ml,,,,CAMHB,5E5,,"Gram+, Gram-, Mammalian Cell"
+141,kklfkkilryl,DBAASPR_19653,Acinetobacter baumannii ATCC 19606,MIC,32,µg/ml,,,,CAMHB,5E5,,"Gram+, Gram-, Mammalian Cell"
+141,kklfkkilryl,DBAASPR_19654,Acinetobacter baumannii ATCC 19606,MIC,64,µg/ml,,,,CAMHB,5E5,,"Gram+, Gram-, Mammalian Cell"
+141,kklfkkilryl,DBAASPR_19655,Acinetobacter baumannii ATCC 19606,MIC,>64,µg/ml,,,,CAMHB,5E5,,"Gram+, Gram-, Mammalian Cell"
 1551,kklfkkilGryk,DBAASPR_19656,Acinetobacter baumannii ATCC 19606,MIC,42.6,µM,,,,CAMHB,5E5,,"Gram+, Gram-, Mammalian Cell"
 1552,kklfkkiGlryk,DBAASPR_19657,Acinetobacter baumannii ATCC 19606,MIC,42.6,µM,,,,CAMHB,5E5,,"Gram+, Gram-, Mammalian Cell"
 1553,kklfkkGilryk,DBAASPR_19658,Acinetobacter baumannii ATCC 19606,MIC,42.6,µM,,,,CAMHB,5E5,,"Gram+, Gram-, Mammalian Cell"
-1553,kklfkkilGryk,DBAASPR_19659,Acinetobacter baumannii ATCC 19606,MIC,4,µg/ml,,,,CAMHB,5E5,,"Gram+, Gram-, Mammalian Cell"
+1551,kklfkkilGryk,DBAASPR_19659,Acinetobacter baumannii ATCC 19606,MIC,4,µg/ml,,,,CAMHB,5E5,,"Gram+, Gram-, Mammalian Cell"
 1554,kklfkkilGryl,DBAASPR_19660,Acinetobacter baumannii ATCC 19606,MIC,4,µg/ml,,,,CAMHB,5E5,,"Gram+, Gram-, Mammalian Cell"
-1554,kklfkkilGryk,DBAASPR_19661,Acinetobacter baumannii ATCC 19606,MIC,16,µg/ml,,,,CAMHB,5E5,,"Gram+, Gram-, Mammalian Cell"
+1551,kklfkkilGryk,DBAASPR_19661,Acinetobacter baumannii ATCC 19606,MIC,16,µg/ml,,,,CAMHB,5E5,,"Gram+, Gram-, Mammalian Cell"
 1555,kklfkkiGlryl,DBAASPR_19662,Acinetobacter baumannii ATCC 19606,MIC,2,µg/ml,,,,CAMHB,5E5,,"Gram+, Gram-, Mammalian Cell"
 1555,kklfkkiGlryl,DBAASPR_19663,Acinetobacter baumannii ATCC 19606,MIC,4,µg/ml,,,,CAMHB,5E5,,"Gram+, Gram-, Mammalian Cell"
-1555,kklfkkiGlryk,DBAASPR_19664,Acinetobacter baumannii ATCC 19606,MIC,4,µg/ml,,,,CAMHB,5E5,,"Gram+, Gram-, Mammalian Cell"
-1555,kklfkkGilryk,DBAASPR_19665,Acinetobacter baumannii ATCC 19606,MIC,4,µg/ml,,,,CAMHB,5E5,,"Gram+, Gram-, Mammalian Cell"
-1555,kklfkkGilryk,DBAASPR_19666,Acinetobacter baumannii ATCC 19606,MIC,4,µg/ml,,,,CAMHB,5E5,,"Gram+, Gram-, Mammalian Cell"
-1555,kklfkkGilryk,DBAASPR_19667,Acinetobacter baumannii ATCC 19606,MIC,4,µg/ml,,,,CAMHB,5E5,,"Gram+, Gram-, Mammalian Cell"
+1552,kklfkkiGlryk,DBAASPR_19664,Acinetobacter baumannii ATCC 19606,MIC,4,µg/ml,,,,CAMHB,5E5,,"Gram+, Gram-, Mammalian Cell"
+1553,kklfkkGilryk,DBAASPR_19665,Acinetobacter baumannii ATCC 19606,MIC,4,µg/ml,,,,CAMHB,5E5,,"Gram+, Gram-, Mammalian Cell"
+1553,kklfkkGilryk,DBAASPR_19666,Acinetobacter baumannii ATCC 19606,MIC,4,µg/ml,,,,CAMHB,5E5,,"Gram+, Gram-, Mammalian Cell"
+1553,kklfkkGilryk,DBAASPR_19667,Acinetobacter baumannii ATCC 19606,MIC,4,µg/ml,,,,CAMHB,5E5,,"Gram+, Gram-, Mammalian Cell"
 1556,GYCFTACYLRNGVRICYRRCN,DBAASPR_19668,Acinetobacter baumannii 2675,MIC,0.125,µM,,150,NaCl,MHB,1E6,XDR clinical isolate,"Gram+, Gram-, Mammalian Cell"
 1557,GYCFTACALRNGVRICYRRCN,DBAASPR_19669,Acinetobacter baumannii 2675,MIC,0.25,µM,,150,NaCl,MHB,1E6,XDR clinical isolate,"Gram+, Gram-, Mammalian Cell"
 1558,GYCFTACRLRNGVRICYRRCN,DBAASPR_19670,Acinetobacter baumannii 2675,MIC,0.5,µM,,150,NaCl,MHB,1E6,XDR clinical isolate,"Gram+, Gram-, Mammalian Cell"
@@ -3454,7 +3454,7 @@ Seq_ID,Seq,DB_ID,Target Species,Activity Measure,Activity,Unit,pH,Ionic Strength
 1581,GSKKPVPIIYTNRRTGKCQRM,DBAASPR_19810,Acinetobacter baumannii ATCC 19606,MIC,>256,µM,,,,MHB,5E5,,"Gram+, Gram-, Mammalian Cell"
 1582,GSKKPVPIIYTNRRTGKCQRMX,DBAASPR_19811,Acinetobacter baumannii ATCC 19606,MIC,16,µM,,,,MHB,5E5,,"Gram+, Gram-"
 1582,GSKKPVPIIYTNRRTGKCQRMX,DBAASPR_19812,Acinetobacter baumannii ATCC 19606,MIC,4,µM,,,,MHB,5E5,,"Gram+, Gram-"
-1582,GSKKPVPIIYTNRRTGKCQRM,DBAASPR_19813,Acinetobacter baumannii ATCC 19606,MIC,4,µM,,,,MHB,5E5,,"Gram+, Gram-, Mammalian Cell"
+1581,GSKKPVPIIYTNRRTGKCQRM,DBAASPR_19813,Acinetobacter baumannii ATCC 19606,MIC,4,µM,,,,MHB,5E5,,"Gram+, Gram-, Mammalian Cell"
 1583,GRVPIIYTNRKXGVCKRM,DBAASPR_19814,Acinetobacter baumannii ATCC 19606,MIC,>256,µM,,,,MHB,5E5,,"Gram+, Gram-, Mammalian Cell"
 1584,GRVPIIYTNRKXGVCKRMX,DBAASPR_19815,Acinetobacter baumannii ATCC 19606,MIC,8,µM,,,,MHB,5E5,,"Gram+, Gram-"
 1584,GRVPIIYTNRKXGVCKRMX,DBAASPR_19816,Acinetobacter baumannii ATCC 19606,MIC,2,µM,,,,MHB,5E5,,"Gram+, Gram-"
@@ -3708,16 +3708,16 @@ Seq_ID,Seq,DB_ID,Target Species,Activity Measure,Activity,Unit,pH,Ionic Strength
 1765,WXXLXXLLXXLXXL,DBAASPR_20731,Acinetobacter baumannii ATCC 17978,MBC,8,µg/ml,,,,MHA,,,"Gram-, Mammalian Cell"
 1766,Wkklkkllkklkkl,DBAASPR_20732,Acinetobacter baumannii ATCC 17978,MIC,8,µg/ml,,,,MHB,5E5,,"Gram-, Mammalian Cell, Biofilm"
 1766,Wkklkkllkklkkl,DBAASPR_20732,Acinetobacter baumannii ATCC 17978,MBC,8,µg/ml,,,,MHA,,,"Gram-, Mammalian Cell, Biofilm"
-1766,WKKLKKLLKKLKKL,DBAASPR_20733,Acinetobacter baumannii ATCC 17978,MIC,>32,µg/ml,,,,MHB,5E5,,"Gram-, Fungus, Mammalian Cell"
-1766,WKKLKKLLKKLKKL,DBAASPR_20734,Acinetobacter baumannii ATCC 17978,MIC,>32,µg/ml,,,,MHB,5E5,,"Gram-, Fungus, Mammalian Cell"
-1766,WKKLKKLLKKLKKL,DBAASPR_20735,Acinetobacter baumannii ATCC 17978,MIC,>32,µg/ml,,,,MHB,5E5,,"Gram-, Fungus, Mammalian Cell"
-1766,WKKLKKLLKKL,DBAASPR_20736,Acinetobacter baumannii ATCC 17978,MIC,>32,µg/ml,,,,MHB,5E5,,"Gram+, Gram-, Fungus, Mammalian Cell"
-1766,WKKLKKLLKKL,DBAASPR_20737,Acinetobacter baumannii ATCC 17978,MIC,8,µg/ml,,,,MHB,5E5,,"Gram+, Gram-, Mammalian Cell"
-1766,WKKLKKLLKKL,DBAASPR_20737,Acinetobacter baumannii ATCC 17978,MBC,8,µg/ml,,,,MHA,,,"Gram+, Gram-, Mammalian Cell"
-1766,WKKLKKLLKKL,DBAASPR_20738,Acinetobacter baumannii ATCC 17978,MIC,8,µg/ml,,,,MHB,5E5,,"Gram+, Gram-, Mammalian Cell"
-1766,WKKLKKLLKKL,DBAASPR_20738,Acinetobacter baumannii ATCC 17978,MBC,8,µg/ml,,,,MHA,,,"Gram+, Gram-, Mammalian Cell"
-1766,WKKLKKLLKKL,DBAASPR_20739,Acinetobacter baumannii ATCC 17978,MIC,8,µg/ml,,,,MHB,5E5,,"Gram+, Gram-, Mammalian Cell"
-1766,WKKLKKLLKKL,DBAASPR_20739,Acinetobacter baumannii ATCC 17978,MBC,8,µg/ml,,,,MHA,,,"Gram+, Gram-, Mammalian Cell"
+1760,WKKLKKLLKKLKKL,DBAASPR_20733,Acinetobacter baumannii ATCC 17978,MIC,>32,µg/ml,,,,MHB,5E5,,"Gram-, Fungus, Mammalian Cell"
+1760,WKKLKKLLKKLKKL,DBAASPR_20734,Acinetobacter baumannii ATCC 17978,MIC,>32,µg/ml,,,,MHB,5E5,,"Gram-, Fungus, Mammalian Cell"
+1760,WKKLKKLLKKLKKL,DBAASPR_20735,Acinetobacter baumannii ATCC 17978,MIC,>32,µg/ml,,,,MHB,5E5,,"Gram-, Fungus, Mammalian Cell"
+1761,WKKLKKLLKKL,DBAASPR_20736,Acinetobacter baumannii ATCC 17978,MIC,>32,µg/ml,,,,MHB,5E5,,"Gram+, Gram-, Fungus, Mammalian Cell"
+1761,WKKLKKLLKKL,DBAASPR_20737,Acinetobacter baumannii ATCC 17978,MIC,8,µg/ml,,,,MHB,5E5,,"Gram+, Gram-, Mammalian Cell"
+1761,WKKLKKLLKKL,DBAASPR_20737,Acinetobacter baumannii ATCC 17978,MBC,8,µg/ml,,,,MHA,,,"Gram+, Gram-, Mammalian Cell"
+1761,WKKLKKLLKKL,DBAASPR_20738,Acinetobacter baumannii ATCC 17978,MIC,8,µg/ml,,,,MHB,5E5,,"Gram+, Gram-, Mammalian Cell"
+1761,WKKLKKLLKKL,DBAASPR_20738,Acinetobacter baumannii ATCC 17978,MBC,8,µg/ml,,,,MHA,,,"Gram+, Gram-, Mammalian Cell"
+1761,WKKLKKLLKKL,DBAASPR_20739,Acinetobacter baumannii ATCC 17978,MIC,8,µg/ml,,,,MHB,5E5,,"Gram+, Gram-, Mammalian Cell"
+1761,WKKLKKLLKKL,DBAASPR_20739,Acinetobacter baumannii ATCC 17978,MBC,8,µg/ml,,,,MHA,,,"Gram+, Gram-, Mammalian Cell"
 1767,RRLfRRILRWL,DBAASPR_20752,Acinetobacter baumannii 34AB,MIC,6,µg/ml,,,,MHB,1E6,,"Gram+, Gram-, Cancer, Fungus, Mammalian Cell, Biofilm"
 1767,RRLfRRILRWL,DBAASPR_20752,Acinetobacter baumannii 34AB,MBC,12,µg/ml,,,,MHA,,,"Gram+, Gram-, Cancer, Fungus, Mammalian Cell, Biofilm"
 1768,GECIWDAIFHGAKHFLHRLVNP,DBAASPR_20763,Acinetobacter baumannii,MBC,>100,µg/ml,,,,MHA,,,"Gram+, Gram-, Mammalian Cell"
@@ -3731,14 +3731,14 @@ Seq_ID,Seq,DB_ID,Target Species,Activity Measure,Activity,Unit,pH,Ionic Strength
 1776,KKCIAKAILKKAKKLLKKLVNP,DBAASPR_20772,Acinetobacter baumannii,MBC,1.56-3.125,µg/ml,,,,MHA,,,"Gram+, Gram-, Fungus, Mammalian Cell, Biofilm"
 1777,KKCIAKAILKKAKKLLKDLVNP,DBAASPR_20773,Acinetobacter baumannii,MBC,1.56-6.25,µg/ml,,,,MHA,,,"Gram+, Gram-, Fungus, Mammalian Cell"
 1778,TTXXXfLXXT,DBAASPR_20776,Acinetobacter baumannii ATCC 19606,MIC,>50,µM,,,,CAMHB,5E5,,"Gram+, Gram-"
-1778,XTXXXfLXXT,DBAASPR_20777,Acinetobacter baumannii ATCC 19606,MIC,12.5-25,µM,,,,CAMHB,5E5,,"Gram+, Gram-"
+1048,XTXXXfLXXT,DBAASPR_20777,Acinetobacter baumannii ATCC 19606,MIC,12.5-25,µM,,,,CAMHB,5E5,,"Gram+, Gram-"
 1779,XXXXXfLXXT,DBAASPR_20778,Acinetobacter baumannii ATCC 19606,MIC,>50,µM,,,,CAMHB,5E5,,"Gram+, Gram-"
-1779,XTXXXfLXXT,DBAASPR_20779,Acinetobacter baumannii ATCC 19606,MIC,3.13,µM,,,,CAMHB,5E5,,"Gram+, Gram-"
-1779,XTXXXfLXXT,DBAASPR_20780,Acinetobacter baumannii ATCC 19606,MIC,>50,µM,,,,CAMHB,5E5,,"Gram+, Gram-"
-1779,XTXXXxLXXT,DBAASPR_20781,Acinetobacter baumannii ATCC 19606,MIC,>50,µM,,,,CAMHB,5E5,,"Gram+, Gram-"
-1779,XTXXXfXXXT,DBAASPR_20782,Acinetobacter baumannii ATCC 19606,MIC,>50,µM,,,,CAMHB,5E5,,"Gram+, Gram-"
-1779,XTXXXfLXXT,DBAASPR_20783,Acinetobacter baumannii ATCC 19606,MIC,1.56-3.13,µM,,,,CAMHB,5E5,,"Gram+, Gram-"
-1779,XTXXXfLXXT,DBAASPR_20784,Acinetobacter baumannii ATCC 19606,MIC,25-50,µM,,,,CAMHB,5E5,,"Gram+, Gram-"
+1048,XTXXXfLXXT,DBAASPR_20779,Acinetobacter baumannii ATCC 19606,MIC,3.13,µM,,,,CAMHB,5E5,,"Gram+, Gram-"
+1048,XTXXXfLXXT,DBAASPR_20780,Acinetobacter baumannii ATCC 19606,MIC,>50,µM,,,,CAMHB,5E5,,"Gram+, Gram-"
+1093,XTXXXxLXXT,DBAASPR_20781,Acinetobacter baumannii ATCC 19606,MIC,>50,µM,,,,CAMHB,5E5,,"Gram+, Gram-"
+1092,XTXXXfXXXT,DBAASPR_20782,Acinetobacter baumannii ATCC 19606,MIC,>50,µM,,,,CAMHB,5E5,,"Gram+, Gram-"
+1048,XTXXXfLXXT,DBAASPR_20783,Acinetobacter baumannii ATCC 19606,MIC,1.56-3.13,µM,,,,CAMHB,5E5,,"Gram+, Gram-"
+1048,XTXXXfLXXT,DBAASPR_20784,Acinetobacter baumannii ATCC 19606,MIC,25-50,µM,,,,CAMHB,5E5,,"Gram+, Gram-"
 1780,XTXXXfLXXX,DBAASPR_20785,Acinetobacter baumannii ATCC 19606,MIC,>50,µM,,,,CAMHB,5E5,,"Gram+, Gram-"
 1781,WRIRRRWPRLPRPRWRPLPFPR,DBAASPR_20883,Acinetobacter baumannii ATCC 19606,MIC,1,µM,,,,MHB,5E5,,"Gram+, Gram-, Cancer"
 1781,WRIRRRWPRLPRPRWRPLPFPR,DBAASPR_20883,Acinetobacter baumannii ATCC 19606,MBC,2,µM,,,,MHA,,,"Gram+, Gram-, Cancer"
@@ -4204,13 +4204,13 @@ Seq_ID,Seq,DB_ID,Target Species,Activity Measure,Activity,Unit,pH,Ionic Strength
 2105,GKVWDWIKSTAKKLWN,DBAASPR_22462,Acinetobacter baumannii AYE,MIC,2,µg/ml,,,,MHB,5E5,,"Gram+, Gram-, Fungus, Mammalian Cell"
 2106,FLFSLIPHAIGGLISAFK,DBAASPR_22464,Acinetobacter baumannii ATCC 17978,MIC,128,µg/ml,,,,MHB,5E5,,"Gram+, Gram-, Fungus, Mammalian Cell"
 2106,FLFSLIPHAIGGLISAFK,DBAASPR_22464,Acinetobacter baumannii AYE,MIC,128,µg/ml,,,,MHB,5E5,,"Gram+, Gram-, Fungus, Mammalian Cell"
-2106,FLFSLIPKAIGGLISAFK,DBAASPR_22465,Acinetobacter baumannii ATCC 17978,MIC,64,µg/ml,,,,MHB,5E5,,"Gram+, Gram-, Fungus, Mammalian Cell"
-2106,FLFSLIPKAIGGLISAFK,DBAASPR_22465,Acinetobacter baumannii AYE,MIC,32,µg/ml,,,,MHB,5E5,,"Gram+, Gram-, Fungus, Mammalian Cell"
-2106,FLFKLIPKAIKKLISKFK,DBAASPR_22470,Acinetobacter baumannii ATCC 17978,MIC,2,µg/ml,,,,MHB,5E5,,"Gram+, Gram-, Fungus, Mammalian Cell"
-2106,FLFKLIPKAIKKLISKFK,DBAASPR_22470,Acinetobacter baumannii AYE,MIC,4,µg/ml,,,,MHB,5E5,,"Gram+, Gram-, Fungus, Mammalian Cell"
-2106,FLFSLIRKAIGGLISAFK,DBAASPR_22471,Acinetobacter baumannii ATCC 17978,MIC,8,µg/ml,,,,MHB,5E5,,"Gram+, Gram-, Fungus, Mammalian Cell"
-2106,FLFSLIRKAIGGLISAFK,DBAASPR_22471,Acinetobacter baumannii AYE,MIC,16,µg/ml,,,,MHB,5E5,,"Gram+, Gram-, Fungus, Mammalian Cell"
-2106,KGIRGYKGGYCKGAFKQTCKCY,DBAASPR_22472,Acinetobacter baumannii ATCC 17978,MIC,>128,µg/ml,,,,MHB,5E5,,"Gram+, Gram-, Fungus, Mammalian Cell"
+176,FLFSLIPKAIGGLISAFK,DBAASPR_22465,Acinetobacter baumannii ATCC 17978,MIC,64,µg/ml,,,,MHB,5E5,,"Gram+, Gram-, Fungus, Mammalian Cell"
+176,FLFSLIPKAIGGLISAFK,DBAASPR_22465,Acinetobacter baumannii AYE,MIC,32,µg/ml,,,,MHB,5E5,,"Gram+, Gram-, Fungus, Mammalian Cell"
+391,FLFKLIPKAIKKLISKFK,DBAASPR_22470,Acinetobacter baumannii ATCC 17978,MIC,2,µg/ml,,,,MHB,5E5,,"Gram+, Gram-, Fungus, Mammalian Cell"
+391,FLFKLIPKAIKKLISKFK,DBAASPR_22470,Acinetobacter baumannii AYE,MIC,4,µg/ml,,,,MHB,5E5,,"Gram+, Gram-, Fungus, Mammalian Cell"
+738,FLFSLIRKAIGGLISAFK,DBAASPR_22471,Acinetobacter baumannii ATCC 17978,MIC,8,µg/ml,,,,MHB,5E5,,"Gram+, Gram-, Fungus, Mammalian Cell"
+738,FLFSLIRKAIGGLISAFK,DBAASPR_22471,Acinetobacter baumannii AYE,MIC,16,µg/ml,,,,MHB,5E5,,"Gram+, Gram-, Fungus, Mammalian Cell"
+437,KGIRGYKGGYCKGAFKQTCKCY,DBAASPR_22472,Acinetobacter baumannii ATCC 17978,MIC,>128,µg/ml,,,,MHB,5E5,,"Gram+, Gram-, Fungus, Mammalian Cell"
 2107,WWWKGIRGYKGGYKGAFKQTKY,DBAASPR_22473,Acinetobacter baumannii ATCC 17978,MIC,32,µg/ml,,,,MHB,5E5,,"Gram+, Gram-, Fungus, Mammalian Cell"
 2107,WWWKGIRGYKGGYKGAFKQTKY,DBAASPR_22473,Acinetobacter baumannii AYE,MIC,16,µg/ml,,,,MHB,5E5,,"Gram+, Gram-, Fungus, Mammalian Cell"
 2108,WKGIRGYKGGYKGAFKQTKY,DBAASPR_22474,Acinetobacter baumannii ATCC 17978,MIC,64,µg/ml,,,,MHB,5E5,,"Gram+, Gram-, Fungus, Mammalian Cell"
@@ -4460,8 +4460,8 @@ Seq_ID,Seq,DB_ID,Target Species,Activity Measure,Activity,Unit,pH,Ionic Strength
 2293,RGGRACYCRRRFCVCAGR,DBAASPR_23256,Acinetobacter baumannii,MIC,0.25,µM,,,,MHB,1E6,XDR clinical isolate,"Gram+, Gram-, Mammalian Cell"
 2294,GTXXXfLXXT,DBAASPR_23308,Acinetobacter baumannii NCTC 13424,MIC,>8,µg/ml,,,,CAMHB,5E5,,Gram+
 2295,xTXXXfLXXT,DBAASPR_23309,Acinetobacter baumannii NCTC 13424,MIC,4,µg/ml,,,,CAMHB,5E5,,Gram-
-2295,XTXXXfLXXT,DBAASPR_23310,Acinetobacter baumannii NCTC 13424,MIC,0.06,µg/ml,,,,CAMHB,5E5,,Gram-
-2295,XTXXXfLXXT,DBAASPR_23310,Acinetobacter baumannii,MIC,0.032-0.5,µg/ml,,,,CAMHB,5E5,33 MDR clinical isolates,Gram-
+1048,XTXXXfLXXT,DBAASPR_23310,Acinetobacter baumannii NCTC 13424,MIC,0.06,µg/ml,,,,CAMHB,5E5,,Gram-
+1048,XTXXXfLXXT,DBAASPR_23310,Acinetobacter baumannii,MIC,0.032-0.5,µg/ml,,,,CAMHB,5E5,33 MDR clinical isolates,Gram-
 2296,KKKKLKKILKKLFQFINQLDNQLQDIKQNK,DBAASPR_23330,Acinetobacter baumannii GSAB 164,MIC,1,µM,,,,MHB,2E5-8E5,colistin and meropenem resistant,"Gram+, Gram-, Cancer, Mammalian Cell"
 2296,KKKKLKKILKKLFQFINQLDNQLQDIKQNK,DBAASPR_23330,Acinetobacter baumannii CIP 7010,MIC,2,µM,,,,MHB,5E5,,"Gram+, Gram-, Cancer, Mammalian Cell"
 2296,KKKKLKKILKKLFQFINQLDNQLQDIKQNK,DBAASPR_23330,Acinetobacter baumannii ATCC 19606,MIC,0.8,µM,,,,LBB,2E6,,"Gram+, Gram-, Cancer, Mammalian Cell"
@@ -4472,7 +4472,7 @@ Seq_ID,Seq,DB_ID,Target Species,Activity Measure,Activity,Unit,pH,Ionic Strength
 2299,KKKKLKKILKKLFQFINQLDNQLQDIKKKK,DBAASPR_23334,Acinetobacter baumannii GSAB 164,MIC,1,µM,,,,MHB,5E5,colistin and meropenem resistant,"Gram+, Gram-, Cancer, Mammalian Cell"
 2299,KKKKLKKILKKLFQFINQLDNQLQDIKKKK,DBAASPR_23334,Acinetobacter baumannii Z13,MIC,8,µM,,,,CAMHB,5E5,"Gentamicin, amikacin, imipenem, meropenem resistant","Gram+, Gram-, Cancer, Mammalian Cell"
 2299,KKKKLKKILKKLFQFINQLDNQLQDIKKKK,DBAASPR_23334,Acinetobacter baumannii ATCC 19606,MIC,0.8,µM,,,,LBB,2E6,,"Gram+, Gram-, Cancer, Mammalian Cell"
-2299,KKKKLKKILKKLFQFINQLDNQLQDIKQNK,DBAASPR_23336,Acinetobacter baumannii GSAB 164,MIC,2,µM,,,,MHB,2E5-8E5,colistin and meropenem resistant,"Gram+, Gram-, Mammalian Cell"
+2296,KKKKLKKILKKLFQFINQLDNQLQDIKQNK,DBAASPR_23336,Acinetobacter baumannii GSAB 164,MIC,2,µM,,,,MHB,2E5-8E5,colistin and meropenem resistant,"Gram+, Gram-, Mammalian Cell"
 2300,KKKKKLKKILKKLFQFINQLDNQLQDIKKKKK,DBAASPR_23339,Acinetobacter baumannii CIP 7010,MIC,2,µM,,,,MHB,5E5,,"Gram+, Gram-, Cancer, Mammalian Cell"
 2300,KKKKKLKKILKKLFQFINQLDNQLQDIKKKKK,DBAASPR_23339,Acinetobacter baumannii GSAB 164,MIC,2,µM,,,,MHB,5E5,colistin and meropenem resistant,"Gram+, Gram-, Cancer, Mammalian Cell"
 2300,KKKKKLKKILKKLFQFINQLDNQLQDIKKKKK,DBAASPR_23339,Acinetobacter baumannii Z13,MIC,1,µM,,,,CAMHB,5E5,"Gentamicin, amikacin, imipenem, meropenem resistant","Gram+, Gram-, Cancer, Mammalian Cell"
@@ -4505,10 +4505,10 @@ Seq_ID,Seq,DB_ID,Target Species,Activity Measure,Activity,Unit,pH,Ionic Strength
 2323,IKKIKKIIKKIKKIIKKIKKICWTKSIPPKPC,DBAASPR_23387,Acinetobacter baumannii,MIC,4,µM,,,,MHB,1E6,MDR clinical isolate AB1901,"Gram-, Mammalian Cell"
 2324,IKKIKKIIKKIKKIIKKIKKIRCKAAFC,DBAASPR_23395,Acinetobacter baumannii,MIC,2,µM,,,,MHB,1E6,MDR clinical isolate AB1901,"Gram-, Mammalian Cell"
 2325,IKKIKKIIKKIKKIIKKIKKICTKSIPPIC,DBAASPR_23396,Acinetobacter baumannii,MIC,2,µM,,,,MHB,1E6,MDR clinical isolate AB1901,"Gram-, Mammalian Cell"
-2325,VKRFKKFFRKLKKSV,DBAASPR_23415,Acinetobacter baumannii BNCC 337173,MIC,16,µM,,,,MHB,1E6,,"Gram+, Gram-, Fungus, Mammalian Cell, Biofilm"
-2325,VKRFKKFFRKLKKSV,DBAASPR_23416,Acinetobacter baumannii BNCC 337173,MIC,8,µM,,,,MHB,1E6,,"Gram+, Gram-, Fungus, Mammalian Cell, Biofilm"
-2325,VKRFKKFFRKLKKSV,DBAASPR_23417,Acinetobacter baumannii BNCC 337173,MIC,8,µM,,,,MHB,1E6,,"Gram+, Gram-, Fungus, Mammalian Cell, Biofilm"
-2325,VKRFKKFFRKLKKSV,DBAASPR_23418,Acinetobacter baumannii BNCC 337173,MIC,>32,µM,,,,MHB,1E6,,"Gram+, Gram-, Fungus, Mammalian Cell, Biofilm"
+435,VKRFKKFFRKLKKSV,DBAASPR_23415,Acinetobacter baumannii BNCC 337173,MIC,16,µM,,,,MHB,1E6,,"Gram+, Gram-, Fungus, Mammalian Cell, Biofilm"
+435,VKRFKKFFRKLKKSV,DBAASPR_23416,Acinetobacter baumannii BNCC 337173,MIC,8,µM,,,,MHB,1E6,,"Gram+, Gram-, Fungus, Mammalian Cell, Biofilm"
+435,VKRFKKFFRKLKKSV,DBAASPR_23417,Acinetobacter baumannii BNCC 337173,MIC,8,µM,,,,MHB,1E6,,"Gram+, Gram-, Fungus, Mammalian Cell, Biofilm"
+435,VKRFKKFFRKLKKSV,DBAASPR_23418,Acinetobacter baumannii BNCC 337173,MIC,>32,µM,,,,MHB,1E6,,"Gram+, Gram-, Fungus, Mammalian Cell, Biofilm"
 2326,FLFSLIKKAIGGLISAFK,DBAASPR_23476,Acinetobacter baumannii ATCC 19606,MIC,16,µg/ml,,,,CAMHB,5E5,,"Gram+, Gram-, Mammalian Cell"
 2327,FLFSLRKAGGLISAFK,DBAASPR_23477,Acinetobacter baumannii ATCC 19606,MIC,>128,µg/ml,,,,CAMHB,5E5,,"Gram+, Gram-"
 2328,FLFSLIRKAIGGLWSAFK,DBAASPR_23478,Acinetobacter baumannii ATCC 19606,MIC,8,µg/ml,,,,CAMHB,5E5,,"Gram+, Gram-, Mammalian Cell"
@@ -4584,24 +4584,24 @@ Seq_ID,Seq,DB_ID,Target Species,Activity Measure,Activity,Unit,pH,Ionic Strength
 2374,KXKXKXKXKXKX,DBAASPR_23800,Acinetobacter baumannii ATCC 19606,MIC,64,µg/ml,,,,CAMHB,5E5,,"Gram+, Gram-, Mammalian Cell"
 2375,XXXXXXXXXXXXXXXX,DBAASPR_23801,Acinetobacter baumannii ATCC 19606,MIC,8,µg/ml,,,,CAMHB,5E5,,"Gram+, Gram-, Mammalian Cell"
 2376,XXXXXXXXXXXX,DBAASPR_23802,Acinetobacter baumannii ATCC 19606,MIC,32,µg/ml,,,,CAMHB,5E5,,"Gram+, Gram-, Mammalian Cell"
-2376,XXXXXXXXXXXXXXXX,DBAASPR_23803,Acinetobacter baumannii ATCC 19606,MIC,8,µg/ml,,,,CAMHB,5E5,,"Gram+, Gram-, Cancer, Mammalian Cell"
+2375,XXXXXXXXXXXXXXXX,DBAASPR_23803,Acinetobacter baumannii ATCC 19606,MIC,8,µg/ml,,,,CAMHB,5E5,,"Gram+, Gram-, Cancer, Mammalian Cell"
 2376,XXXXXXXXXXXX,DBAASPR_23804,Acinetobacter baumannii ATCC 19606,MIC,>64,µg/ml,,,,CAMHB,5E5,,"Gram+, Gram-, Mammalian Cell"
-2376,KXKXKXKXKXKXKXKX,DBAASPR_23805,Acinetobacter baumannii ATCC 19606,MIC,8,µg/ml,,,,CAMHB,5E5,,"Gram+, Gram-, Cancer, Mammalian Cell"
-2376,KXKXKXKXKXKX,DBAASPR_23806,Acinetobacter baumannii ATCC 19606,MIC,8,µg/ml,,,,CAMHB,5E5,,"Gram+, Gram-, Mammalian Cell"
-2376,KXKXKXKXKXKXKXKX,DBAASPR_23807,Acinetobacter baumannii ATCC 19606,MIC,16,µg/ml,,,,CAMHB,5E5,,"Gram+, Gram-, Mammalian Cell"
-2376,KXKXKXKXKXKX,DBAASPR_23808,Acinetobacter baumannii ATCC 19606,MIC,8,µg/ml,,,,CAMHB,5E5,,"Gram+, Gram-, Cancer, Mammalian Cell"
-2376,KXKXKXKXKXKXKXKX,DBAASPR_23809,Acinetobacter baumannii ATCC 19606,MIC,4,µg/ml,,,,CAMHB,5E5,,"Gram+, Gram-, Cancer, Mammalian Cell"
-2376,KXKXKXKXKXKX,DBAASPR_23810,Acinetobacter baumannii ATCC 19606,MIC,8,µg/ml,,,,CAMHB,5E5,,"Gram+, Gram-, Mammalian Cell"
-2376,KXKXKXKXKXKXKXKX,DBAASPR_23811,Acinetobacter baumannii ATCC 19606,MIC,4,µg/ml,,,,CAMHB,5E5,,"Gram+, Gram-, Mammalian Cell"
-2376,KXKXKXKXKXKX,DBAASPR_23812,Acinetobacter baumannii ATCC 19606,MIC,4,µg/ml,,,,CAMHB,5E5,,"Gram+, Gram-, Mammalian Cell"
+2373,KXKXKXKXKXKXKXKX,DBAASPR_23805,Acinetobacter baumannii ATCC 19606,MIC,8,µg/ml,,,,CAMHB,5E5,,"Gram+, Gram-, Cancer, Mammalian Cell"
+2374,KXKXKXKXKXKX,DBAASPR_23806,Acinetobacter baumannii ATCC 19606,MIC,8,µg/ml,,,,CAMHB,5E5,,"Gram+, Gram-, Mammalian Cell"
+2373,KXKXKXKXKXKXKXKX,DBAASPR_23807,Acinetobacter baumannii ATCC 19606,MIC,16,µg/ml,,,,CAMHB,5E5,,"Gram+, Gram-, Mammalian Cell"
+2374,KXKXKXKXKXKX,DBAASPR_23808,Acinetobacter baumannii ATCC 19606,MIC,8,µg/ml,,,,CAMHB,5E5,,"Gram+, Gram-, Cancer, Mammalian Cell"
+2373,KXKXKXKXKXKXKXKX,DBAASPR_23809,Acinetobacter baumannii ATCC 19606,MIC,4,µg/ml,,,,CAMHB,5E5,,"Gram+, Gram-, Cancer, Mammalian Cell"
+2374,KXKXKXKXKXKX,DBAASPR_23810,Acinetobacter baumannii ATCC 19606,MIC,8,µg/ml,,,,CAMHB,5E5,,"Gram+, Gram-, Mammalian Cell"
+2373,KXKXKXKXKXKXKXKX,DBAASPR_23811,Acinetobacter baumannii ATCC 19606,MIC,4,µg/ml,,,,CAMHB,5E5,,"Gram+, Gram-, Mammalian Cell"
+2374,KXKXKXKXKXKX,DBAASPR_23812,Acinetobacter baumannii ATCC 19606,MIC,4,µg/ml,,,,CAMHB,5E5,,"Gram+, Gram-, Mammalian Cell"
 2377,KXKXKXKXFXFXFXFX,DBAASPR_23813,Acinetobacter baumannii ATCC 19606,MIC,16,µg/ml,,,,CAMHB,5E5,,"Gram+, Gram-, Mammalian Cell"
 2378,KXKXKXFXFXFX,DBAASPR_23814,Acinetobacter baumannii ATCC 19606,MIC,32,µg/ml,,,,CAMHB,5E5,,"Gram+, Gram-, Mammalian Cell"
 2379,KXFXKXFXKXFXKXFX,DBAASPR_23815,Acinetobacter baumannii ATCC 19606,MIC,8,µg/ml,,,,CAMHB,5E5,,"Gram+, Gram-, Mammalian Cell"
 2380,KXFXKXFXKXFX,DBAASPR_23816,Acinetobacter baumannii ATCC 19606,MIC,64,µg/ml,,,,CAMHB,5E5,,"Gram+, Gram-, Mammalian Cell"
 2381,XFXFXFXFXFXFXFXF,DBAASPR_23817,Acinetobacter baumannii ATCC 19606,MIC,4,µg/ml,,,,CAMHB,5E5,,"Gram+, Gram-, Mammalian Cell"
 2382,XFXFXFXFXFXF,DBAASPR_23818,Acinetobacter baumannii ATCC 19606,MIC,16,µg/ml,,,,CAMHB,5E5,,"Gram+, Gram-, Mammalian Cell"
-2382,KXKXKXKXKXKXKXKX,DBAASPR_23819,Acinetobacter baumannii ATCC 19606,MIC,4,µg/ml,,,,CAMHB,5E5,,"Gram+, Gram-, Mammalian Cell"
-2382,KXKXKXKXKXKX,DBAASPR_23820,Acinetobacter baumannii ATCC 19606,MIC,2,µg/ml,,,,CAMHB,5E5,,"Gram+, Gram-, Mammalian Cell"
+2373,KXKXKXKXKXKXKXKX,DBAASPR_23819,Acinetobacter baumannii ATCC 19606,MIC,4,µg/ml,,,,CAMHB,5E5,,"Gram+, Gram-, Mammalian Cell"
+2374,KXKXKXKXKXKX,DBAASPR_23820,Acinetobacter baumannii ATCC 19606,MIC,2,µg/ml,,,,CAMHB,5E5,,"Gram+, Gram-, Mammalian Cell"
 2383,INLKWLAALAKKIL,DBAASPR_23821,Acinetobacter baumannii ATCC 19606,MIC,4,µg/ml,,,,MHB,5E5,,"Gram+, Gram-"
 2383,INLKWLAALAKKIL,DBAASPR_23821,Acinetobacter baumannii,MIC,32,µg/ml,,,,MHB,5E5,MDR clinical isolate,"Gram+, Gram-"
 2384,INLKALWALAKKIL,DBAASPR_23822,Acinetobacter baumannii ATCC 19606,MIC,8,µg/ml,,,,MHB,5E5,,"Gram+, Gram-"
@@ -4720,8 +4720,8 @@ Seq_ID,Seq,DB_ID,Target Species,Activity Measure,Activity,Unit,pH,Ionic Strength
 2449,KRIXRRIXIFLR,DBAASPR_23998,Acinetobacter baumannii,MIC,5,µg/ml,,,,MHB,2E5,MDR clinical isolate,"Gram+, Gram-, Cancer, Mammalian Cell"
 2449,KRIXRRIXIFLR,DBAASPR_23998,Acinetobacter baumannii ATCC 19606,MIC,5,µg/ml,,,,MHB,2E5,,"Gram+, Gram-, Cancer, Mammalian Cell"
 2449,KRIXRRIXIFLR,DBAASPR_23998,Acinetobacter baumannii,MIC,2.5-20,µg/ml,,,,MHB,2E5,CRAB 8 clinical isolates,"Gram+, Gram-, Cancer, Mammalian Cell"
-2449,KRIVXRIKXFLR,DBAASPR_23999,Acinetobacter baumannii,MIC,40,µg/ml,,,,MHB,2E5,MDR clinical isolate,"Gram+, Gram-"
-2449,KRIVXRIKXFLR,DBAASPR_23999,Acinetobacter baumannii ATCC 19606,MIC,40,µg/ml,,,,MHB,2E5,,"Gram+, Gram-"
+2162,KRIVXRIKXFLR,DBAASPR_23999,Acinetobacter baumannii,MIC,40,µg/ml,,,,MHB,2E5,MDR clinical isolate,"Gram+, Gram-"
+2162,KRIVXRIKXFLR,DBAASPR_23999,Acinetobacter baumannii ATCC 19606,MIC,40,µg/ml,,,,MHB,2E5,,"Gram+, Gram-"
 2450,KRIVRXIKIXLR,DBAASPR_24000,Acinetobacter baumannii,MIC,10,µg/ml,,,,MHB,2E5,MDR clinical isolate,"Gram+, Gram-"
 2450,KRIVRXIKIXLR,DBAASPR_24000,Acinetobacter baumannii ATCC 19606,MIC,10,µg/ml,,,,MHB,2E5,,"Gram+, Gram-"
 2451,KRIVRRXKIFXR,DBAASPR_24001,Acinetobacter baumannii,MIC,>320,µg/ml,,,,MHB,2E5,MDR clinical isolate,"Gram+, Gram-"

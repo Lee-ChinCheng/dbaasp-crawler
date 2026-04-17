@@ -68,26 +68,25 @@ def csvfilter(inp_folder, kw_list):
                             if len(row) != 13:
                                 #print('len(row) != 13', row)
                                 continue
-                                                  
+
+                            #counting                    
                             if dbid not in dbid_d: 
                                 dbid_d[dbid]=None
+                                # 1 seq may have multi dbid_d ex: KAaaKWAaKaAK with 'DBAASPR_38' & 'DBAASPR_74'
                             if seq not in seq_d: 
-                                seq_d[seq]=[dbid]
                                 sid+=1
-                                row.insert(0, sid)                            
+                                seq_d[seq]=sid
+                                row.insert(0, seq_d[seq])                            
                             else:
-                                seq_d[seq].append(dbid)
-                                row.insert(0, sid)
+                                row.insert(0, seq_d[seq])
                             if 'Gram+' in gram: gram_add+=1
                             if 'Gram-' in gram: gram_minus+=1
                             if ('Gram+' in gram) and ('Gram-' in gram): gram_both+=1
                             all_results.append(row)
 
                         
-
-
-        #print(len(all_results), len(dbid_d), len(seq_d), gram_add , gram_minus , gram_both)
-        return ( all_results, seq_d )
+        #print('gram+, gram-, gram_both', gram_add , gram_minus , gram_both)
+        return ( all_results, seq_d, (gram_add, gram_minus, gram_both) )
 
     except Exception as e:
         return str(e)
@@ -172,6 +171,7 @@ if st.button("Data Filtering"):
         all_result_list = opli[0]
         data_am = len(all_result_list)
         seq_am = len(opli[1])
+        gram_plus, gram_minus, gram_both = int(opli[2][0]),int(opli[2][1]),int(opli[2][2])
 
         if isinstance(data_am, int):
 
@@ -186,7 +186,8 @@ if st.button("Data Filtering"):
                 writer.writerow(header)
                 writer.writerows(all_result_list)
 
-            st.success(f"Filtering and saveing complete!\n get {data_am} data, {seq_am} unique sequence.")
+            st.success(f"Filtering and saveing complete! get {seq_am} unique sequence, {data_am} total data.")
+            st.success(f"Including {gram_plus} gram+ data, {gram_minus} gram- data, {gram_both} both gram+&gram- data.")
 
         else:
             st.error("Error")

@@ -30,9 +30,9 @@ unzip main.zip
 cd dbaasp-crawler-main
 ```
 
-5. decompress monomer10-50.tar.xz. This will produce a directory with multiple CSV files, all of which were previously web-crawling results.
+5. decompress mono10-50.tar.xz. This will produce a directory with multiple CSV files, all of which were previously web-crawling results.
 ```bash
-tar -xf monomer10-50.tar.xz
+tar -xf mono10-50.tar.xz
 ```
 6. execute step1_arrange.py, it will pop up a UI for user inputs.
 ```bash
